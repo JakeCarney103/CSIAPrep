@@ -12,4 +12,4 @@ const nfpa211Chapter3QuizData = [
 ];
 
 if (!window.quizRegistry) window.quizRegistry = {};
-window.quizRegistry['NFPA 211 - Chapter 3: General Requirements'] = nfpa211Chapter3QuizData;
+window.quizRegistry['NFPA 211 - Chapter 3: Definitions'] = nfpa211Chapter3QuizData;
