@@ -1,62 +1,62 @@
 const quizSelectorDictionary = [
   {
-    quizName: "NFPA 211 - Chapter 1",
+    quizName: "NFPA 211 - Chapter 1: Administration",
     fileName: "nfpa211-chapter1.js",
   },
   {
-    quizName: "NFPA 211 - Chapter 2",
+    quizName: "NFPA 211 - Chapter 2: Referenced Publications",
     fileName: "nfpa211-chapter2.js",
   },
   {
-    quizName: "NFPA 211 - Chapter 3",
+    quizName: "NFPA 211 - Chapter 3: Definitions",
     fileName: "nfpa211-chapter3.js",
   },
   {
-    quizName: "NFPA 211 - Chapter 4",
+    quizName: "NFPA 211 - Chapter 4: General Requirements",
     fileName: "nfpa211-chapter4.js",
   },
   {
-    quizName: "NFPA 211 - Chapter 5",
+    quizName: "NFPA 211 - Chapter 5: Selection of Chimney and Vent Types",
     fileName: "nfpa211-chapter5.js",
   },
   {
-    quizName: "NFPA 211 - Chapter 6",
+    quizName: "NFPA 211 - Chapter 6: Factory-Built Chimneys and Chimney Units",
     fileName: "nfpa211-chapter6.js",
   },
   {
-    quizName: "NFPA 211 - Chapter 7",
+    quizName: "NFPA 211 - Chapter 7: Masonry Chimneys",
     fileName: "nfpa211-chapter7.js",
   },
   {
-    quizName: "NFPA 211 - Chapter 8",
+    quizName: "NFPA 211 - Chapter 8: Unlisted Metal Chimneys (Smokestacks) for Nonresidential Applications",
     fileName: "nfpa211-chapter8.js",
   },
   {
-    quizName: "NFPA 211 - Chapter 9",
+    quizName: "NFPA 211 - Chapter 9: Chimney Connectors and Vent Connectors",
     fileName: "nfpa211-chapter9.js",
   },
   {
-    quizName: "NFPA 211 - Chapter 10",
+    quizName: "NFPA 211 - Chapter 10: Vents",
     fileName: "nfpa211-chapter10.js",
   },
   {
-    quizName: "NFPA 211 - Chapter 11",
+    quizName: "NFPA 211 - Chapter 11: Fireplaces",
     fileName: "nfpa211-chapter11.js",
   },
   {
-    quizName: "NFPA 211 - Chapter 12",
+    quizName: "NFPA 211 - Chapter 12: Masonry Heaters",
     fileName: "nfpa211-chapter12.js",
   },
   {
-    quizName: "NFPA 211 - Chapter 13",
+    quizName: "NFPA 211 - Chapter 13: Solid Fuel-Burning Appliances",
     fileName: "nfpa211-chapter13.js",
   },
   {
-    quizName: "NFPA 211 - Chapter 14",
+    quizName: "NFPA 211 - Chapter 14: Maintenance",
     fileName: "nfpa211-chapter14.js",
   },
   {
-    quizName: "NFPA 211 - Chapter 15",
+    quizName: "NFPA 211 - Chapter 15: Inspection of Existing Chimneys",
     fileName: "nfpa211-chapter15.js",
   }
 ];
