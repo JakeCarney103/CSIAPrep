@@ -107,4 +107,4 @@ const nfpa211Chapter2QuizData = [
 ];
 
 if (!window.quizRegistry) window.quizRegistry = {};
-window.quizRegistry['NFPA 211 - Chapter 2'] = nfpa211Chapter2QuizData;
+window.quizRegistry['NFPA 211 - Chapter 2: Referenced Publications'] = nfpa211Chapter2QuizData;
