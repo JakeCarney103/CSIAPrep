@@ -30,7 +30,7 @@ const nfpa211Chapter3QuizData = [
     answer: "Should"
   },
   {
-    question: "__________ : An NFPA standard, the main text of which contains only mandatory provisions using the word 'shall' to indicate requirements and that is in a form generally suitable for mandatory reference by another standard or code or for adoption into law. Nonmandatory provisions are not to be considered a part of the requirements of a standard and shall be located in appendix, annex, footnote, informational note, or other means as permitted in the NFPA manuals of style. When used in a generic sense, such as in the phrases 'standards development process' or 'standards development activites,' the term 'standards' includes all NFPA standards, including codes, standards, recommended practices, and guides. (NFPA 211 3.2.7)",
+    question: "__________ : An NFPA standard, the main text of which contains only mandatory provisions using the word 'shall' to indicate requirements and that is in a form generally suitable for mandatory reference by another standard or code or for adoption into law. Nonmandatory provisions are not to be considered a part of the requirements of a standard and shall be located in appendix, annex, footnote, informational note, or other means as permitted in the NFPA manuals of style. When used in a generic sense, such as in the phrases 'standards development process' or 'standards development activities,' the term 'standards' includes all NFPA standards, including codes, standards, recommended practices, and guides. (NFPA 211 3.2.7)",
     options: ["Code", "Standard", "Recommendations", "Requirements"],
     answer: "Standard"
   },
@@ -41,7 +41,7 @@ const nfpa211Chapter3QuizData = [
   },
   {
     question: "__________ : Exposed, or capable of being exposed, for operation, inspection, maintenance, or repair without the use of tools to open or remove doors, panels, or coverings. (NFPA 211 3.3.1.1)",
-    options: ["Readily Accessible", "Accessible", "Non-Accessible", "Avaliable"],
+    options: ["Readily Accessible", "Accessible", "Inaccessible", "Avaliable"],
     answer: "Readily Accessible"
   },
   {
@@ -60,14 +60,14 @@ const nfpa211Chapter3QuizData = [
     answer: "True"
   },
   {
-    question: "__________ : The air necessary to provide for the complet combustion of fuel and usually consisting of primary air, secondary air, and excess air. (NFPA 211 3.3.3.1)",
+    question: "__________ : The air necessary to provide for the complete combustion of fuel and usually consisting of primary air, secondary air, and excess air. (NFPA 211 3.3.3.1)",
     options: ["Flue Gasses", "Combustion Air", "Carbon Monoxide", "Draft"],
     answer: "Combustion Air"
   },
   {
     question: "__________ : Any device that utilizes a fuel to produce light, heat, power, refrigeration, or air conditioning. (NFPA 211 3.3.4)",
     options: ["Fireplace", "Accessory", "Vent", "Appliance"],
-    answer: "Combustion Air"
+    answer: "Appliance"
   },
   {
     question: "__________ : Appliances such as gas-operated coffee brewers and coffee urns and any appurtenant water-heating equipment, food and dish warmers, hot plates and griddles. (NFPA 211 3.3.4.1)",
@@ -90,7 +90,7 @@ const nfpa211Chapter3QuizData = [
     answer: "Solid Fuel-Burning Appliance"
   },
   {
-    question: "__________ : A heating appliance designed specifically for installation in an attic or in a space with low headropm that normally is unoccupied. (NFPA 211 3.3.4.4.1)",
+    question: "__________ : A heating appliance designed specifically for installation in an attic or in a space with low headroom that normally is unoccupied. (NFPA 211 3.3.4.4.1)",
     options: ["Nonresidential, Medium-Heat Appliance", "Attic-Type Heating Appliance", "Free Standing Wood Stove", "Wood Burning Insert"],
     answer: "Attic-Type Heating Appliance"
   },
@@ -116,22 +116,22 @@ const nfpa211Chapter3QuizData = [
   },
   {
     question: "__________ : A commercial, industrial, or institutional appliance needing a chimney capable of withstanding a continuous flue gas temperature not exceeding 1400°F. (NFPA 211 3.3.4.6)",
-    options: ["Nonresidential, Low-Heat Appliance", "Nonresidential Appliance, 1400°F", "Nonresidential, High-Heat Appliance", "Nonresidential, Medium-Heat-Appliance"],
+    options: ["Nonresidential, Low-Heat Appliance", "Nonresidential Appliance, 1400°F", "Nonresidential, High-Heat Appliance", "Nonresidential, Medium-Heat Appliance"],
     answer: "Nonresidential Appliance, 1400°F"
   },
   {
     question: "__________ : A commercial, industrial, or institutional appliance needing a chimney capable of withstanding a continuous flue gas temperature exceeding 1800°F. (NFPA 211 3.3.4.7)",
-    options: ["Nonresidential, Low-Heat Appliance", "Nonresidential Appliance, 1400°F", "Nonresidential, High-Heat Appliance", "Nonresidential, Medium-Heat-Appliance"],
+    options: ["Nonresidential, Low-Heat Appliance", "Nonresidential Appliance, 1400°F", "Nonresidential, High-Heat Appliance", "Nonresidential, Medium-Heat Appliance"],
     answer: "Nonresidential, High-Heat Appliance"
   },
   {
     question: "__________ : A commercial, industrial, or institutional appliance needing a chimney capable of withstanding a continuous flue gas temperature not exceeding 1000°F. (NFPA 211 3.3.4.8)",
-    options: ["Nonresidential, Low-Heat Appliance", "Nonresidential Appliance, 1400°F", "Nonresidential, High-Heat Appliance", "Nonresidential, Medium-Heat-Appliance"],
+    options: ["Nonresidential, Low-Heat Appliance", "Nonresidential Appliance, 1400°F", "Nonresidential, High-Heat Appliance", "Nonresidential, Medium-Heat Appliance"],
     answer: "Nonresidential, Low-Heat Appliance"
   },
   {
     question: "__________ : A commercial, industrial, or institutional appliance needing a chimney capable of withstanding a continuous flue gas temperature not exceeding 1800°F. (NFPA 211 3.3.4.9)",
-    options: ["Nonresidential, Low-Heat Appliance", "Nonresidential Appliance, 1400°F", "Nonresidential, High-Heat Appliance", "Nonresidential, Medium-Heat-Appliance"],
+    options: ["Nonresidential, Low-Heat Appliance", "Nonresidential Appliance, 1400°F", "Nonresidential, High-Heat Appliance", "Nonresidential, Medium-Heat Appliance"],
     answer: "Nonresidential, Medium-Heat Appliance"
   },
   {
@@ -171,22 +171,22 @@ const nfpa211Chapter3QuizData = [
   },
   {
     question: "__________ : A single boiler unit designed to burn more than one type of fuel (gas, oil, solid), either separately or simultaneously, using either separate or common combustion chambers and flues. (NFPA 211 3.3.14.1)",
-    options: ["Supplementary Boiler", "Combination-Fuel Boiler", "Central Warm-Air Furnace", "Centeral Warm-Air, Gravity-Type Furnace"],
+    options: ["Supplementary Boiler", "Combination-Fuel Boiler", "Central Warm-Air Furnace", "Central Warm-Air, Gravity-Type Furnace"],
     answer: "Combination-Fuel Boiler"
   },
   {
-    question: "__________ : A boiler for generating steam at guage pressures in excess of 15 psi, or for heating water to a temperature in excess of 250°F or at a gauge pressure in excess of 160 psi.. (NFPA 211 3.3.14.2)",
+    question: "__________ : A boiler for generating steam at gauge pressures in excess of 15 psi, or for heating water to a temperature in excess of 250°F or at a gauge pressure in excess of 160 psi.. (NFPA 211 3.3.14.2)",
     options: ["Supplementary Boiler", "Combination-Fuel Boiler", "High-Pressure Boiler", "Low-Pressure Boiler"],
     answer: "High-Pressure Boiler"
   },
   {
-    question: "__________ : A boiler for generating steam at guage pressures not in excess of 15 psi, or for furnishing water at a maximum temperature of 250°F at a maximum gauge pressure of 160 psi. (NFPA 211 3.3.14.3)",
+    question: "__________ : A boiler for generating steam at gauge pressures not in excess of 15 psi, or for furnishing water at a maximum temperature of 250°F at a maximum gauge pressure of 160 psi. (NFPA 211 3.3.14.3)",
     options: ["Supplementary Boiler", "Combination-Fuel Boiler", "High-Pressure Boiler", "Low-Pressure Boiler"],
     answer: "Low-Pressure Boiler"
   },
   {
     question: "__________ : A boiler, designed to burn one type of fuel (gas, oil, or solid), that is intended for supplementing a boiler burning another type of fuel (gas, oil, or solid) by means of a common heat transfer medium. (NFPA 211 3.3.14.4)",
-    options: ["Supplementary Boiler", "Combination-Fuel Boiler", "Central Warm-Air Furnace", "Centeral Warm-Air, Gravity-Type Furnace"],
+    options: ["Supplementary Boiler", "Combination-Fuel Boiler", "Central Warm-Air Furnace", "Central Warm-Air, Gravity-Type Furnace"],
     answer: "Supplementary Boiler"
   },
   {
@@ -350,7 +350,7 @@ const nfpa211Chapter3QuizData = [
     answer: "Flue Gas Damper"
   },
   {
-    question: "__________ : An adjustable damper manually set an locked in the desired position. (NFPA 211 3.3.53.3)",
+    question: "__________ : An adjustable damper manually set and locked in the desired position. (NFPA 211 3.3.53.3)",
     options: ["Manually Operated Damper", "Automatically Operated Damper", "Flue Gas Damper", "Throat"],
     answer: "Manually Operated Damper"
   },
@@ -365,7 +365,7 @@ const nfpa211Chapter3QuizData = [
     answer: "Mechanical Draft"
   },
   {
-    question: "__________ : Draft produced by the difference in the weight of a column of flue gases within a chimney or vent system and a coresponding column of air of equal dimension outside the chimney or venting system. (NFPA 211 3.3.57.2)",
+    question: "__________ : Draft produced by the difference in the weight of a column of flue gases within a chimney or vent system and a corresponding column of air of equal dimension outside the chimney or venting system. (NFPA 211 3.3.57.2)",
     options: ["Mechanical Flow", "Mechanical Draft", "Natural Draft", "Natural Flow"],
     answer: "Natural Draft"
   },
@@ -374,7 +374,413 @@ const nfpa211Chapter3QuizData = [
     options: ["Draft Hood", "Flue Collar", "Chimney Cap", "Top Mount Damper"],
     answer: "Draft Hood"
   },
+  {
+    question: "__________ : A blower or exhauster assembly comprising blades or runners and housings or casings. (NFPA 211 3.3.67)",
+    options: ["Draft", "Fan", "Flow", "Heat Exchanger"],
+    answer: "Fan"
+  },
+  {
+    question: "__________ : A hearth, fire chamber, or similarly prepared area and a chimney. (NFPA 211 3.3.69)",
+    options: ["Insert", "Stove", "Fireplace", "Boiler"],
+    answer: "Fireplace"
+  },
+  {
+    question: "__________ : A fireplace composed of listed, factory-built components assembled in accordance with the terms of the listing. (NFPA 211 3.3.69.1)",
+    options: ["Factory-Built Chimney", "Factory-Built Fireplace", "Masonry Fireplace", "Masonry Chimney"],
+    answer: "Factory-Built Fireplace"
+  },
+  {
+    question: "__________ : A hearth and fire chamber of solid masonry units, such as bricks, stones, listed masonry units, or reinforced concrete, provided with a suitable chimney. (NFPA 211 3.3.69.2)",
+    options: ["Factory-Built Chimney", "Factory-Built Fireplace", "Masonry Fireplace", "Masonry Chimney"],
+    answer: "Masonry Fireplace"
+  },
+  {
+    question: "__________ : A factory-built, field-installed product consisting of a firebox assembly designed to be installed within or partially within the fire chamber of a fireplace that uses the fireplace flue to vent the products of combustion. (NFPA 211 3.3.70)",
+    options: ["Fireplace Insert", "Factory-Built Fireplace", "Masonry Fireplace", "Fireplace Stove"],
+    answer: "Fireplace Insert"
+  },
+  {
+    question: "__________ : A freestanding, chimney-connected, solid fuel-burning appliance that is designed to be operated with the fire chamber either open or closed. (NFPA 211 3.3.71)",
+    options: ["Fireplace Insert", "Factory-Built Fireplace", "Masonry Fireplace", "Fireplace Stove"],
+    answer: "Fireplace Stove"
+  },
+  {
+    question: "__________ : A chimney-connected, solid fuel-burning room heater that is designed to be operated with the fire chamber either open or closed. (NFPA 211 3.3.71)",
+    options: ["Fireplace Insert", "Factory-Built Fireplace", "Masonry Fireplace", "Combination Room Heater/Fireplace Stove"],
+    answer: "Combination Room Heater/Fireplace Stove"
+  },
+  {
+    question: "__________ : A noncombustible surfacing applied to the floor area underneath and extending in front, to the sides, and to the rear of a heat-producing appliance. (NFPA 211 3.3.73)",
+    options: ["Clearance", "Firebox", "Floor Protector", "Hearth"],
+    answer: "Floor Protector"
+  },
+  {
+    question: "__________ : The general term for a passage through which gases are conveyed from the combustion chamber to the outer air. (NFPA 211 3.3.74)",
+    options: ["Connector", "Breech", "Flue", "Chimney"],
+    answer: "Flue"
+  },
+  {
+    question: "__________ : The flue passage within an appliance. (NFPA 211 3.3.74.1)",
+    options: ["Flue Collar", "Appliance Flue", "Chimney Flue", "Dilution Flue"],
+    answer: "Appliance Flue"
+  },
+  {
+    question: "__________ : The passage in a chimney for conveying the flue gases to the outside atmosphere. (NFPA 211 3.3.74.2)",
+    options: ["Flue Collar", "Appliance Flue", "Chimney Flue", "Dilution Flue"],
+    answer: "Chimney Flue"
+  },
+  {
+    question: "__________ : A passage designed to effect the dilution of flue gases with air before discharge from an appliance. (NFPA 211 3.3.74.3)",
+    options: ["Flue Collar", "Appliance Flue", "Chimney Flue", "Dilution Flue"],
+    answer: "Dilution Flue"
+  },
+  {
+    question: "__________ : That portion of an appliance designed for attachment of a chimney or vent connector or a draft hood. (NFPA 211 3.3.74.3)",
+    options: ["Flue Collar", "Flue", "Connector", "Thimble"],
+    answer: "Flue Collar"
+  },
+  {
+    question: "__________ : A material used to produce heat or power by burning. (NFPA 211 3.3.79)",
+    options: ["Heating Appliance", "Air", "Fuel", "Heat"],
+    answer: "Fuel"
+  },
+  {
+    question: "__________ : A solid processed fuel of specified size and composition capable of being fed to the appliance combustion system at a controlled rate. (NFPA 211 3.3.79.1)",
+    options: ["Natural Gas", "Seasoned Wood", "Pellet Fuel", "Gasoline"],
+    answer: "Pellet Fuel"
+  },
+  {
+    question: "__________ : Wood, coal, and other similar organic materials and any combination of them. (NFPA 211 3.3.79.2)",
+    options: ["Pellet Fuel", "Solid Fuel", "Combustion", "BTU"],
+    answer: "Solid Fuel"
+  },
+  {
+    question: "__________ : A forced-air-type furnace designed specifically for installation in an attic or in a space with low headroom that is normally occupied. (NFPA 211 3.3.80.1)",
+    options: ["Central Warm-Air, Forced-Air, Attic-Type Furnace", "Central Warm-Air, Forced-Air, Downflow-Type Furnace", "Central Warm-Air, Forced-Air, Upflow-Type Furnace", "Central Warm-Air, Forced-Air, Horizontal-Type Furnace"],
+    answer: "Central Warm-Air, Forced-Air, Attic-Type Furnace"
+  },
+  {
+    question: "__________ : A forced-air-type furnace designed with airflow essentially in a vertical path, discharging air at or near the bottom of the furnace. (NFPA 211 3.3.80.2)",
+    options: ["Central Warm-Air, Forced-Air, Attic-Type Furnace", "Central Warm-Air, Forced-Air, Downflow-Type Furnace", "Central Warm-Air, Forced-Air, Upflow-Type Furnace", "Central Warm-Air, Forced-Air, Horizontal-Type Furnace"],
+    answer: "Central Warm-Air, Forced-Air, Downflow-Type Furnace"
+  },
+  {
+    question: "__________ : A forced-air-type furnace designed with airflow through the furnace, essentially in a horizontal path. (NFPA 211 3.3.80.3)",
+    options: ["Central Warm-Air, Forced-Air, Attic-Type Furnace", "Central Warm-Air, Forced-Air, Downflow-Type Furnace", "Central Warm-Air, Forced-Air, Upflow-Type Furnace", "Central Warm-Air, Forced-Air, Horizontal-Type Furnace"],
+    answer: "Central Warm-Air, Forced-Air, Horizontal-Type Furnace"
+  },
+  {
+    question: "__________ : A forced-air-type furnace designed with airflow essentially in a vertical path, discharging at air at or near the top of the furnace. (NFPA 211 3.3.80.4)",
+    options: ["Central Warm-Air, Forced-Air, Attic-Type Furnace", "Central Warm-Air, Forced-Air, Downflow-Type Furnace", "Central Warm-Air, Forced-Air, Upflow-Type Furnace", "Central Warm-Air, Forced-Air, Horizontal-Type Furnace"],
+    answer: "Central Warm-Air, Forced-Air, Upflow-Type Furnace"
+  },
+  {
+    question: "__________ : A central furnace equipped with a blower that provides the primary means for the circulation of air. (NFPA 211 3.3.80.5)",
+    options: ["Central Warm-Air, Forced-Air-Type Furnace", "Duct Furnace", "Floor Furnace", "Combination-Fuel Furnace"],
+    answer: "Central Warm-Air, Forced-Air-Type Furnace"
+  },
+  {
+    question: "__________ : A self-contained indirect-fired or electrically heated appliance designed to supply heated air through ducts to spaces remote from or adjacent to the appliance location. (NFPA 211 3.3.80.6)",
+    options: ["Central Warm-Air Furnace", "Duct Furnace", "Floor Furnace", "Combination-Fuel Furnace"],
+    answer: "Central Warm-Air Furnace"
+  },
+  {
+    question: "__________ : A central furnace depending primarily on circulation of air by gravity. (NFPA 211 3.3.80.7)",
+    options: ["Central Warm-Air, Forced-Air-Type Furnace", "Duct Furnace", "Floor Furnace", "Central Warm-Air, Gravity-Type Furnace"],
+    answer: "Central Warm-Air, Gravity-Type Furnace"
+  },
+  {
+    question: "__________ : A central furnace equipped with a booster fan that does not materially restrict free circulation of air by gravity flow when such a fan is not in operation. (NFPA 211 3.3.80.8)",
+    options: ["Central Warm-Air, Forced-Air-Type Furnace", "Central Warm-Air, Gravity-Type Furnace with Integral Fan", "Floor Furnace", "Central Warm-Air, Gravity-Type Furnace with Booster Fan"],
+    answer: "Central Warm-Air, Gravity-Type Furnace with Booster Fan"
+  },
+  {
+    question: "__________ : A central furnace equipped with a fan as an integral part of its construction and operable on gravity systems only. The fan is used to overcome the internal resistance to airflow. (NFPA 211 3.3.80.9)",
+    options: ["Central Warm-Air, Forced-Air-Type Furnace", "Central Warm-Air, Gravity-Type Furnace with Integral Fan", "Floor Furnace", "Central Warm-Air, Gravity-Type Furnace with Booster Fan"],
+    answer: "Central Warm-Air, Gravity-Type Furnace with Integral Fan"
+  },
+  {
+    question: "__________ : A single furnace unit designed to burn more than one type of fuel (gas, oil, or solid), either separately or simultaneously, using either separate or common combustion chambers and flues. (NFPA 211 3.3.80.10)",
+    options: ["Central Warm-Air Furnace", "Duct Furnace", "Floor Furnace", "Combination-Fuel Furnace"],
+    answer: "Combination-Fuel Furnace"
+  },
+  {
+    question: "__________ : A central furnace designed for installation in a duct of an air distribution system to supply warm air for heating and that depends on a blower not furnished as part of the furnace for air circulation. (NFPA 211 3.3.80.11)",
+    options: ["Central Warm-Air Furnace", "Duct Furnace", "Floor Furnace", "Combination-Fuel Furnace"],
+    answer: "Duct Furnace"
+  },
+  {
+    question: "__________ : A self-contained indirect-fired or electrically heated furnace designed to be suspended from the floor of the space to be heated. A fuel-burning floor furnace is designed to take air for combustion from outside the space being heated and is provided with means for observing the flame and lighting the appliance from such space. (NFPA 211 3.3.80.12)",
+    options: ["Central Warm-Air Furnace", "Duct Furnace", "Floor Furnace", "Combination-Fuel Furnace"],
+    answer: "Floor Furnace"
+  },
+  {
+    question: "__________ : A floor furnace equipped with a blower that provides the primary means for circulation of air. (NFPA 211 3.3.80.12.1)",
+    options: ["Central Warm-Air Furnace", "Fan-Type Floor Furnace", "Gravity-Type Floor Furnace", "Combination-Fuel Furnace"],
+    answer: "Fan-Type Floor Furnace"
+  },
+  {
+    question: "__________ : A floor furnace depending primarily on circulation of air by gravity. This classification also includes floor furnaces equipped with booster-type fans that do not materially restrict free circulation of air by gravity flow when such fans are not in operation. (NFPA 211 3.3.80.12.2)",
+    options: ["Central Warm-Air Furnace", "Fan-Type Floor Furnace", "Gravity-Type Floor Furnace", "Combination-Fuel Furnace"],
+    answer: "Gravity-Type Floor Furnace"
+  },
+  {
+    question: "__________ : A furnace designed to burn one type of fuel (gas, oil, or solid) that is intended for supplementing a central warm-air furnace burning another type of fuel (gas, oil, or solid) by means of a common warm air supply plenum. (NFPA 211 3.3.80.13)",
+    options: ["Central Warm-Air Furnace", "Supplementary Furnace", "Gravity-Type Floor Furnace", "Combination-Fuel Furnace"],
+    answer: "Supplementary Furnace"
+  },
+  {
+    question: "How many categories are there for Vented Gas Appliances? (NFPA 211 3.3.81)",
+    options: ["1", "2", "3", "4"],
+    answer: "4"
+  },
+  {
+    question: "__________ : This Vented Gas Appliance Category is an appliance that operates with a non-positive vent static pressure and with a vent gas temperature that avoids excessive condensate production in the vent. (NFPA 211 3.3.81)",
+    options: ["Category 1", "Category 2", "Category 3", "Category 4"],
+    answer: "Category 1"
+  },
+  {
+    question: "__________ : This Vented Gas Appliance Category is an appliance that operates with a non-positive vent static pressure and with a vent gas temperature that may cause excessive condensate production in the vent. (NFPA 211 3.3.81)",
+    options: ["Category 1", "Category 2", "Category 3", "Category 4"],
+    answer: "Category 2"
+  },
+  {
+    question: "__________ : This Vented Gas Appliance Category is an appliance that operates with a positive vent static pressure and with a vent gas temperature that avoids excessive condensate production in the vent. (NFPA 211 3.3.81)",
+    options: ["Category 1", "Category 2", "Category 3", "Category 4"],
+    answer: "Category 3"
+  },
+  {
+    question: "__________ : This Vented Gas Appliance Category is an appliance that operates with a positive vent static pressure and with a vent gas temperature that may cause excessive condensate production in the vent. (NFPA 211 3.3.81)",
+    options: ["Category 1", "Category 2", "Category 3", "Category 4"],
+    answer: "Category 4"
+  },
+  {
+    question: "__________ : Combustion products from fuel-burning appliances along with excess air. (NFPA 211 3.3.83.1)",
+    options: ["Flue Gases", "Vent Gases", "Heat", "Creosote"],
+    answer: "Flue Gases"
+  },
+  {
+    question: "__________ : Products of combustion from fuel-burning appliances along with excess air, plus any dilution air in the venting system above a draft hood or draft regulator. (NFPA 211 3.3.83.2)",
+    options: ["Flue Gases", "Vent Gases", "Heat", "Creosote"],
+    answer: "Vent Gases"
+  },
+  {
+    question: "__________ : Where referring to chimneys, a beam set at right angles to floor or roof joists to provide support and framing around the opening. (NFPA 211 3.3.85)",
+    options: ["Hearth", "Header", "Cripple Studs", "Mantel"],
+    answer: "Header"
+  },
+  {
+    question: "__________ : The floor area within the fire chamber of a fireplace or a fireplace stove. (NFPA 211 3.3.86)",
+    options: ["Hearth", "Hearth Extension", "Firebrick", "Firebox"],
+    answer: "Hearth"
+  },
+  {
+    question: "__________ : The noncombustible surfacing applied to the floor area extending to front of and at the sides of the hearth opening of a fireplace or a fireplace stove; also where applied to the floor area beneath a fireplace stove or beneath an elevated overhanging fireplace hearth. (NFPA 211 3.3.87)",
+    options: ["Hearth", "Hearth Extension", "Firebrick", "Firebox"],
+    answer: "Hearth Extension"
+  },
+  {
+    question: "__________ : A chamber in which heat resulting directly from the combustion of fuel, or heat from a medium such as air, water, or steam, is transferred through the walls of the chamber to air passing through the exchanger; or a chamber in which heat from electric resistors is transferred to the air. (NFPA 211 3.3.88)",
+    options: ["Jacket", "Heat Exchanger", "Smoke Chamber", "Firebox"],
+    answer: "Heat Exchanger"
+  },
+  {
+    question: "__________ : A vented heating system of predominantly masonry construction having a mass of at least 1760 lb excluding the chimney and masonry heater base. (NFPA 211 3.3.89.1)",
+    options: ["Masonry Heater", "Room Heater", "Unit Heater", "Radiant Room Heater"],
+    answer: "Masonry Heater"
+  },
+  {
+    question: "__________ : A heating appliance intended for installation in the space being heated and not intended for duct connection. (NFPA 211 3.3.89.2)",
+    options: ["Masonry Heater", "Room Heater", "Unit Heater", "Water Heater"],
+    answer: "Room Heater"
+  },
+  {
+    question: "__________ : A room heater with an outer jacket surrounding the heat exchanger, arranged with openings at top and bottom so that air circulates between the heat exchanger and the outer jacket. Room heaters that have openings in an outer jacket to allow some direct radiation from the heat exchanger are classified as a radiant typ.e (NFPA 211 3.3.89.2.1)",
+    options: ["Masonry Heater", "Circulating Room Heater", "Unit Heater", "Radiant Room Heater"],
+    answer: "Circulating Room Heater"
+  },
+  {
+    question: "__________ : A room heater designed to transfer heat primarily by direct radiation. (NFPA 211 3.3.89.2.2)",
+    options: ["Solid Fuel Room Heater", "Circulating Room Heater", "Unit Heater", "Radiant Room Heater"],
+    answer: "Radiant Room Heater"
+  },
+  {
+    question: "__________ : A chimney-connected, solid-fuel burning room heater that is designed to be operated with the fire chamber closed. (NFPA 211 3.3.89.2.3)",
+    options: ["Solid Fuel Room Heater", "Circulating Room Heater", "Unit Heater", "Radiant Room Heater"],
+    answer: "Solid Fuel Room Heater"
+  },
+  {
+    question: "__________ : A self-contained heating appliance that is intended for the heating of the space in which it is installed. This heater can be an indirect-fired fuel-burning appliance or might utilize steam, hot water, or electricity. (NFPA 211 3.3.89.3)",
+    options: ["Solid Fuel Room Heater", "Water Heater", "Unit Heater", "Radiant Room Heater"],
+    answer: "Unit Heater"
+  },
+  {
+    question: "__________ : A fuel-burning appliance for heating water to a temperature not more than 200°F. (NFPA 211 3.3.89.4)",
+    options: ["Solid Fuel Room Heater", "Water Heater", "Unit Heater", "Radiant Room Heater"],
+    answer: "Water Heater"
+  },
+  {
+    question: "__________ : An appliance or combustion chamber for the reduction, by burning, of rubbish, garbage, and other wastes. (NFPA 211 3.3.92)",
+    options: ["Open Fireplace", "Heat Exchanger", "Incinerator", "Furnace"],
+    answer: "Incinerator"
+  },
+  {
+    question: "__________ : An incinerator designed specifically to be fed refuse from one or more floors above the incinerator directly into the incinerator by a separate chute constructed with a positive means to avoid penetration by smoke or fumes and connected directly over the primary combustion chamber. The incinerator is built with a primary and a secondary combustion chamber and a settling chamber. It can include a flue gas washer or scrubber. A separate chimney serves to convey the combustion gases to the outdoors. This class of incinerator is suitable for gases to the outdoors. This class of incinerator is suitable for Type 1 and Type 2 wastes. It generally is used in residential and institutional buildings, including apartments, clubs, dormitories, churches, schools, and other occupancies where Type 1 and Type 2 wastes are to be incinerated. (NFPA 211 3.3.92.1)",
+    options: ["Chute-Fed Incinerator (Class IIA)", "Commercial-Industrial-Type Incenerator (Classes III, IV, V, VI, and VII)", "Flue-Fed Incinerator (Class II)", "Residential-Type Incinerator"],
+    answer: "Chute-Fed Incinerator (Class IIA)"
+  },
+  {
+    question: "__________ : An incinerator having a charging capacity in excess of 5ft³ and suitable for a variety of wastes as follows (1) Class III -- Waste Type 0, Type 1, or Type 2; (2) Class IV -- Waste Type 3; (3) Class V -- Waste Types 0-4 (municipal incinerators); (4) Class VI -- Waste Type 4; (5) Class VII -- Waste Type 5 and 6. (NFPA 211 3.3.92.2)",
+    options: ["Chute-Fed Incinerator (Class IIA)", "Commercial-Industrial-Type Incenerator (Classes III, IV, V, VI, and VII)", "Flue-Fed Incinerator (Class II)", "Residential-Type Incinerator"],
+    answer: "Commercial-Industrial-Type Incinerator (Classes III, IV, V, VI, and VII)"
+  },
+  {
+    question: "__________ : An incinerator served by a single chimney flue that serves also as the charging chute, where refuse is fed directly to the incinerator through this chimney flue from one or more floors above the incinerator. This class of incinerator is suitable for Type 1 and Type 2 waste materials and garbage incidental to residential occupancy in a single-family and multifamily buildings. This class of incinerator is generally used in residential and institutional buildings including apartments, clubs, dormitories, churches, schools, and other occupancies where Type 1 and Type 2 wastes are to be incinerated. (NFPA 211 3.3.92.3)",
+    options: ["Chute-Fed Incinerator (Class IIA)", "Commercial-Industrial-Type Incenerator (Classes III, IV, V, VI, and VII)", "Flue-Fed Incinerator (Class II)", "Residential-Type Incinerator"],
+    answer: "Flue-Fed Incinerator (Class II)"
+  },
+  {
+    question: "__________ : An incinerator for the burning of ordinary combustible waste material and garbage (Type 2 waste) incidental to residential occupancy and having a firebox or charging compartment not greater than 5ft³ in capacity. Residential-type incinerators can be self-contained, factory-built units that do not necessitate field construction, or can be of a built in type designed to be encased in masonry or installed in a masonry wall or chimney. (NFPA 211 3.3.92.4)",
+    options: ["Chute-Fed Incinerator (Class IIA)", "Commercial-Industrial-Type Incenerator (Classes III, IV, V, VI, and VII)", "Flue-Fed Incinerator (Class II)", "Residential-Type Incinerator"],
+    answer: "Residential-Type Incinerator"
+  },
+  {
+    question: "__________ : A shelf or facing ornament above a fireplace opening. (NFPA 211 3.3.94)",
+    options: ["Trim", "Stone Facing", "Smoke Shelf", "Mantel"],
+    answer: "Mantel"
+  },
+  {
+    question: "__________ : The person or persons, company, firm, corporation, partnership, or other organization responsible for turning raw materials or components into a finished product. (NFPA 211 3.3.96)",
+    options: ["Qualified Agency", "Manufacturer", "AHJ", "Installer"],
+    answer: "Manufacturer"
+  },
+  {
+    question: "__________ : The horizontal, noncombustible member, usually of masonry or steel, spanning the opening of a masonry fireplace to support the load above. (NFPA 211 3.3.99)",
+    options: ["Corbelling", "Smoke Shelf", "Masonry Fireplace Lintel", "Header"],
+    answer: "Masonry Fireplace Lintel"
+  },
+  {
+    question: "__________ : A material that, in the form in which it is used and under the conditions anticipated, will ignite and burn; a material that does not meet the definition of non combustible or limited-combustible. (NFPA 211 3.3.99)",
+    options: ["Refractory", "Combustible Material", "Creosote Buster", "Masonry"],
+    answer: "Combustible Material"
+  },
+  {
+    question: "__________ : Any individual, firm, corporation, or company that, either in person or through a representative, is engaged in and is responsible for the connection, venting, installation, inspection, repair, or servicing of heat-producting appliances and who is experienced in such work, is familiar with all precautions required, and has complied with all the requirements of the AHJ. (NFPA 211 3.3.112)",
+    options: ["AHJ", "Qualified Agency", "Chimney Business", "Manufacturer"],
+    answer: "Qualified Agency"
+  },
+  {
+    question: "__________ : A factory-built assembly for conveying flue gases through a roof and that includes a flue gas passageway, an insulating means, flashing, and a cap. (NFPA 211 3.3.117)",
+    options: ["Chase", "Roof Jack", "Stainless Steel Liner", "Cricket"],
+    answer: "Roof Jack"
+  },
+  {
+    question: "__________ : The transitional area from the damper opening to the beginning of the flue liner in a fireplace system. (NFPA 211 3.3.119)",
+    options: ["Throat", "Smoke Shelf", "Flue Collar", "Smoke Chamber"],
+    answer: "Smoke Chamber"
+  },
+  {
+    question: "__________ : A procedure for ascertaining the tightness of a chimney and for detecting any cracks in a masonry chimney flue or deterioration or breaks in the integrity of a metal chimney flue, and that involves igniting a smoke bomb or building a smoky fire in a fireplace or solid fuel-burning appliance, covering the chimney termination, and checking for smoke escapage through the chimney walls. (NFPA 211 3.3.120)",
+    options: ["Level 2 Inspection", "Smoke Test", "Video Inspection", "Level 3 Inspection"],
+    answer: "Smoke Test"
+  },
+  {
+    question: "__________ : A bonded assembly of stones or solid masonry units. (NFPA 211 3.3.124)",
+    options: ["Bond", "Installed Unit", "Solid Masonry Construction", "Fireplace Insert"],
+    answer: "Solid Masonry Construction"
+  },
+  {
+    question: "__________ : A masonry unit whose net cross-sectional area in every plane parallel to the bearing surface is 75 percent or more of its gross cross-sectional area measured in the same plane. (NFPA 211 3.3.125)",
+    options: ["Free Standing Wood Stove", "Solid Masonry Unit", "Solid Masonry Construction", "Fireplace Insert"],
+    answer: "Solid Masonry Unit"
+  },
+  {
+    question: "__________ : Screening material or a screening device attached to a chimney termination to prevent the passage of sparks and brands to the outside atmosphere. (NFPA 211 3.3.126)",
+    options: ["Cap", "Spark Arresters", "Mesh", "Damper"],
+    answer: "Spark Arresters"
+  },
+  {
+    question: "__________ : A unit consisting of a steel firebox and an air chamber adjacent to the sides and rear of the firebox, used to construct a masonry fireplace. the unit usually has ducts to circulate air to and heated air from the air chamber to the living space. (NFPA 211 3.3.129)",
+    options: ["Steel Fireplace Unit", "Free Standing Wood Stove", "Unit with Gas Logs", "Lintel"],
+    answer: "Steel Fireplace Unit"
+  },
+  {
+    question: "__________ : A system that has been sized and configured in accordance with approved engineering methods. (NFPA 211 3.3.132.1)",
+    options: ["Direct Vent Appliance", "Engineered Venting or Chimney System", "Roof Jack", "Fire Blocking"],
+    answer: "Engineered Venting or Chimney System"
+  },
+  {
+    question: "__________ : A continuous, open passageway from the flue collar or draft hood of a fuel-burning appliance to the outside atmosphere for the purpose of removing flue gases. (NFPA 211 3.3.132.2)",
+    options: ["Venting System (Flue Gases)", "Category I Gas Appliance", "Stainless Steel Liner", "Furnace"],
+    answer: "Venting System (Flue Gases)"
+  },
+  {
+    question: "__________ : A fixed or removable ring, tube, or lining usually located in the hole where the chimney connector or vent connector passes through a wall or enters a chimney or vent. (NFPA 211 3.3.133)",
+    options: ["Breech", "Thimble", "Flue", "Flue Collar"],
+    answer: "Thimble"
+  },
+  {
+    question: "__________ : Where referring to chimneys, the longer floor or roof framing member around a rectangular opening into which the end of a header is joined. (NFPA 211 3.3.134)",
+    options: ["Lintel", "Cricket", "Trimmer", "Cripple Stud"],
+    answer: "Trimmer"
+  },
+  {
+    question: "__________ : A flue gas-conveying system intended for use only with certain gas, liquid, or pellet fuel-fired appliances that do not produce flue gas outlet temperatures higher than a value specified in the listing vent standards. (NFPA 211 3.3.143)",
+    options: ["Wash", "Draft Hood", "Vent", "Flow"],
+    answer: "Vent"
+  },
+  {
+    question: "__________ : A passageway composed of listed factory-built components assembled in accordance with the manufacturer's installation instructions for conveying vent gases from appliances or their vent connectors to the outdoors. (NFPA 211 3.3.143.1)",
+    options: ["Pellet Vent", "Gas Vent", "Type L Vent", "Smokestack"],
+    answer: "Gas Vent"
+  },
+  {
+    question: "__________ : A gas vent for venting listed Category II, III, and IV gas appliances. (NFPA 211 3.3.143.1.1)",
+    options: ["Type B Gas Vent", "Type BW Gas Vent", "Type L Vent", "Special Gas Vent"],
+    answer: "Special Gas Vent"
+  },
+  {
+    question: "__________ : A vent for venting listed gas appliances with draft hoods and other category I appliances listed for use with type B gas vents. (NFPA 211 3.3.143.1.2)",
+    options: ["Type B Gas Vent", "Type BW Gas Vent", "Type L Vent", "Special Gas Vent"],
+    answer: "Type B Gas Vent"
+  },
+  {
+    question: "__________ : A vertical or nearly vertical gas vent for venting listed gas-fired vented wall furnaces. (NFPA 211 3.3.143.1.3)",
+    options: ["Type B Gas Vent", "Type BW Gas Vent", "Type L Vent", "Special Gas Vent"],
+    answer: "Type BW Gas Vent"
+  },
+  {
+    question: "__________ : A venting system composed of listed, factory-built components assembled in accordance with the manufacturer's instructions for conveying flue gases from a listed pellet fuel-burning appliance to the outside atmosphere. (NFPA 211 3.3.143.2)",
+    options: ["Type B Gas Vent", "Type BW Gas Vent", "Type L Vent", "Pellet Vent"],
+    answer: "Pellet Vent"
+  },
+  {
+    question: "__________ : A vertical or nearly vertical vent composed of listed factory-built components assembled in accordance with the terms of a listing for conveying flue gases from oil and gas appliances or their vent connectors to the outside atmosphere. (NFPA 211 3.3.143.3)",
+    options: ["Type B Gas Vent", "Type BW Gas Vent", "Type L Vent", "Pellet Vent"],
+    answer: "Type L Vent"
+  },
+  {
+    question: "__________ : Removal of combustion products as well as noxious or toxic fumes to the outside atmosphere. (NFPA 211 3.3.148)",
+    options: ["Annual Cleaning", "Venting", "Draft", "Standard"],
+    answer: "Venting"
+  },
+  {
+    question: "__________ : Noncombustible surfacing applied to a wall area for the purpose of reducing the clearance between the wall and a heat-producing appliance. (NFPA 211 3.3.150)",
+    options: ["Hearth", "Floor Protector", "Fire Stop", "Wall Protector (Shield)"],
+    answer: "Wall Protector (Shield)"
+  },
+  {
+    question: "__________ : A slight slope or beveled edge on the top surface of a chimney designed to shed water away from the flue liner; also called a 'Splay'. (NFPA 211 3.3.151)",
+    options: ["Cap", "Wash", "Wythe", "Corbel"],
+    answer: "Wash"
+  },
+  {
+    question: "__________ : Where referring to masonry chimneys, a course, a thickness, or a continuous vertical section of masonry separating flues in a chimney. (NFPA 211 3.3.153)",
+    options: ["Cap", "Crown", "Wythe", "Corbel"],
+    answer: "Wythe"
+  },
 ];
 
 if (!window.quizRegistry) window.quizRegistry = {};
 window.quizRegistry['NFPA 211 - Chapter 3: Definitions'] = nfpa211Chapter3QuizData;
+
