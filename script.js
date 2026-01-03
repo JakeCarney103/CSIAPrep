@@ -1,4 +1,4 @@
-const quizSelectorDictionary = [
+const nfpaQuizSelectorDictionary = [
   {
     quizName: "NFPA 211 - Chapter 1: Administration",
     fileName: "nfpa211-chapter1.js",
@@ -61,11 +61,67 @@ const quizSelectorDictionary = [
   }
 ];
 
+const chimneyAndVentingEssentialsQuizSelectorDictionary = [
+  {
+    quizName: "Chapter 1: Role of the Modern Chimney Technician",
+    fileName: "essentials-chapter1.js",
+  },
+];
+
+const bookSelectionOptions = [
+	{
+		bookName: "NFPA 211"
+	},
+	{
+		bookName: "Chimney and Venting Essentials"
+	}
+];
+
 document.addEventListener('DOMContentLoaded', function() {
-  loadQuizSelectionOptions();
+  loadBookSelectionOptions();
 });
 
-function loadQuizSelectionOptions(){
+function loadBookSelectionOptions(){
+	const main = document.getElementById('main');
+	const div = document.createElement('div');
+		div.classList.add('quizBlock');
+		const quizSelectionQuestion = document.createElement('p');
+		quizSelectionQuestion.classList.add('quizSelectionQuestion');
+		quizSelectionQuestion.innerHTML = 'Select the book you would like to take quizzes against!';
+		div.appendChild(quizSelectionQuestion);
+	bookSelectionOptions.forEach(book =>{
+		const label = document.createElement('label');
+		label.classList.add('bookOptions');
+		label.innerHTML = `<input type='radio' name='bookSelection' value='${book.bookName}'> ${book.bookName}`;
+		div.appendChild(label);
+		div.appendChild(document.createElement('br'));
+	});
+	main.appendChild(div);
+	const viewQuizOptionsButton = document.createElement('button')
+	viewQuizOptionsButton.textContent = 'View Quiz Options!'
+	viewQuizOptionsButton.type = 'button';
+	viewQuizOptionsButton.onclick = function() {
+		const selected = document.querySelector('input[name="bookSelection"]:checked');
+		if (selected)
+		{
+			const selectedBookInfo = bookSelectionOptions.find(book => book.bookName === selected.value);
+			if (selectedBookInfo){
+				clearMainForm();
+				loadQuizSelectionOptions(selectedBookInfo);
+			}else{
+				alert ("This book isn't defined, please select another!")
+			}
+		}
+		else
+		{
+			alert("Please select a Book!");
+		}
+	}
+	main.appendChild(viewQuizOptionsButton);
+}
+
+function loadQuizSelectionOptions(selectedBookInfo){
+	const quizSelectorDictionary = selectedBookInfo.bookName === 'NFPA 211' ? nfpaQuizSelectorDictionary : chimneyAndVentingEssentialsQuizSelectorDictionary;
 	const main = document.getElementById('main');
 	const div = document.createElement('div');
 		div.classList.add('quizBlock');
@@ -81,6 +137,15 @@ function loadQuizSelectionOptions(){
 		div.appendChild(document.createElement('br'));
 	});
 	main.appendChild(div);
+	const backToBookSelectionButton = document.createElement('button')
+	backToBookSelectionButton.textContent = 'Back to Book Selection'
+	backToBookSelectionButton.type = 'button';
+	backToBookSelectionButton.onclick = function() {
+		clearMainForm();
+		loadBookSelectionOptions();
+	}
+	main.appendChild(backToBookSelectionButton);
+	
 	const beginQuizButton = document.createElement('button')
 	beginQuizButton.textContent = 'Begin Quiz!'
 	beginQuizButton.type = 'button';
@@ -92,7 +157,7 @@ function loadQuizSelectionOptions(){
 			const questionsAreDefined = window.quizRegistry[selectedQuizInfo.quizName];
 			if (selectedQuizInfo && questionsAreDefined){
 				clearMainForm();
-				loadQuiz(selectedQuizInfo);
+				loadQuiz(selectedQuizInfo, selectedBookInfo);
 			}else{
 				alert ("Questions are not yet defined for the selected quiz!")
 			}
@@ -110,7 +175,7 @@ function clearMainForm(){
 	mainForm.innerHTML = '';
 }
 
-function loadQuiz(selectedQuizInfo){
+function loadQuiz(selectedQuizInfo, selectedBookInfo){
 	const quizData = window.quizRegistry[selectedQuizInfo.quizName];
 	const main = document.getElementById('main');
 	const quizTitle = document.createElement('h2');
@@ -144,7 +209,7 @@ function loadQuiz(selectedQuizInfo){
 	backToQuizSelectionButton.type = 'button';
 	backToQuizSelectionButton.onclick = function() {
 		clearMainForm();
-		loadQuizSelectionOptions();
+		loadQuizSelectionOptions(selectedBookInfo);
 	}
 	main.appendChild(backToQuizSelectionButton);
 
