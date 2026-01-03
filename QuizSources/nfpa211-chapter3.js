@@ -36,12 +36,12 @@ const nfpa211Chapter3QuizData = [
   },
   {
     question: "__________ : Capable of being exposed for inspection, maintenance, or repair without damage to the chimney or building structure of finish, but which might require the removal of doors, panels, or coverings using commonly available tools. (NFPA 211 3.3.1)",
-    options: ["Readily Accessible", "Accessible", "Concealed (Inaccessible)", "Avaliable"],
+    options: ["Readily Accessible", "Accessible", "Concealed (Inaccessible)", "Available"],
     answer: "Accessible"
   },
   {
     question: "__________ : Exposed, or capable of being exposed, for operation, inspection, maintenance, or repair without the use of tools to open or remove doors, panels, or coverings. (NFPA 211 3.3.1.1)",
-    options: ["Readily Accessible", "Accessible", "Inaccessible", "Avaliable"],
+    options: ["Readily Accessible", "Accessible", "Inaccessible", "Available"],
     answer: "Readily Accessible"
   },
   {
@@ -61,7 +61,7 @@ const nfpa211Chapter3QuizData = [
   },
   {
     question: "__________ : The air necessary to provide for the complete combustion of fuel and usually consisting of primary air, secondary air, and excess air. (NFPA 211 3.3.3.1)",
-    options: ["Flue Gasses", "Combustion Air", "Carbon Monoxide", "Draft"],
+    options: ["Flue Gases", "Combustion Air", "Carbon Monoxide", "Draft"],
     answer: "Combustion Air"
   },
   {
@@ -136,7 +136,7 @@ const nfpa211Chapter3QuizData = [
   },
   {
     question: "__________ : An indirect-fired appliance provided with a flue collar to accommodate a venting system for conveying flue gases to the outside atmosphere. (NFPA 211 3.3.4.10)",
-    options: ["Automatic Electic Igniter", "Open Masonry Fireplace", "Vented Appliance", "Factory-Built Chimney"],
+    options: ["Automatic Electric Igniter", "Open Masonry Fireplace", "Vented Appliance", "Factory-Built Chimney"],
     answer: "Vented Appliance"
   },
   {
@@ -197,7 +197,7 @@ const nfpa211Chapter3QuizData = [
   {
     question: "__________ : The conduit conveying flue gas from the appliance to the chimney. (NFPA 211 3.3.16)",
     options: ["Breeching", "Flue", "Flue Collar", "Draft Hood"],
-    answer: "Bond"
+    answer: "Breeching"
   },
   {
     question: "__________ : The quantity of heat needed to raise the temperature of 1 pound of water 1°F. (NFPA 211 3.3.17)",
@@ -240,7 +240,7 @@ const nfpa211Chapter3QuizData = [
     answer: "Type HT Factory-Built, Residential-Type and/or Building Heating Appliance-Type Chimney"
   },
   {
-    question: "__________ : A chimney suitable for continuous use at 1400°F, composed of listed, factory-built components, intended for open, nonenclosed use at specified minimum clearances to combustibles and for use in non combustible locations, and assembled in accordance with the terms of the listing to form the completed chimney. (NFPA 211 3.3.29.2)",
+    question: "__________ : A chimney suitable for continuous use at 1400°F, composed of listed, factory-built components, intended for open, nonenclosed use at specified minimum clearances to combustibles and for use in noncombustible locations, and assembled in accordance with the terms of the listing to form the completed chimney. (NFPA 211 3.3.29.2)",
     options: ["Type HT Factory-Built, Residential-Type and/or Building Heating Appliance-Type Chimney", "Factory-Built 1400°F F-Type Chimney", "Factory-Built, Residential-Type and Building Heating Appliance-Type Chimney", "Factory-Built, Medium-Heat Appliance-Type Chimney"],
     answer: "Factory-Built 1400°F F-Type Chimney"
   },
@@ -265,7 +265,7 @@ const nfpa211Chapter3QuizData = [
     answer: "Unlisted Metal (Smokestack) Chimney"
   },
   {
-    question: "__________ : A heat exchanger intended to be installed in a chimney connector between a heating appliance and the chimney to transfer heat from the flue gasses through metal to air or water. (NFPA 211 3.3.32)",
+    question: "__________ : A heat exchanger intended to be installed in a chimney connector between a heating appliance and the chimney to transfer heat from the flue gases through metal to air or water. (NFPA 211 3.3.32)",
     options: ["Chimney Connector-Type Heat Reclaimer", "Dilution Flue", "Damper", "Radiant Room Heater"],
     answer: "Chimney Connector-Type Heat Reclaimer"
   },
@@ -356,7 +356,7 @@ const nfpa211Chapter3QuizData = [
   },
   {
     question: "__________ : A pressure difference that causes gases or air to flow through a chimney, vent, flue, or appliance. (NFPA 211 3.3.57)",
-    options: ["Flow", "Biometric Damper", "Draft", "Thermodynamics"],
+    options: ["Flow", "Barometric Damper", "Draft", "Thermodynamics"],
     answer: "Draft"
   },
   {
@@ -435,7 +435,7 @@ const nfpa211Chapter3QuizData = [
     answer: "Dilution Flue"
   },
   {
-    question: "__________ : That portion of an appliance designed for attachment of a chimney or vent connector or a draft hood. (NFPA 211 3.3.74.3)",
+    question: "__________ : That portion of an appliance designed for attachment of a chimney or vent connector or a draft hood. (NFPA 211 3.3.75)",
     options: ["Flue Collar", "Flue", "Connector", "Thimble"],
     answer: "Flue Collar"
   },
@@ -570,7 +570,7 @@ const nfpa211Chapter3QuizData = [
     answer: "Header"
   },
   {
-    question: "__________ : The floor area within the fire chamber of a fireplace or a fireplace stove. (NFPA 211 3.3.86)",
+    question: "__________ : The floor area within the fire chamber of a fireplace or a fireplace stove. This is the general term, not Inner _______ / _______ Extension. (NFPA 211 3.3.86)",
     options: ["Hearth", "Hearth Extension", "Firebrick", "Firebox"],
     answer: "Hearth"
   },
@@ -595,7 +595,7 @@ const nfpa211Chapter3QuizData = [
     answer: "Room Heater"
   },
   {
-    question: "__________ : A room heater with an outer jacket surrounding the heat exchanger, arranged with openings at top and bottom so that air circulates between the heat exchanger and the outer jacket. Room heaters that have openings in an outer jacket to allow some direct radiation from the heat exchanger are classified as a radiant typ.e (NFPA 211 3.3.89.2.1)",
+    question: "__________ : A room heater with an outer jacket surrounding the heat exchanger, arranged with openings at top and bottom so that air circulates between the heat exchanger and the outer jacket. Room heaters that have openings in an outer jacket to allow some direct radiation from the heat exchanger are classified as a radiant type. (NFPA 211 3.3.89.2.1)",
     options: ["Masonry Heater", "Circulating Room Heater", "Unit Heater", "Radiant Room Heater"],
     answer: "Circulating Room Heater"
   },
@@ -626,22 +626,22 @@ const nfpa211Chapter3QuizData = [
   },
   {
     question: "__________ : An incinerator designed specifically to be fed refuse from one or more floors above the incinerator directly into the incinerator by a separate chute constructed with a positive means to avoid penetration by smoke or fumes and connected directly over the primary combustion chamber. The incinerator is built with a primary and a secondary combustion chamber and a settling chamber. It can include a flue gas washer or scrubber. A separate chimney serves to convey the combustion gases to the outdoors. This class of incinerator is suitable for gases to the outdoors. This class of incinerator is suitable for Type 1 and Type 2 wastes. It generally is used in residential and institutional buildings, including apartments, clubs, dormitories, churches, schools, and other occupancies where Type 1 and Type 2 wastes are to be incinerated. (NFPA 211 3.3.92.1)",
-    options: ["Chute-Fed Incinerator (Class IIA)", "Commercial-Industrial-Type Incenerator (Classes III, IV, V, VI, and VII)", "Flue-Fed Incinerator (Class II)", "Residential-Type Incinerator"],
+    options: ["Chute-Fed Incinerator (Class IIA)", "Commercial-Industrial-Type Incinerator (Classes III, IV, V, VI, and VII)", "Flue-Fed Incinerator (Class II)", "Residential-Type Incinerator"],
     answer: "Chute-Fed Incinerator (Class IIA)"
   },
   {
     question: "__________ : An incinerator having a charging capacity in excess of 5ft³ and suitable for a variety of wastes as follows (1) Class III -- Waste Type 0, Type 1, or Type 2; (2) Class IV -- Waste Type 3; (3) Class V -- Waste Types 0-4 (municipal incinerators); (4) Class VI -- Waste Type 4; (5) Class VII -- Waste Type 5 and 6. (NFPA 211 3.3.92.2)",
-    options: ["Chute-Fed Incinerator (Class IIA)", "Commercial-Industrial-Type Incenerator (Classes III, IV, V, VI, and VII)", "Flue-Fed Incinerator (Class II)", "Residential-Type Incinerator"],
+    options: ["Chute-Fed Incinerator (Class IIA)", "Commercial-Industrial-Type Incinerator (Classes III, IV, V, VI, and VII)", "Flue-Fed Incinerator (Class II)", "Residential-Type Incinerator"],
     answer: "Commercial-Industrial-Type Incinerator (Classes III, IV, V, VI, and VII)"
   },
   {
     question: "__________ : An incinerator served by a single chimney flue that serves also as the charging chute, where refuse is fed directly to the incinerator through this chimney flue from one or more floors above the incinerator. This class of incinerator is suitable for Type 1 and Type 2 waste materials and garbage incidental to residential occupancy in a single-family and multifamily buildings. This class of incinerator is generally used in residential and institutional buildings including apartments, clubs, dormitories, churches, schools, and other occupancies where Type 1 and Type 2 wastes are to be incinerated. (NFPA 211 3.3.92.3)",
-    options: ["Chute-Fed Incinerator (Class IIA)", "Commercial-Industrial-Type Incenerator (Classes III, IV, V, VI, and VII)", "Flue-Fed Incinerator (Class II)", "Residential-Type Incinerator"],
+    options: ["Chute-Fed Incinerator (Class IIA)", "Commercial-Industrial-Type Incinerator (Classes III, IV, V, VI, and VII)", "Flue-Fed Incinerator (Class II)", "Residential-Type Incinerator"],
     answer: "Flue-Fed Incinerator (Class II)"
   },
   {
     question: "__________ : An incinerator for the burning of ordinary combustible waste material and garbage (Type 2 waste) incidental to residential occupancy and having a firebox or charging compartment not greater than 5ft³ in capacity. Residential-type incinerators can be self-contained, factory-built units that do not necessitate field construction, or can be of a built in type designed to be encased in masonry or installed in a masonry wall or chimney. (NFPA 211 3.3.92.4)",
-    options: ["Chute-Fed Incinerator (Class IIA)", "Commercial-Industrial-Type Incenerator (Classes III, IV, V, VI, and VII)", "Flue-Fed Incinerator (Class II)", "Residential-Type Incinerator"],
+    options: ["Chute-Fed Incinerator (Class IIA)", "Commercial-Industrial-Type Incinerator (Classes III, IV, V, VI, and VII)", "Flue-Fed Incinerator (Class II)", "Residential-Type Incinerator"],
     answer: "Residential-Type Incinerator"
   },
   {
@@ -660,12 +660,12 @@ const nfpa211Chapter3QuizData = [
     answer: "Masonry Fireplace Lintel"
   },
   {
-    question: "__________ : A material that, in the form in which it is used and under the conditions anticipated, will ignite and burn; a material that does not meet the definition of non combustible or limited-combustible. (NFPA 211 3.3.99)",
+    question: "__________ : A material that, in the form in which it is used and under the conditions anticipated, will ignite and burn; a material that does not meet the definition of noncombustible or limited-combustible. (NFPA 211 3.3.99)",
     options: ["Refractory", "Combustible Material", "Creosote Buster", "Masonry"],
     answer: "Combustible Material"
   },
   {
-    question: "__________ : Any individual, firm, corporation, or company that, either in person or through a representative, is engaged in and is responsible for the connection, venting, installation, inspection, repair, or servicing of heat-producting appliances and who is experienced in such work, is familiar with all precautions required, and has complied with all the requirements of the AHJ. (NFPA 211 3.3.112)",
+    question: "__________ : Any individual, firm, corporation, or company that, either in person or through a representative, is engaged in and is responsible for the connection, venting, installation, inspection, repair, or servicing of heat-producing appliances and who is experienced in such work, is familiar with all precautions required, and has complied with all the requirements of the AHJ. (NFPA 211 3.3.112)",
     options: ["AHJ", "Qualified Agency", "Chimney Business", "Manufacturer"],
     answer: "Qualified Agency"
   },
