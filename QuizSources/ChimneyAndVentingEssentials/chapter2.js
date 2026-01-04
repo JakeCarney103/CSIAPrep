@@ -246,8 +246,8 @@ const essentialsChapter2QuizData = [
   },
   {
     question: "These codes have been created to increase efficiency and decrease wasted energy. (Page 14)",
-    options: ["'Green' Codes", "'Efficient' Codes", "'Blue' Codes", "'Red' Codes"],
-    answer: "'Green' Codes"
+    options: ["Green Codes", "Efficient Codes", "Blue Codes", "Red Codes"],
+    answer: "Green Codes"
   },
   {
     question: "This code establishes minimum regulations for energy efficient buildings. (Page 14)",
