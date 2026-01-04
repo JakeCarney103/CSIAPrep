@@ -50,12 +50,12 @@ const essentialsChapter2QuizData = [
     answer: "All the above"
   },
   {
-    question: "_________ is the most revaland document to those in the solid fuel industry. (Page 7)",
+    question: "_________ is the most revalant document to those in the solid fuel industry. (Page 7)",
     options: ["NFPA 31", "NFPA 54", "NFPA 211", "IRC"],
     answer: "NFPA 211"
   },
   {
-    question: "NFPA, ICC, and ASTM code and standards are only recommendations and are not enforcable until adopted by a(n) _________ with enforcement power. (Page 7)",
+    question: "NFPA, ICC, and ASTM code and standards are only recommendations and are not enforceable until adopted by a(n) _________ with enforcement power. (Page 7)",
     options: ["Business", "Installer", "AHJ", "Laboratory"],
     answer: "AHJ"
   },
@@ -86,7 +86,7 @@ const essentialsChapter2QuizData = [
   },
   {
     question: "A product that has been tested by another lab other than the UL is _________. (Page 8)",
-    options: ["Tested to the UL Standard", "UL Tested", "UL Listed", "Listed"],
+    options: ["Tested to the UL Standard", "UL Tested", "UL Listed", "Listed to the UL Standard"],
     answer: "Tested to the UL Standard"
   },
   {
@@ -167,12 +167,12 @@ const essentialsChapter2QuizData = [
   {
     question: "Standard for Installation of Oil Fired Equipment. (Page 10)",
     options: ["NFPA 211", "NFPA 31", "NFPA 10", "NFPA 54"],
-    answer: "NFPA 211"
+    answer: "NFPA 31"
   },
   {
     question: "National Fuel Gas Code. (Page 10)",
     options: ["NFPA 211", "NFPA 31", "NFPA 10", "NFPA 54"],
-    answer: "NFPA 211"
+    answer: "NFPA 54"
   },
   {
     question: "Standard for 'Vented Gas Fireplaces'. (Page 11)",
@@ -215,7 +215,7 @@ const essentialsChapter2QuizData = [
     answer: "International Code Council (ICC)"
   },
   {
-    question: "This code establishes minimum regulations for one and two family dewllings and townhouses using prescriptive provisions. (Page 12)",
+    question: "This code establishes minimum regulations for one and two family dwellings and townhouses using prescriptive provisions. (Page 12)",
     options: ["International Residential Code (IRC)", "International Building Code (IBC)", "International Code Council (ICC)", "International Existing Building Code (IEBC)"],
     answer: "International Residential Code (IRC)"
   },
@@ -235,12 +235,12 @@ const essentialsChapter2QuizData = [
     answer: "International Fuel Gas Code (IFGC)"
   },
   {
-    question: "The International Fuel Gas Code (IFGC) has an exception for the following: Detached one and two family dwellings and multiple single family dewllings (Townhouses) not more than 3 stories high with separate means of egress, and their accessory structures shall comply with the IRC. (Page 13)",
+    question: "The International Fuel Gas Code (IFGC) has an exception for the following: Detached one and two family dwellings and multiple single family dwellings (Townhouses) not more than 3 stories high with separate means of egress, and their accessory structures shall comply with the IRC. (Page 13)",
     options: ["True", "False"],
     answer: "True"
   },
   {
-    question: "This code contains requirements intended to encourage the use and reuse of existing buildings by covering repair, alteration, addition, and change of occupancy for existing buildings and historic buldings. (Page 14)",
+    question: "This code contains requirements intended to encourage the use and reuse of existing buildings by covering repair, alteration, addition, and change of occupancy for existing buildings and historic buildings. (Page 14)",
     options: ["International Fuel Gas Code (IFGC)", "International Mechanical Code (IMC)", "International Code Council (ICC)", "International Existing Building Code (IEBC)"],
     answer: "International Existing Building Code (IEBC)"
   },
@@ -255,12 +255,12 @@ const essentialsChapter2QuizData = [
     answer: "International Energy Conservation Code (IECC)"
   },
   {
-    question: "This is a voluntary certification program developed by the U.S. Green Building Council and runs on a raiting system for builders. The basic requirement in this for fireplaces and wood stoves is that they must have doors. (Page 14)",
+    question: "This is a voluntary certification program developed by the U.S. Green Building Council and runs on a rating system for builders. The basic requirement in this for fireplaces and wood stoves is that they must have doors. (Page 14)",
     options: ["International Energy Conservation Code (IECC)", "Leadership in Energy and Environmental Design (LEED)", "National Green Building Standard (ICC 700)", "International Green Construction Code (IgCC)"],
     answer: "Leadership in Energy and Environmental Design (LEED)"
   },
   {
-    question: "This was developed by the National Association of Home Builders and adoped by the ICC. It provides a rating system with progressive performance levels determined by meeting minimum point levels in building categories (such as energy efficiency, water efficiency, indoor air quality, etc.) and minimum overall point totals. This awards points for not installing hearth products or various points when they are safety listed and EPA certified. (Page 15)",
+    question: "This was developed by the National Association of Home Builders and adopted by the ICC. It provides a rating system with progressive performance levels determined by meeting minimum point levels in building categories (such as energy efficiency, water efficiency, indoor air quality, etc.) and minimum overall point totals. This awards points for not installing hearth products or various points when they are safety listed and EPA certified. (Page 15)",
     options: ["International Energy Conservation Code (IECC)", "Leadership in Energy and Environmental Design (LEED)", "National Green Building Standard (ICC 700)", "International Green Construction Code (IgCC)"],
     answer: "National Green Building Standard (ICC 700)"
   },
@@ -275,12 +275,12 @@ const essentialsChapter2QuizData = [
     answer: "Limit air pollution from wood stoves"
   },
   {
-    question: "In 2015 the US EPA released a revied version of NSPS. Step 1 of this revision brings the limit of emissions down to _________ for all wood burning stoves. (Page 16)",
+    question: "In 2015 the US EPA released a revised version of NSPS. Step 1 of this revision brings the limit of emissions down to _________ for all wood burning stoves. (Page 16)",
     options: ["4 grams per hour", "4.5 grams per hour", "5 grams per hour", "5.5 grams per hour"],
     answer: "4.5 grams per hour"
   },
   {
-    question: "In 2015 the US EPA released a revied version of NSPS. Step 2 of this revision brings the limit of emissions down to _________ for all wood burning stoves. (Page 16)",
+    question: "In 2015 the US EPA released a revised version of NSPS. Step 2 of this revision brings the limit of emissions down to _________ for all wood burning stoves. (Page 16)",
     options: ["2 or 3 grams per hour", "2 or 2.5 grams per hour", "4.5 grams per hour", "4 or 5 grams per hour"],
     answer: "2 or 2.5 grams per hour"
   },
@@ -320,12 +320,12 @@ const essentialsChapter2QuizData = [
     answer: "Any Sleeping Room"
   },
   {
-    question: "Some jursidictions require a special license to install gas piping, attach a gas-fired appliance to the piping, install a wood stove, install a pellet stove, reline a chimney, or even do masonry repairs. Therefore, it is a good idea to contact State or Local Departments to check regulations. (Page 17)",
+    question: "Some jurisdictions require a special license to install gas piping, attach a gas-fired appliance to the piping, install a wood stove, install a pellet stove, reline a chimney, or even do masonry repairs. Therefore, it is a good idea to contact State or Local Departments to check regulations. (Page 17)",
     options: ["True", "False"],
     answer: "True"
   },
   {
-    question: "The CSIA certification alone constitues a license. (Page 18)",
+    question: "The CSIA certification alone constitutes a license. (Page 18)",
     options: ["True", "False"],
     answer: "False"
   },
