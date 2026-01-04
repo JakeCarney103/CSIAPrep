@@ -15,12 +15,12 @@ const essentialsChapter1QuizData = [
     answer: "Chimney Technicians"
   },
   {
-    question: "Every jurisdiction could have carying regulations. Some mandated by the state; others are local. (Page 2)",
+    question: "Every jurisdiction could have varying regulations. Some mandated by the state; others are local. (Page 2)",
     options: ["True", "False"],
     answer: "True"
   },
   {
-    question: "Many code sections daling with chimneys, fireplaces, solid fuel appliances, connectors, and venting systems are based on the _________. (Page 2)",
+    question: "Many code sections dealing with chimneys, fireplaces, solid fuel appliances, connectors, and venting systems are based on the _________. (Page 2)",
     options: ["UL 103", "NFPA 54", "NFPA 211", "ASTM E-1509"],
     answer: "NFPA 211"
   },

@@ -185,14 +185,16 @@ function loadQuiz(selectedQuizInfo, selectedBookInfo){
 	const quizTitle = document.createElement('h2');
 	quizTitle.innerText = selectedQuizInfo.quizName;
 	main.appendChild(quizTitle);
-    quizData.forEach((q, index) => {
+	const shuffledQuizData = shuffleArray([...quizData]);
+    shuffledQuizData.forEach((q, index) => {
       const div = document.createElement('div');
       div.classList.add('questionBlock');
 	  const question = document.createElement('h3');
 	  question.innerHTML = `${index + 1}. ${q.question}`;
 	  question.classList.add('question');
 	  div.appendChild(question);
-      q.options.forEach(option => {
+	  const shuffledOptions = shuffleArray([...q.options]);
+      shuffledOptions.forEach(option => {
         const label = document.createElement('label');
         label.innerHTML = `<input type='radio' name='q${index}' value='${option}'> ${option}`;
         div.appendChild(label);
@@ -204,7 +206,7 @@ function loadQuiz(selectedQuizInfo, selectedBookInfo){
 	submitQuizButton.textContent = 'Check Results!'
 	submitQuizButton.type = 'button';
 	submitQuizButton.onclick = function() {
-		submitQuiz(selectedQuizInfo);
+		submitQuiz(selectedQuizInfo, shuffledQuizData);
 	}
 	main.appendChild(submitQuizButton);
 	
@@ -220,33 +222,38 @@ function loadQuiz(selectedQuizInfo, selectedBookInfo){
 }
 
 
-function submitQuiz(selectedQuizInfo) {
+function submitQuiz(selectedQuizInfo, overallQuizData) {
       let score = 0;
-	  const quizData = window.quizRegistry[selectedQuizInfo.quizName];
-      quizData.forEach((q, index) => {
+	  let unanswered = 0;
+      overallQuizData.forEach((q, index) => {
         const selected = document.querySelector(`input[name='q${index}']:checked`);
-		let optionElement = selected.parentElement;
-		let questionElement = optionElement.parentElement.querySelector('.question');
-        if(selected && selected.value === q.answer) { 
+		if (!selected){
+			unanswered++;
+		}else{
+			let optionElement = selected.parentElement;
+			let questionElement = optionElement.parentElement.querySelector('.question');
+			if(selected.value === q.answer) { 
 			score++;
 			updateQuestionResult(optionElement, questionElement, true);
-		}else{
-			updateQuestionResult(optionElement, questionElement, false);
+			}else{
+				updateQuestionResult(optionElement, questionElement, false);
+			}
 		}
       });
 	  
-	displayScore(score, quizData.length)
+	displayScore(score, overallQuizData.length, unanswered)
 	  
 }
 
-function displayScore(score, total){
+function displayScore(score, total, unanswered){
 	let resultPercent = (score / total) * 100;
 	const main = document.getElementById('main');
 	const existingScore = document.querySelector('.score');
 	if (existingScore) existingScore.remove();
 	const scoreElement = document.createElement('p');
 	scoreElement.classList.add('score');
-	scoreElement.innerText = `You scored ${score} out of ${total} (${resultPercent.toFixed(2)}%)`;
+	unanswered === 0 ? scoreElement.innerText = `You scored ${score} out of ${total} (${resultPercent.toFixed(2)}%)` : scoreElement.innerText = `You scored ${score} out of ${total} (${resultPercent.toFixed(2)}%) (WARNING: You have ${unanswered} question(s) unanswered!)`;
+	
 	main.appendChild(scoreElement);
 }
 
@@ -278,4 +285,13 @@ function updateQuestionStatusColor(questionElement, isPass){
 	
 	questionElement.style.backgroundColor = '';
 	questionElement.style.backgroundColor = isPass ? '#90EE90' : '#FF7F7F'
+}
+
+// Shuffle function
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
 }
