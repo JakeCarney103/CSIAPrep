@@ -315,7 +315,7 @@ const essentialsChapter2QuizData = [
     answer: "Doors"
   },
   {
-    question: "According to the HUD's requirements around installing solid-fuel appliances in Manufactured and Mobile Homes, the cannot be installed where? (Page 17)",
+    question: "According to the HUD's requirements around installing solid-fuel appliances in Manufactured and Mobile Homes, the appliance cannot be installed where? (Page 17)",
     options: ["Kitchen", "Bathroom", "Any Sleeping Room", "Living Room"],
     answer: "Any Sleeping Room"
   },
