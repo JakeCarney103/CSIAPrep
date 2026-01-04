@@ -88,14 +88,14 @@ document.addEventListener('DOMContentLoaded', function() {
 function loadBookSelectionOptions(){
 	const main = document.getElementById('main');
 	const div = document.createElement('div');
-		div.classList.add('quizBlock');
+		div.classList.add('block');
 		const quizSelectionQuestion = document.createElement('p');
-		quizSelectionQuestion.classList.add('quizSelectionQuestion');
+		quizSelectionQuestion.classList.add('selectionQuestion');
 		quizSelectionQuestion.innerHTML = 'Select the book you would like to take quizzes against!';
 		div.appendChild(quizSelectionQuestion);
 	bookSelectionOptions.forEach(book =>{
 		const label = document.createElement('label');
-		label.classList.add('bookOptions');
+		label.classList.add('options');
 		label.innerHTML = `<input type='radio' name='bookSelection' value='${book.bookName}'> ${book.bookName}`;
 		div.appendChild(label);
 		div.appendChild(document.createElement('br'));
@@ -128,14 +128,14 @@ function loadQuizSelectionOptions(selectedBookInfo){
 	const quizSelectorDictionary = selectedBookInfo.bookName === 'NFPA 211' ? nfpaQuizSelectorDictionary : chimneyAndVentingEssentialsQuizSelectorDictionary;
 	const main = document.getElementById('main');
 	const div = document.createElement('div');
-		div.classList.add('quizBlock');
+		div.classList.add('block');
 		const quizSelectionQuestion = document.createElement('p');
-		quizSelectionQuestion.classList.add('quizSelectionQuestion');
+		quizSelectionQuestion.classList.add('selectionQuestion');
 		quizSelectionQuestion.innerHTML = 'Select the quiz you would like to take!';
 		div.appendChild(quizSelectionQuestion);
 	quizSelectorDictionary.forEach(quiz =>{
 		const label = document.createElement('label');
-		label.classList.add('quizOptions');
+		label.classList.add('options');
 		label.innerHTML = `<input type='radio' name='quizSelection' value='${quiz.quizName}'> ${quiz.quizName}`;
 		div.appendChild(label);
 		div.appendChild(document.createElement('br'));
@@ -188,7 +188,7 @@ function loadQuiz(selectedQuizInfo, selectedBookInfo){
 	const shuffledQuizData = shuffleArray([...quizData]);
     shuffledQuizData.forEach((q, index) => {
       const div = document.createElement('div');
-      div.classList.add('questionBlock');
+      div.classList.add('block');
 	  const question = document.createElement('h3');
 	  question.innerHTML = `${index + 1}. ${q.question}`;
 	  question.classList.add('question');
@@ -245,21 +245,30 @@ function submitQuiz(selectedQuizInfo, overallQuizData) {
 	  
 }
 
-function displayScore(score, total, unanswered){
-	let resultPercent = (score / total) * 100;
-	const main = document.getElementById('main');
-	const existingScore = document.querySelector('.score');
-	if (existingScore) existingScore.remove();
-	const scoreElement = document.createElement('p');
-	scoreElement.classList.add('score');
-	unanswered === 0 ? scoreElement.innerText = `You scored ${score} out of ${total} (${resultPercent.toFixed(2)}%)` : scoreElement.innerText = `You scored ${score} out of ${total} (${resultPercent.toFixed(2)}%) (WARNING: You have ${unanswered} question(s) unanswered!)`;
-	
-	main.appendChild(scoreElement);
+function updateQuestionResult(optionElement, questionElement, isCorrect){
+    addStatusIcon(optionElement, isCorrect);
+    const blockDiv = questionElement.closest('.block');
+    if(blockDiv) {
+        blockDiv.classList.remove('correct', 'incorrect');
+        blockDiv.classList.add(isCorrect ? 'correct' : 'incorrect');
+    }
 }
 
-function updateQuestionResult(optionElement, questionElement, isCorrect){
-	addStatusIcon(optionElement, isCorrect);
-	updateQuestionStatusColor(questionElement, isCorrect);
+function displayScore(score, total, unanswered){
+    let resultPercent = (score / total) * 100;
+    const main = document.getElementById('main');
+    const existingScore = document.querySelector('.score');
+    if (existingScore) existingScore.remove();
+
+    const scoreElement = document.createElement('p');
+    scoreElement.classList.add('score');
+    if(unanswered > 0) scoreElement.classList.add('warning');
+
+    scoreElement.innerText = unanswered === 0 
+        ? `You scored ${score} out of ${total} (${resultPercent.toFixed(2)}%) ✅`
+        : `You scored ${score} out of ${total} (${resultPercent.toFixed(2)}%) ⚠️ You have ${unanswered} unanswered question(s)!`;
+
+    main.appendChild(scoreElement);
 }
 
 function addStatusIcon(parentElement, isSuccess) {
@@ -278,13 +287,6 @@ function addStatusIcon(parentElement, isSuccess) {
 
     // Append it next to the parent content
     parentElement.appendChild(icon);
-}
-
-function updateQuestionStatusColor(questionElement, isPass){
-	if (!questionElement) return;
-	
-	questionElement.style.backgroundColor = '';
-	questionElement.style.backgroundColor = isPass ? '#90EE90' : '#FF7F7F'
 }
 
 // Shuffle function
