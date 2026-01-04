@@ -66,6 +66,10 @@ const chimneyAndVentingEssentialsQuizSelectorDictionary = [
     quizName: "Chapter 1: Role of the Modern Chimney Technician",
     fileName: "essentials-chapter1.js",
   },
+  {
+    quizName: "Chapter 2: Codes, Standards & Regulations",
+    fileName: "essentials-chapter2.js",
+  },
 ];
 
 const bookSelectionOptions = [
