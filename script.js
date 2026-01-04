@@ -141,14 +141,6 @@ function loadQuizSelectionOptions(selectedBookInfo){
 		div.appendChild(document.createElement('br'));
 	});
 	main.appendChild(div);
-	const backToBookSelectionButton = document.createElement('button')
-	backToBookSelectionButton.textContent = 'Back to Book Selection'
-	backToBookSelectionButton.type = 'button';
-	backToBookSelectionButton.onclick = function() {
-		clearMainForm();
-		loadBookSelectionOptions();
-	}
-	main.appendChild(backToBookSelectionButton);
 	
 	const beginQuizButton = document.createElement('button')
 	beginQuizButton.textContent = 'Begin Quiz!'
@@ -172,6 +164,16 @@ function loadQuizSelectionOptions(selectedBookInfo){
 		}
 	}
 	main.appendChild(beginQuizButton);
+	
+	const backToBookSelectionButton = document.createElement('button')
+	backToBookSelectionButton.textContent = 'Back to Book Selection'
+	backToBookSelectionButton.type = 'button';
+	backToBookSelectionButton.classList.add('back-button');
+	backToBookSelectionButton.onclick = function() {
+		clearMainForm();
+		loadBookSelectionOptions();
+	}
+	main.appendChild(backToBookSelectionButton);
 }
 
 function clearMainForm(){
@@ -213,6 +215,7 @@ function loadQuiz(selectedQuizInfo, selectedBookInfo){
 	const backToQuizSelectionButton = document.createElement('button')
 	backToQuizSelectionButton.textContent = 'Back to Quiz Selection'
 	backToQuizSelectionButton.type = 'button';
+	backToQuizSelectionButton.classList.add('back-button');
 	backToQuizSelectionButton.onclick = function() {
 		clearMainForm();
 		loadQuizSelectionOptions(selectedBookInfo);

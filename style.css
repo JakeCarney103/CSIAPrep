@@ -63,6 +63,18 @@ button {
     transition: all 0.3s ease;
 }
 
+button.back-button {
+    display: block;
+    width: auto;
+    margin-top: 12px;
+
+    padding: 8px 14px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(31, 119, 180, 0.35);
+}
+
 button:hover {
     background: linear-gradient(135deg, #155a8a 0%, #1f77b4 100%);
     transform: translateY(-2px);
@@ -111,3 +123,80 @@ button:active {
     font-weight: bold;
     font-size: 1.1rem;
 }
+
+
+/* Mobile improvements */
+@media (max-width: 768px) {
+    body {
+        padding: 16px;
+        background: linear-gradient(180deg, #e1e5ea 0%, #cfd6e0 100%);
+    }
+
+    h1 {
+        font-size: 1.9rem;
+        margin-bottom: 24px;
+        letter-spacing: 0.6px;
+    }
+
+    form {
+        padding: 20px;
+        border-radius: 14px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    }
+
+    .block {
+        padding: 16px;
+        margin-bottom: 18px;
+        border-left-width: 4px;
+    }
+
+    .question {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
+    button {
+        width: 100%;
+        margin: 10px 0 0;
+        padding: 16px;
+        font-size: 1rem;
+        border-radius: 14px;
+    }
+	
+	button.back-button {
+        width: 100%;
+    }
+
+    button + button {
+        margin-top: 12px;
+    }
+
+    .score {
+        font-size: 1.05rem;
+        padding: 16px;
+        margin-top: 16px;
+    }
+
+    .status-icon {
+        display: inline-block;
+        margin-left: 6px;
+        font-size: 1rem;
+    }
+}
+
+/* Extra small devices */
+@media (max-width: 400px) {
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    .question {
+        font-size: 0.95rem;
+    }
+
+    button {
+        font-size: 0.95rem;
+        padding: 14px;
+    }
+}
+
