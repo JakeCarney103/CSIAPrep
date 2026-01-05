@@ -11,6 +11,7 @@ const nfpaQuizSelectorDictionary = [
     quizName: "NFPA 211 - Chapter 3: Definitions",
     fileName: "nfpa211-chapter3.js",
   },
+  /*
   {
     quizName: "NFPA 211 - Chapter 4: General Requirements",
     fileName: "nfpa211-chapter4.js",
@@ -59,16 +60,21 @@ const nfpaQuizSelectorDictionary = [
     quizName: "NFPA 211 - Chapter 15: Inspection of Existing Chimneys",
     fileName: "nfpa211-chapter15.js",
   }
+  */
 ];
 
 const chimneyAndVentingEssentialsQuizSelectorDictionary = [
   {
     quizName: "Chapter 1: Role of the Modern Chimney Technician",
-    fileName: "essentials-chapter1.js",
+    fileName: "chapter1.js",
   },
   {
     quizName: "Chapter 2: Codes, Standards & Regulations",
-    fileName: "essentials-chapter2.js",
+    fileName: "chapter2.js",
+  },
+  
+    quizName: "Chapter 3: Health and Safety at the Job Site",
+    fileName: "chapter3.js",
   },
 ];
 
