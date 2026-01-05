@@ -72,7 +72,7 @@ const chimneyAndVentingEssentialsQuizSelectorDictionary = [
     quizName: "Chapter 2: Codes, Standards & Regulations",
     fileName: "chapter2.js",
   },
-  
+  {
     quizName: "Chapter 3: Health and Safety at the Job Site",
     fileName: "chapter3.js",
   },
