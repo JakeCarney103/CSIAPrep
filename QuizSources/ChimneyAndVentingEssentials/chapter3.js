@@ -90,9 +90,9 @@ const essentialsChapter3QuizData = [
     answer: "True"
   },
   {
-    question: "You should always use EXTREME CAUTION when using aluminium ladders near power lines because _________. (Page 22)",
-    options: ["It can mean instant death if contacted with a power line", "Aluminium ladders conduct electricity", "Electric can jump from the power line", "All the above"],
-    answer: "All the above"
+    question: "You should always use EXTREME CAUTION when using aluminum ladders near power lines because _________. (Page 22)",
+    options: ["It can mean instant death if contacted with a power line", "Aluminum ladders conduct electricity", "Electric can jump from the power line", "All of these"],
+    answer: "All of these"
   },
   {
     question: "Ladders should be kept at a minimum of _________ from any power line. (Page 22)",
@@ -115,7 +115,7 @@ const essentialsChapter3QuizData = [
     answer: "Metal spreaders or locking devices"
   },
   {
-    question: "Ladders with structural defect, such as broken or missing rungs, cleats, or steps, broken or split rails; corroded components; or other faulty or defective components, do not have to immediately be marked as defective. (Page 23)",
+    question: "Ladders with structural defects, such as broken or missing rungs, cleats, or steps, broken or split rails; corroded components; or other faulty or defective components, do not have to immediately be marked as defective. (Page 23)",
     options: ["True", "False"],
     answer: "False"
   },
@@ -157,7 +157,7 @@ const essentialsChapter3QuizData = [
   {
     question: "It is alright to lean a ladder against a chimney if there are visible signs of deteriation, because after all, it is solid masonry. (Page 25)",
     options: ["True", "False"],
-    answer: "True"
+    answer: "False"
   },
   {
     question: "You should always use extreme caution leaning a ladder against a wooden chimney chase because it may not be structurally sound or properly secured. (Page 25)",
