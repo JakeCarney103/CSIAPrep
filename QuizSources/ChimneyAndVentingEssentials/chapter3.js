@@ -164,7 +164,176 @@ const essentialsChapter3QuizData = [
     options: ["True", "False"],
     answer: "True"
   },
-
+  {
+    question: "According to the Chimney And Venting Essentials book, when can you sit or stand on top of a chimney? (Page 25)",
+    options: ["Never", "When stretching a liner", "When dropping a liner", "When it is not wet, damp or slippery"],
+    answer: "Never"
+  },
+  {
+    question: "According to the Chimney And Venting Essentials book, when can you stand on a chase cover while performing work on a factory-built chimney? (Page 25)",
+    options: ["Never", "When replacing the chase cover", "When inspecting or sweeping the chimney", "When it is not wet, damp or slippery"],
+    answer: "Never"
+  },
+  {
+    question: "According to the Chimney And Venting Essentials book, when can you sit or stand on top of a chimney? (Page 25)",
+    options: ["Never", "When stretching a liner", "When dropping a liner", "When it is not wet, damp or slippery"],
+    answer: "Never"
+  },
+  {
+    question: "_________ and _________ are the 2 common methods of cleaning chimneys from the roof. (Page 26)",
+    options: ["Rotary Sweeping and Traditional Chimney Rods", "Chemical Coating and PCR", "Tuckpointing And Waterproofing", "Ridge Hooking and Brushing"],
+    answer: "Rotary Sweeping and Traditional Chimney Rods"
+  },
+  {
+    question: "Because the Rods can become detached and you can lose your balance due to a sudden lack of tension, you should never push or pull rods with sufficient force when sweeping from the top. (Page 26)",
+    options: ["True", "False"],
+    answer: "True"
+  },
+  {
+    question: "Why should you not throw stuff off the roof? (Page 26)",
+    options: ["It could cause damage to the homeowner's property", "It could damage the tools, if a tool was the object thrown", "It could cause injury or fatality to someone below", "All of these"],
+    answer: "All of these"
+  },
+  {
+    question: "One of the most common injuries suffered by chimney technicians is to the _________. (Page 26)",
+    options: ["Back", "Shoulders", "Head", "Fingers"],
+    answer: "Back"
+  },
+  {
+    question: "When picking something up, squat by bending your _________. (Page 27)",
+    options: ["Knees", "Waist", "Back", "Obliques"],
+    answer: "Knees"
+  },
+  {
+    question: "When lifting, you should _________. (Page 27)",
+    options: ["Lift straight up, do not bend forward", "Bend forward and lift straight up", "Never ask for help because you will be made fun of", "Twist towards your destination as you stand so that you can move the object quicker"],
+    answer: "Lift straight up, do not bend forward"
+  },
+  {
+    question: "How should you set your load down? (Page 27)",
+    options: ["Drop it, but make sure you don't hit your toes", "Slowly bend over at your waist and gently sit the load on the floor", "Squat, allowing the muscles of your legs and buttocks to do the work", "Grunt like a tennis player"],
+    answer: "Squat, allowing the muscles of your legs and buttocks to do the work"
+  },
+  {
+    question: "_________ is something employers should have available for all employees. It is for all products that technicians use in the business. This is divided into sections that include identification, physical data, reactivity, health hazard data, environmental impact, exposure control methods, work practices, emergency procedures, and first aid/medical emergency procedures. (Page 27)",
+    options: ["Equipment Identification Sheet", "Safety Data Sheets", "Product Instructions", "Equipment Checklists"],
+    answer: "Safety Data Sheets"
+  },
+  {
+    question: "Where do copies of the SDS (Safety Data Sheets) need to be? (Page 27)",
+    options: ["At your house so you can study and memorize them", "Wherever an employee meets a potentially hazardous material", "Wherever the AHJ determines", "In the homeowners personal records"],
+    answer: "Wherever an employee meets a potentially hazardous material"
+  },
+  {
+    question: "When it comes to ANSI, ALL hardhats must comply with _________? (Page 28)",
+    options: ["ANSI Z89.1", "ANSI Z21.8", "ANSI A89.1", "ANSI A21.8"],
+    answer: "ANSI Z89.1"
+  },
+  {
+    question: "This class of helmet is intended to reduce the force of impact resulting in a blow only to the top of the head. (Page 28)",
+    options: ["Type 1", "Type 2", "Class E (Formerly Class B)", "Class G (Formerly Class A)", "Class C"],
+    answer: "Type 1"
+  },
+  {
+    question: "This class of helmet is intended to reduce the force of impact resulting in a blow to the top of the head and the side of the head. (Page 28)",
+    options: ["Type 1", "Type 2", "Class E (Formerly Class B)", "Class G (Formerly Class A)", "Class C"],
+    answer: "Type 2"
+  },
+  {
+    question: "This class of helmet is for use where electrical hazards are present and intended to protect against falling objects and reduce the danger of exposure to high voltage electrical shocks and burns. Offers the highest protection with high-voltage shock and burn protection up to 20,000 volts. (Page 28)",
+    options: ["Type 1", "Type 2", "Class E (Formerly Class B)", "Class G (Formerly Class A)", "Class C"],
+    answer: "Class E (Formerly Class B)"
+  },
+  {
+    question: "This class of helmet is for general use intended to protect against falling objects and reduce the danger of exposure to low voltage electrical conductors. They provide impact and penetration resistance and protection from up to 2,200 volts. (Page 28)",
+    options: ["Type 1", "Type 2", "Class E (Formerly Class B)", "Class G (Formerly Class A)", "Class C"],
+    answer: "Class G (Formerly Class A)"
+  },
+  {
+    question: "This class of helmet is not tested for electrical resistance . They are designed for lightweight comfort and impact protection and are not intended to provide protection from electrical conductors. (Page 28)",
+    options: ["Type 1", "Type 2", "Class E (Formerly Class B)", "Class G (Formerly Class A)", "Class C"],
+    answer: "Class C"
+  },
+  {
+    question: "Liners or sweatbands can be added to hard hats / helmets to aid in warmth or cooling. (Page 28)",
+    options: ["True", "False"],
+    answer: "True"
+  },
+  {
+    question: "When it comes to eye protection, street wear frames with safety lenses are in compliance. (Page 29)",
+    options: ["True", "False"],
+    answer: "False"
+  },
+  {
+    question: "What is the cure for noise induced hearing loss? (Page 30)",
+    options: ["There is none", "Surgery", "Medication", "Wearing noise canceling ear protection for a month so that your ears can heal"],
+    answer: "There is none"
+  },
+  {
+    question: "A chimney technician should wear a respirator to filter _________? (Page 30)",
+    options: ["Dust and Organic Vapors", "Only Dust", "Only Organic Vapors", "Fly Ash"],
+    answer: "Dust and Organic Vapors"
+  },
+  {
+    question: "Negative Pressure Respirators rely on _________? (Page 30)",
+    options: ["A motor that pulls fresh air into the mask", "Physics related to the user's elevation level", "The user's own breathing power", "Clean external air"],
+    answer: "The user's own breathing power"
+  },
+  {
+    question: "Powered Air Protection Respirators (PAPR) rely on _________? (Page 30)",
+    options: ["A motor that pulls air through the filter and blows fresh air into the mask", "Physics related to the user's elevation level", "The user's own breathing power", "Clean external air"],
+    answer: "A motor that pulls air through the filter and blows fresh air into the mask"
+  },
+  {
+    question: "When it comes to gloves, they must provide required protection AND the manual dexterity needed to perform the required task(s)? (Page 31)",
+    options: ["True", "False"],
+    answer: "True"
+  },
+  {
+    question: "When you are using rotary cleaning systems, what should you do when it comes to the spinning rods? (Page 31)",
+    options: ["Make sure you use a piece of garden hose or PVC Pipe around it so that your hand / gloves don't get entangled and cause injury", "Grip it loosely while using gloves so that your gloves don't get entangled and cause injury", "If you grab them, make sure to take your gloves off first so that they don't get entangled and cause injury", "Have one person control the drill, while the other grabs and guides the rods"],
+    answer: "Make sure you use a piece of garden hose or PVC Pipe around it so that your hand / gloves don't get entangled and cause injury"
+  },
+  {
+    question: "When it comes to footwear, you should avoid slick or smooth soles such as leather. (Page 31)",
+    options: ["True", "False"],
+    answer: "True"
+  },
+  {
+    question: "You should always be careful around fuse boxes and circuit breaker panels. You should NEVER touch a fuse box or circuit breaker panel if there is water on the floor. (Page 31)",
+    options: ["True", "False"],
+    answer: "True"
+  },
+  {
+    question: "OSHA requires on the job fatalities to be reported within _________. (Page 32)",
+    options: ["30 minutes if possible", "4 hours", "8 hours", "24 hours"],
+    answer: "8 hours"
+  },
+  {
+    question: "OSHA requires on the job accidents resulting in the loss of an eye, amputation or in-patient hospitalization to be reported within _________. (Page 32)",
+    options: ["48 hours", "36 hours", "8 hours", "24 hours"],
+    answer: "24 hours"
+  },
+  {
+    question: "Soot and creosote are derivatives of _________. (Page 32)",
+    options: ["Chimney Sweeping", "The combustion process", "Condensation in the flue", "Chemical Flue Cleaning"],
+    answer: "The combustion process"
+  },
+  {
+    question: "Aromatic hydrocarbons related to derivatives of the combustion process are _________. (Page 32)",
+    options: ["Proven Carcinogens (cancer-causing)", "Good smelling odors", "Healthy", "Only able to enter the body through the lungs"],
+    answer: "Proven Carcinogens (cancer-causing)"
+  },
+  {
+    question: "Swallowed soot can enter the intestinal tract, therefore medical professionals have advised if you cough it up, you should _________. (Page 32)",
+    options: ["Spit it out", "Swallow it again", "It can't enter the intestinal tract", "Hold it in your mouth for at least 10 seconds so it can be diluted by your saliva"],
+    answer: "Spit it out"
+  },
+  {
+    question: "Because of soot, when it comes to clothing it is best to wear _________. (Page 32)",
+    options: ["Long pants and socks", "Shorts in the summer so you can quickly wipe the soot off", "Whatever makes you comfortable", "Bulky gloves, even if they hinder your dexterity"],
+    answer: "Long pants and socks"
+  },
 ];
 
 if (!window.quizRegistry) window.quizRegistry = {};
