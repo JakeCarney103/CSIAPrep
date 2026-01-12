@@ -50,7 +50,7 @@ const essentialsChapter2QuizData = [
     answer: "All the above"
   },
   {
-    question: "_________ is the most revalant document to those in the solid fuel industry. (Page 7)",
+    question: "_________ is the most relevant document to those in the solid fuel industry. (Page 7)",
     options: ["NFPA 31", "NFPA 54", "NFPA 211", "IRC"],
     answer: "NFPA 211"
   },

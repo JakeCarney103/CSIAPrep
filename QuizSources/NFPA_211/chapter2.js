@@ -6,12 +6,12 @@ const nfpa211Chapter2QuizData = [
   },
   {
     question: "NFPA 54 is the? (NFPA 211 2.2)",
-    options: ["Standard for Gas-Burning Equipment", "National Fuel Gas Code", "Standard on Incenerators and Waste and Linen Handling Systems and Equipment", "Standard Specification for Grout for Masonry"],
+    options: ["Standard for Gas-Burning Equipment", "National Fuel Gas Code", "Standard on Incinerators and Waste and Linen Handling Systems and Equipment", "Standard Specification for Grout for Masonry"],
     answer: "National Fuel Gas Code"
   },
   {
     question: "NFPA 72 is the? (NFPA 211 2.2)",
-    options: ["National Fire Alarm and Signaling Code", "National Fuel Gas Code", "Standard for Chimneys, Fireplaces, Vents, and Solid Fuel-Burning Appliances", "Boilder and Combustion Systems Hazards Code"],
+    options: ["National Fire Alarm and Signaling Code", "National Fuel Gas Code", "Standard for Chimneys, Fireplaces, Vents, and Solid Fuel-Burning Appliances", "Boiler and Combustion Systems Hazards Code"],
     answer: "National Fire Alarm and Signaling Code"
   },
   {
@@ -21,17 +21,17 @@ const nfpa211Chapter2QuizData = [
   },
   {
     question: "NFPA 85 is the? (NFPA 211 2.4)",
-    options: ["National Fuel Gas Code", "Standard Specification for Firebox Brick for Residental Fireplaces", "Boiler and Combustion Systems Hazards Code", "Standard Classification of Fireclay and High-Alumina Refractory Brick"],
+    options: ["National Fuel Gas Code", "Standard Specification for Firebox Brick for Residential Fireplaces", "Boiler and Combustion Systems Hazards Code", "Standard Classification of Fireclay and High-Alumina Refractory Brick"],
     answer: "Boiler and Combustion Systems Hazards Code"
   },
   {
     question: "NFPA 90B is the? (NFPA 211 2.2)",
-    options: ["Boilder and Combustion Systems Hazards Code", "Standard for the Installation of Warm Air Heating and Air-Conditioning Systems", "Standard for Ventilation Control and Fire Protection of Commercial Cooking Operations", "National Fuel Gas Code"],
+    options: ["Boiler and Combustion Systems Hazards Code", "Standard for the Installation of Warm Air Heating and Air-Conditioning Systems", "Standard for Ventilation Control and Fire Protection of Commercial Cooking Operations", "National Fuel Gas Code"],
     answer: "Standard for the Installation of Warm Air Heating and Air-Conditioning Systems"
   },
   {
     question: "NFPA 96 is the? (NFPA 211 2.2)",
-    options: ["Building Construction and Safety Code", "Boilder and Combustion Systems Hazards Code", "Standard for the Installation of Warm Air Heating and Air-Conditioning Systems", "Standard for Ventilation Control and Fire Protection of Commercial Cooking Operations"],
+    options: ["Building Construction and Safety Code", "Boiler and Combustion Systems Hazards Code", "Standard for the Installation of Warm Air Heating and Air-Conditioning Systems", "Standard for Ventilation Control and Fire Protection of Commercial Cooking Operations"],
     answer: "Standard for Ventilation Control and Fire Protection of Commercial Cooking Operations"
   },
   {
@@ -41,12 +41,12 @@ const nfpa211Chapter2QuizData = [
   },
   {
     question: "ASTM C27 is the? (NFPA 211 2.3.2)",
-    options: ["Standard Guide for Construction of Solid Fuel Burning Masonry Heaters", "Standard for Ventilation Control and Fire Protection of Commercial Cooking Operations", "National Fire Alarm and Signaling Code", "Standard Classifiction of Fireclay and High-Alumina Refractory Brick"],
-    answer: "Standard Classifiction of Fireclay and High-Alumina Refractory Brick"
+    options: ["Standard Guide for Construction of Solid Fuel Burning Masonry Heaters", "Standard for Ventilation Control and Fire Protection of Commercial Cooking Operations", "National Fire Alarm and Signaling Code", "Standard Classification of Fireclay and High-Alumina Refractory Brick"],
+    answer: "Standard Classification of Fireclay and High-Alumina Refractory Brick"
   },
   {
     question: "ASTM C199 is the? (NFPA 211 2.3.2)",
-    options: ["Standard Specification for Grout for Masonry", "Standard Guide for Construction of Solid Fuel Burning Masonry Heaters", "Standard Test Method for Pier Test for Refractory Mortars", "Standard Classifiction of Fireclay and High-Alumina Refractory Brick"],
+    options: ["Standard Specification for Grout for Masonry", "Standard Guide for Construction of Solid Fuel Burning Masonry Heaters", "Standard Test Method for Pier Test for Refractory Mortars", "Standard Classification of Fireclay and High-Alumina Refractory Brick"],
     answer: "Standard Test Method for Pier Test for Refractory Mortars"
   },
   {
@@ -61,8 +61,8 @@ const nfpa211Chapter2QuizData = [
   },
   {
     question: "ASTM C1261 is the? (NFPA 211 2.3.2)",
-    options: ["Standard for Ventilation Control and Fire Protection of Commercial Cooking Operations", "Standard Classifiction of Fireclay and High-Alumina Refractory Brick", "Standard for Ventilation Control and Fire Protection of Commercial Cooking Operations", "Standard Specification for Firebox Brick for Residental Fireplaces"],
-    answer: "Standard Specification for Firebox Brick for Residental Fireplaces"
+    options: ["Standard for Ventilation Control and Fire Protection of Commercial Cooking Operations", "Standard Classification of Fireclay and High-Alumina Refractory Brick", "Standard for Ventilation Control and Fire Protection of Commercial Cooking Operations", "Standard Specification for Firebox Brick for Residential Fireplaces"],
+    answer: "Standard Specification for Firebox Brick for Residential Fireplaces"
   },
   {
     question: "ASTM E136 is the? (NFPA 211 2.3.2)",
@@ -71,7 +71,7 @@ const nfpa211Chapter2QuizData = [
   },
   {
     question: "ASTM E1602 is the? (NFPA 211 2.3.2)",
-    options: ["Standard Test Method for Pier Test for Refractory Mortars", "Standard Classifiction of Fireclay and High-Alumina Refractory Brick", "Standard Guide for Construction of Solid Fuel Burning Masonry Heaters", "Standard Test Method for Pier Test for Refractory Mortars"],
+    options: ["Standard Test Method for Pier Test for Refractory Mortars", "Standard Classification of Fireclay and High-Alumina Refractory Brick", "Standard Guide for Construction of Solid Fuel Burning Masonry Heaters", "Standard Test Method for Pier Test for Refractory Mortars"],
     answer: "Standard Guide for Construction of Solid Fuel Burning Masonry Heaters"
   },
   {
@@ -81,12 +81,12 @@ const nfpa211Chapter2QuizData = [
   },
   {
     question: "UL 103 relates to? (NFPA 211 2.3.3)",
-    options: ["Draft Equipment", "Factory-Built Fireplaces", "Factory-Built Chimneys for Residental Type and Building Heating Appliances", "Factory-Built Chimneys for Commercial Type and Building Heating Appliances"],
-    answer: "Factory-Built Chimneys for Residental Type and Building Heating Appliances"
+    options: ["Draft Equipment", "Factory-Built Fireplaces", "Factory-Built Chimneys for Residential Type and Building Heating Appliances", "Factory-Built Chimneys for Commercial Type and Building Heating Appliances"],
+    answer: "Factory-Built Chimneys for Residential Type and Building Heating Appliances"
   },
   {
     question: "UL 127 relates to? (NFPA 211 2.3.3)",
-    options: ["Masonry Fireplaces", "Factory-Built Fireplaces", "Factory-Built Chimneys for Residental Type and Building Heating Appliances", "Factory-Built Chimneys for Commercial Type and Building Heating Appliances"],
+    options: ["Masonry Fireplaces", "Factory-Built Fireplaces", "Factory-Built Chimneys for Residential Type and Building Heating Appliances", "Factory-Built Chimneys for Commercial Type and Building Heating Appliances"],
     answer: "Factory-Built Fireplaces"
   },
   {

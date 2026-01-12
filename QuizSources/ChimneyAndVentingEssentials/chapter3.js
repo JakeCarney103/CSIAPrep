@@ -16,7 +16,7 @@ const essentialsChapter3QuizData = [
   },
   {
     question: "Before you set up your ladder, you should _________. (Page 21)",
-    options: ["Carry the ladder to the location vertically", "Walk around the house to be sure that you have chosen the best location", "Always use the porch since it is ususally clear", "Ignore power lines"],
+    options: ["Carry the ladder to the location vertically", "Walk around the house to be sure that you have chosen the best location", "Always use the porch since it is usually clear", "Ignore power lines"],
     answer: "Walk around the house to be sure that you have chosen the best location"
   },
   {
@@ -25,7 +25,7 @@ const essentialsChapter3QuizData = [
     answer: "Horizontally"
   },
   {
-    question: "As long as you are not touching the powerline with your ladder, you are fine. (Page 21)",
+    question: "As long as you are not touching the power line with your ladder, you are fine. (Page 21)",
     options: ["True", "False"],
     answer: "False"
   },
@@ -65,7 +65,7 @@ const essentialsChapter3QuizData = [
     answer: "Stand at the base of the ladder and make sure your hands can reach it if holding them straight out"
   },
   {
-    question: "Stepladders should be nore more than _________ below the height you want to work at. (Page 21)",
+    question: "Stepladders should be no more than _________ below the height you want to work at. (Page 21)",
     options: ["1 foot", "2 feet", "3 feet", "4 feet"],
     answer: "4 feet"
   },
@@ -155,7 +155,7 @@ const essentialsChapter3QuizData = [
     answer: "Roof Ladder and Ridge Hook"
   },
   {
-    question: "It is alright to lean a ladder against a chimney if there are visible signs of deteriation, because after all, it is solid masonry. (Page 25)",
+    question: "It is alright to lean a ladder against a chimney if there are visible signs of deterioration, because after all, it is solid masonry. (Page 25)",
     options: ["True", "False"],
     answer: "False"
   },

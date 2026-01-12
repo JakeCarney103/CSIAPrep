@@ -30,7 +30,7 @@ const nfpa211Chapter3QuizData = [
     answer: "Should"
   },
   {
-    question: "__________ : An NFPA standard, the main text of which contains only mandatory provisions using the word 'shall' to indicate requirements and that is in a form generally suitable for mandatory reference by another standard or code or for adoption into law. Nonmandatory provisions are not to be considered a part of the requirements of a standard and shall be located in appendix, annex, footnote, informational note, or other means as permitted in the NFPA manuals of style. When used in a generic sense, such as in the phrases 'standards development process' or 'standards development activities,' the term 'standards' includes all NFPA standards, including codes, standards, recommended practices, and guides. (NFPA 211 3.2.7)",
+    question: "__________ : An NFPA standard, the main text of which contains only mandatory provisions using the word 'shall' to indicate requirements and that is in a form generally suitable for mandatory reference by another standard or code or for adoption into law. Non mandatory provisions are not to be considered a part of the requirements of a standard and shall be located in appendix, annex, footnote, informational note, or other means as permitted in the NFPA manuals of style. When used in a generic sense, such as in the phrases 'standards development process' or 'standards development activities,' the term 'standards' includes all NFPA standards, including codes, standards, recommended practices, and guides. (NFPA 211 3.2.7)",
     options: ["Code", "Standard", "Recommendations", "Requirements"],
     answer: "Standard"
   },
@@ -225,7 +225,7 @@ const nfpa211Chapter3QuizData = [
     answer: "Chimney"
   },
   {
-    question: "__________ : A heating appliance chimney suitable for continuous use at 1000°F, composed of listed, factory-built components, designed for open, nonenclosed use at specified minimum clearances to combustibles, and assembled in accordance with the terms of the listing to form the completed chimney. (NFPA 211 3.3.29.1.1)",
+    question: "__________ : A heating appliance chimney suitable for continuous use at 1000°F, composed of listed, factory-built components, designed for open, non-enclosed use at specified minimum clearances to combustibles, and assembled in accordance with the terms of the listing to form the completed chimney. (NFPA 211 3.3.29.1.1)",
     options: ["Factory-Built, Building Heating Appliance-Type Chimney", "Factory-Built 1400°F F-Type Chimney", "Masonry Chimney", "Factory-Built, Medium-Heat Appliance-Type Chimney"],
     answer: "Factory-Built, Building Heating Appliance-Type Chimney"
   },
@@ -240,12 +240,12 @@ const nfpa211Chapter3QuizData = [
     answer: "Type HT Factory-Built, Residential-Type and/or Building Heating Appliance-Type Chimney"
   },
   {
-    question: "__________ : A chimney suitable for continuous use at 1400°F, composed of listed, factory-built components, intended for open, nonenclosed use at specified minimum clearances to combustibles and for use in noncombustible locations, and assembled in accordance with the terms of the listing to form the completed chimney. (NFPA 211 3.3.29.2)",
+    question: "__________ : A chimney suitable for continuous use at 1400°F, composed of listed, factory-built components, intended for open, non-enclosed use at specified minimum clearances to combustibles and for use in noncombustible locations, and assembled in accordance with the terms of the listing to form the completed chimney. (NFPA 211 3.3.29.2)",
     options: ["Type HT Factory-Built, Residential-Type and/or Building Heating Appliance-Type Chimney", "Factory-Built 1400°F F-Type Chimney", "Factory-Built, Residential-Type and Building Heating Appliance-Type Chimney", "Factory-Built, Medium-Heat Appliance-Type Chimney"],
     answer: "Factory-Built 1400°F F-Type Chimney"
   },
   {
-    question: "__________ : A chimney used with appliances that produce maximum flue gas temperatures of 1800°F, composed of listed, factory-built components, suitable for open, nonenclosed use at specified minimum clearances to combustibles, and assembled in accordance with the terms of the listing to form the completed chimney. (NFPA 211 3.3.29.3)",
+    question: "__________ : A chimney used with appliances that produce maximum flue gas temperatures of 1800°F, composed of listed, factory-built components, suitable for open, non-enclosed use at specified minimum clearances to combustibles, and assembled in accordance with the terms of the listing to form the completed chimney. (NFPA 211 3.3.29.3)",
     options: ["Type HT Factory-Built, Residential-Type and/or Building Heating Appliance-Type Chimney", "Factory-Built 1400°F F-Type Chimney", "Factory-Built, Residential-Type and Building Heating Appliance-Type Chimney", "Factory-Built, Medium-Heat Appliance-Type Chimney"],
     answer: "Factory-Built, Medium-Heat Appliance-Type Chimney"
   },
@@ -696,8 +696,8 @@ const nfpa211Chapter3QuizData = [
   },
   {
     question: "__________ : Screening material or a screening device attached to a chimney termination to prevent the passage of sparks and brands to the outside atmosphere. (NFPA 211 3.3.126)",
-    options: ["Cap", "Spark Arresters", "Mesh", "Damper"],
-    answer: "Spark Arresters"
+    options: ["Cap", "Spark Arrestors", "Mesh", "Damper"],
+    answer: "Spark Arrestors"
   },
   {
     question: "__________ : A unit consisting of a steel firebox and an air chamber adjacent to the sides and rear of the firebox, used to construct a masonry fireplace. the unit usually has ducts to circulate air to and heated air from the air chamber to the living space. (NFPA 211 3.3.129)",

@@ -20,7 +20,7 @@ const nfpa211Chapter1QuizData = [
     answer: "True"
   },
   {
-    question: "Only the _______ can determine that portions of this standard can be applied retroactivly if they determine the existing situation presents an unacceptable degree of risk. The same party can also permit those retroactive requirements to be modified if their application clearly would be impractical and only where it is clearly evident that a reasonable degree of safety is provided. (NFPA 211 1.3.2 - 1.3.3)",
+    question: "Only the _______ can determine that portions of this standard can be applied retroactively if they determine the existing situation presents an unacceptable degree of risk. The same party can also permit those retroactive requirements to be modified if their application clearly would be impractical and only where it is clearly evident that a reasonable degree of safety is provided. (NFPA 211 1.3.2 - 1.3.3)",
     options: ["Homeowner", "Authority Having Jurisdiction", "Manufacturer", "Owner of the company"],
     answer: "Authority Having Jurisdiction"
   },
@@ -31,7 +31,7 @@ const nfpa211Chapter1QuizData = [
   },
   {
     question: "If the AHJ determines tests are required to show proof of equivalency, those tests shall be provided at what cost to the Jurisdiction? (NFPA 211 1.4.3.2)",
-    options: ["The AHJ and Jurisdiction shall split the costs 50/50", "The AHJ and Jursidction shall split the costs 75/25 (75 being AHJ)", "The AHJ and Jursidction shall split the costs 75/25 (75 being Jurisdiction)","No cost to the Jurisdiction"],
+    options: ["The AHJ and Jurisdiction shall split the costs 50/50", "The AHJ and Jurisdiction shall split the costs 75/25 (75 being AHJ)", "The AHJ and Jurisdiction shall split the costs 75/25 (75 being Jurisdiction)","No cost to the Jurisdiction"],
     answer: "No cost to the Jurisdiction"
   },
   {
