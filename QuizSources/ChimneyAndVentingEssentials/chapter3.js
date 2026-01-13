@@ -291,8 +291,8 @@ const essentialsChapter3QuizData = [
   },
   {
     question: "When you are using rotary cleaning systems, what should you do when it comes to the spinning rods? (Page 31)",
-    options: ["Make sure you use a piece of garden hose or PVC Pipe around it so that your hand / gloves don't get entangled and cause injury", "Grip it loosely while using gloves so that your gloves don't get entangled and cause injury", "If you grab them, make sure to take your gloves off first so that they don't get entangled and cause injury", "Have one person control the drill, while the other grabs and guides the rods"],
-    answer: "Make sure you use a piece of garden hose or PVC Pipe around it so that your hand / gloves don't get entangled and cause injury"
+    options: ["Make sure you use a piece of garden hose or PVC Pipe around it so that your hand and gloves don't get entangled and cause injury", "Grip it loosely while using gloves so that your gloves don't get entangled and cause injury", "If you grab them, make sure to take your gloves off first so that they don't get entangled and cause injury", "Have one person control the drill, while the other grabs and guides the rods"],
+    answer: "Make sure you use a piece of garden hose or PVC Pipe around it so that your hand and gloves don't get entangled and cause injury"
   },
   {
     question: "When it comes to footwear, you should avoid slick or smooth soles such as leather. (Page 31)",
