@@ -241,7 +241,7 @@ function submitQuiz(selectedQuizInfo, overallQuizData) {
 		}else{
 			let optionElement = selected.parentElement;
 			let questionElement = optionElement.parentElement.querySelector('.question');
-			if(selected.value === q.answer) { 
+			if(normalize(selected.value) === normalize(q.answer)) { 
 			score++;
 			updateQuestionResult(optionElement, questionElement, true);
 			}else{
@@ -305,4 +305,11 @@ function shuffleArray(array) {
     [array[i], array[j]] = [array[j], array[i]];
   }
   return array;
+}
+
+function normalize(str) {
+  return str
+    .trim()
+    .normalize("NFKC")
+    .replace(/[’‘]/g, "'"); // normalize curly apostrophes
 }
