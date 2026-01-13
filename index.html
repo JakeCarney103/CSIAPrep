@@ -9,32 +9,21 @@
 <body>
     <h1>CSIA Prep Quiz</h1>
     <form id='main'></form>
-	<!--
-	<script src='QuizSources/NFPA_211/chapter1.js'></script>
-	<script src='QuizSources/NFPA_211/chapter2.js'></script>
-	<script src='QuizSources/NFPA_211/chapter3.js'></script>
-	
-	<script src='QuizSources/ChimneyAndVentingEssentials/chapter1.js'></script>
-	<script src='QuizSources/ChimneyAndVentingEssentials/chapter2.js'></script>
-	<script src='QuizSources/ChimneyAndVentingEssentials/chapter3.js'></script>
-	
-    <script src='script.js'></script>
-	-->
+	<script src='masterKey.js'></script>
+
 	<script>
-				const scriptsToLoad = [
-				'QuizSources/NFPA_211/chapter1.js',
-				'QuizSources/NFPA_211/chapter2.js',
-				'QuizSources/NFPA_211/chapter3.js',
-				
-				'QuizSources/ChimneyAndVentingEssentials/chapter1.js',
-				'QuizSources/ChimneyAndVentingEssentials/chapter2.js',
-				'QuizSources/ChimneyAndVentingEssentials/chapter3.js',
-				
-				'script.js'
-			];
-
+			
 			const cacheBuster = Date.now();
+			const scriptsToLoad = [];
+			window.masterKey.forEach(book => {
+			  book.quizDictionary.forEach(quiz => {
+				scriptsToLoad.push(`QuizSources/${book.folder}/${quiz.fileName}`);
+			  });
+			});
+			// Always load main script last
+			scriptsToLoad.push('script.js');
 
+			// Load scripts sequentially to ensure dependencies
 			function loadScriptSequentially(index = 0) {
 			  if (index >= scriptsToLoad.length) return;
 
@@ -43,9 +32,7 @@
 			  script.onload = () => loadScriptSequentially(index + 1);
 			  document.body.appendChild(script);
 			}
-
-			// Start loading
 			loadScriptSequentially();
-		</script>
+	</script>
 </body>
 </html>
