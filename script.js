@@ -89,21 +89,11 @@ const bookSelectionOptions = [
 
 // Normalize URL on load
 document.addEventListener('DOMContentLoaded', () => {
-    normalizeURL();
-
+	
     // Replace state with base stage
-    replaceState({ stage: 'book-selection' }, '', '/');
+    replaceState({ stage: 'book-selection' });
     loadBookSelectionOptions();
 });
-
-function normalizeURL() {
-    const path = window.location.pathname;
-
-    // If user navigates directly to /quiz or /quiz-selection, reset to base
-    if (path === '/quiz' || path === '/quiz-selection') {
-        replaceState({}, '', '/');
-    }
-}
 
 window.addEventListener('popstate', function (event) {
   if (!event.state) return;
@@ -160,7 +150,7 @@ function loadBookSelectionOptions(){
 				pushState({
 				  stage: 'quiz-selection',
 				  bookName: selectedBookInfo.bookName
-				}, 'quiz-selection');
+				});
 				clearMainForm();
 				loadQuizSelectionOptions(selectedBookInfo);
 			}else{
@@ -207,7 +197,7 @@ function loadQuizSelectionOptions(selectedBookInfo){
 				  stage: 'quiz',
 				  bookName: selectedBookInfo.bookName,
 				  quizName: selectedQuizInfo.quizName
-				}, 'quiz');
+				});
 				clearMainForm();
 				loadQuiz(selectedQuizInfo, selectedBookInfo);
 			}else{
@@ -359,11 +349,11 @@ function shuffleArray(array) {
   return array;
 }
 
-function pushState(state, url) {
-  history.pushState(state, '', isLocalHost() ? '' : url);
+function pushState(state) {
+  history.pushState(state, '', '');
 }
-function replaceState(state, url) {
-  history.replaceState(state, '', isLocalHost() ? '' : url);
+function replaceState(state) {
+  history.replaceState(state, '',  '');
 }
 
 function isLocalHost() {
