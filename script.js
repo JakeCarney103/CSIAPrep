@@ -87,8 +87,36 @@ const bookSelectionOptions = [
 	}
 ];
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
+  replaceState({ stage: 'book-selection' }, '', 'book-selection');
   loadBookSelectionOptions();
+});
+
+window.addEventListener('popstate', function (event) {
+  if (!event.state) return;
+
+  clearMainForm();
+
+  switch (event.state.stage) {
+    case 'book-selection':
+      loadBookSelectionOptions();
+      break;
+
+    case 'quiz-selection':
+      loadQuizSelectionOptions({ bookName: event.state.bookName });
+      break;
+
+    case 'quiz':
+      const bookInfo = { bookName: event.state.bookName };
+      const quizDict =
+        event.state.bookName === 'NFPA 211'
+          ? nfpaQuizSelectorDictionary
+          : chimneyAndVentingEssentialsQuizSelectorDictionary;
+
+      const quizInfo = quizDict.find(q => q.quizName === event.state.quizName);
+      loadQuiz(quizInfo, bookInfo);
+      break;
+  }
 });
 
 function loadBookSelectionOptions(){
@@ -116,6 +144,10 @@ function loadBookSelectionOptions(){
 		{
 			const selectedBookInfo = bookSelectionOptions.find(book => book.bookName === selected.value);
 			if (selectedBookInfo){
+				pushState({
+				  stage: 'quiz-selection',
+				  bookName: selectedBookInfo.bookName
+				}, 'quiz-selection');
 				clearMainForm();
 				loadQuizSelectionOptions(selectedBookInfo);
 			}else{
@@ -158,6 +190,11 @@ function loadQuizSelectionOptions(selectedBookInfo){
 			const selectedQuizInfo = quizSelectorDictionary.find(quiz => quiz.quizName === selected.value);
 			const questionsAreDefined = window.quizRegistry[selectedQuizInfo.quizName];
 			if (selectedQuizInfo && questionsAreDefined){
+				pushState({
+				  stage: 'quiz',
+				  bookName: selectedBookInfo.bookName,
+				  quizName: selectedQuizInfo.quizName
+				}, 'quiz');
 				clearMainForm();
 				loadQuiz(selectedQuizInfo, selectedBookInfo);
 			}else{
@@ -176,8 +213,7 @@ function loadQuizSelectionOptions(selectedBookInfo){
 	backToBookSelectionButton.type = 'button';
 	backToBookSelectionButton.classList.add('back-button');
 	backToBookSelectionButton.onclick = function() {
-		clearMainForm();
-		loadBookSelectionOptions();
+		history.back();
 	}
 	main.appendChild(backToBookSelectionButton);
 }
@@ -227,8 +263,7 @@ function loadQuiz(selectedQuizInfo, selectedBookInfo){
 	backToQuizSelectionButton.type = 'button';
 	backToQuizSelectionButton.classList.add('back-button');
 	backToQuizSelectionButton.onclick = function() {
-		clearMainForm();
-		loadQuizSelectionOptions(selectedBookInfo);
+		history.back();
 	}
 	main.appendChild(backToQuizSelectionButton);
 
@@ -309,4 +344,17 @@ function shuffleArray(array) {
     [array[i], array[j]] = [array[j], array[i]];
   }
   return array;
+}
+
+function pushState(state, url) {
+  history.pushState(state, '', isLocalHost() ? '' : url);
+}
+function replaceState(state, url) {
+  history.replaceState(state, '', isLocalHost() ? '' : url);
+}
+
+function isLocalHost() {
+    // true if running via file:// or localhost
+    const protocol = window.location.protocol;
+    return protocol === 'file:' || protocol === 'http:' && window.location.hostname === 'localhost';
 }
