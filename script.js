@@ -87,10 +87,23 @@ const bookSelectionOptions = [
 	}
 ];
 
-document.addEventListener('DOMContentLoaded', function () {
-  replaceState({ stage: 'book-selection' }, '', 'book-selection');
-  loadBookSelectionOptions();
+// Normalize URL on load
+document.addEventListener('DOMContentLoaded', () => {
+    normalizeURL();
+
+    // Replace state with base stage
+    replaceState({ stage: 'book-selection' }, '', '/');
+    loadBookSelectionOptions();
 });
+
+function normalizeURL() {
+    const path = window.location.pathname;
+
+    // If user navigates directly to /quiz or /quiz-selection, reset to base
+    if (path === '/quiz' || path === '/quiz-selection') {
+        replaceState({}, '', '/');
+    }
+}
 
 window.addEventListener('popstate', function (event) {
   if (!event.state) return;
