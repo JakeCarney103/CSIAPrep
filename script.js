@@ -87,10 +87,16 @@ const bookSelectionOptions = [
 	}
 ];
 
-// Normalize URL on load
-document.addEventListener('DOMContentLoaded', () => {
-	
-    // Replace state with base stage
+function onDomReady(callback) {
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', callback);
+  } else {
+    callback();
+  }
+}
+
+onDomReady(() => {
+	// Replace state with base stage
     replaceState({ stage: 'book-selection' });
     loadBookSelectionOptions();
 });
