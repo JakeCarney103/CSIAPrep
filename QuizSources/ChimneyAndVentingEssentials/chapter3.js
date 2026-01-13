@@ -334,6 +334,111 @@ const essentialsChapter3QuizData = [
     options: ["Long pants and socks", "Shorts in the summer so you can quickly wipe the soot off", "Whatever makes you comfortable", "Bulky gloves, even if they hinder your dexterity"],
     answer: "Long pants and socks"
   },
+  {
+    question: "Raccoons can carry both _________ and _________. (Page 33)",
+    options: ["Ringworm and Covid", "Roundworm and Rabies", "Rabies and Tapeworm", "Rabies and Histoplasmosis"],
+    answer: "Roundworm and Rabies"
+  },
+  {
+    question: "Squirrels need to be removed from chimneys. Their nest can stay. (Page 33)",
+    options: ["True", "False"],
+    answer: "False"
+  },
+  {
+    question: "After ensuring all animals have been removed, a _________ should be installed to prevent recurring animal invasions. (Page 33)",
+    options: ["Screened Chimney Cap", "Stainless Steel Liner", "Crown", "Trap"],
+    answer: "Screened Chimney Cap"
+  },
+  {
+    question: "_________ tend to nest in chimneys. (Page 34)",
+    options: ["Owls", "Chimney Swifts", "Robins", "Hawks"],
+    answer: "Chimney Swifts"
+  },
+  {
+    question: "The _________ provides protection to Chimney Swifts and their nests. (Page 34)",
+    options: ["NFPA 211", "Migratory Bird Treaty Act", "US Constitution", "IRC"],
+    answer: "Migratory Bird Treaty Act"
+  },
+  {
+    question: "If you encounter an active Chimney Swift nest, you are allowed to remove it. (Page 34)",
+    options: ["True", "False"],
+    answer: "False"
+  },
+  {
+    question: "Along with Chimney Swifts, many common bats and a few squirrels are also protected. (Page 34)",
+    options: ["True", "False"],
+    answer: "True"
+  },
+  {
+    question: "In some parts of the country, small animals, including raccoons, foxes, opossums, skunks, rabbits, squirrels, rats, mice, and bats are currently at high risk of _________. (Page 35)",
+    options: ["Rabies", "Roundworm", "Covid", "Histoplasmosis"],
+    answer: "Rabies"
+  },
+  {
+    question: "Bat feces and urine can sometimes contain _________. (Page 35)",
+    options: ["Rabies", "Roundworm", "Covid", "Histoplasmosis"],
+    answer: "Rabies"
+  },
+  {
+    question: "_________ are the most likely source if you do contract rabies. (Page 35)",
+    options: ["Raccoons", "Skunks", "Bats", "Squirrels"],
+    answer: "Bats"
+  },
+  {
+    question: "You will always know if you've been bitten by a bat. (Page 35)",
+    options: ["True", "False"],
+    answer: "False"
+  },
+  {
+    question: "If you suspect rabies exposure, it is mandatory to seek medical attention _________. (Page 35)",
+    options: ["Immediately", "Within 8 hours", "Within 24 hours", "At the first sign of symptoms"],
+    answer: "Immediately"
+  },
+  {
+    question: "Once rabies symptoms appear, it is nearly _________ fatal. (Page 35)",
+    options: ["100%", "75%", "50%", "90%"],
+    answer: "100%"
+  },
+  {
+    question: "In addition to rabies, raccoons can carry _________. (Page 35)",
+    options: ["Ringworm", "Roundworm", "Tapeworm", "Histoplasmosis"],
+    answer: "Roundworm"
+  },
+  {
+    question: "Fecal matter of raccoons infected with roundworm contains roundworm eggs or larvae. (Page 35)",
+    options: ["True", "False"],
+    answer: "True"
+  },
+  {
+    question: "After raccoons are removed, you should disinfect the smoke shelf with _________ to kill any roundworm eggs that remain in the chimney. (Page 36)",
+    options: ["Bleach", "Soap and Water", "Vinegar", "Off"],
+    answer: "Bleach"
+  },
+  {
+    question: "Dispose of raccoon excrement by _________. (Page 36)",
+    options: ["Burning or burying it in a landfill", "Throwing it away", "Calling ODNR", "Spraying it with water until is disappears"],
+    answer: "Burning or burying it in a landfill"
+  },
+  {
+    question: "_________ is a fungal infection most commonly of the respiratory system, though symptoms can vary widely. (Page 36)",
+    options: ["Covid", "Histoplasmosis", "Pneumonia", "General Allergies"],
+    answer: "Histoplasmosis"
+  },
+  {
+    question: "These two things contain a much higher concentration of Histoplasmosis. (Page 36)",
+    options: ["Raccoon Feces and Flue Openings", "Bird Droppings and Bat Guano", "Chimney Swift Nests and Clogged Chimney Caps", "Creosote and Soot"],
+    answer: "Bird Droppings and Bat Guano"
+  },
+  {
+    question: "Chimney Technicians should always carry a can of special wasp and hornet spray that sprays at least _________ feet. (Page 37)",
+    options: ["25", "20", "15", "10"],
+    answer: "25"
+  },
+  {
+    question: "What is one reason why you should wear a respirator while sweeping oil and coal flues. (Page 37)",
+    options: ["The soot and fumes combine with moisture to produce Sulfuric Acid, which could render you breathless", "You can instantly die", "Arsenic compounds can cause de-pigmentation of the skin", "They always contian histoplasmosis"],
+    answer: "The soot and fumes combine with moisture to produce Sulfuric Acid, which could render you breathless"
+  },
 ];
 
 if (!window.quizRegistry) window.quizRegistry = {};
