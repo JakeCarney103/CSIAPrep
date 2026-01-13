@@ -204,7 +204,11 @@ function loadQuiz(selectedQuizInfo, selectedBookInfo){
 	  const shuffledOptions = shuffleArray([...q.options]);
       shuffledOptions.forEach(option => {
         const label = document.createElement('label');
-        label.innerHTML = `<input type='radio' name='q${index}' value='${option}'> ${option}`;
+		const input = document.createElement('input');
+		input.type = 'radio';
+		input.name = `q${index+1}`;
+		input.value = option;
+		label.append(input, ` ${option}`);
         div.appendChild(label);
         div.appendChild(document.createElement('br'));
       });
@@ -235,13 +239,13 @@ function submitQuiz(selectedQuizInfo, overallQuizData) {
       let score = 0;
 	  let unanswered = 0;
       overallQuizData.forEach((q, index) => {
-        const selected = document.querySelector(`input[name='q${index}']:checked`);
+        const selected = document.querySelector(`input[name='q${index+1}']:checked`);
 		if (!selected){
 			unanswered++;
 		}else{
 			let optionElement = selected.parentElement;
 			let questionElement = optionElement.parentElement.querySelector('.question');
-			if(normalize(selected.value) === normalize(q.answer)) { 
+			if(selected.value === q.answer) { 
 			score++;
 			updateQuestionResult(optionElement, questionElement, true);
 			}else{
@@ -305,11 +309,4 @@ function shuffleArray(array) {
     [array[i], array[j]] = [array[j], array[i]];
   }
   return array;
-}
-
-function normalize(str) {
-  return str
-    .trim()
-    .normalize("NFKC")
-    .replace(/[’‘]/g, "'"); // normalize curly apostrophes
 }
