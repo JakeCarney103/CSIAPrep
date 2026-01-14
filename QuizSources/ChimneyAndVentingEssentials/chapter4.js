@@ -197,7 +197,7 @@ const essentialsChapter4QuizData = [
   {
     question: "This brush has bristles along its sides and curved front. (Page 45)",
     options: ["U Brush", "Pot Brush", "Hedgehog Brush", "Foxtail Brush"],
-    answer: "Hand brush"
+    answer: "U Brush"
   },
   {
     question: "This tool is handy for removing creosote from connectors, thimbles, flue liner surfaces near the thimble access, stove interiors, fireplace surfaces, and chimney caps. (Page 46)",
@@ -352,7 +352,7 @@ const essentialsChapter4QuizData = [
   {
     question: "Technicians should use a _________ to contain ash and creosote. (Page 52)",
     options: ["Metal bucket with a tight-fitting lid", "5 Gallon Plastic bucket", "Metal bucket with no lid", "Heavy duty trash bag"],
-    answer: "Metal bucket with a tight fitting lid"
+    answer: "Metal bucket with a tight-fitting lid"
   },
   {
     question: "Embers can stay hot for days or even weeks when buried in ash. (Page 52)",
@@ -367,7 +367,7 @@ const essentialsChapter4QuizData = [
   {
     question: "When cleaning freestanding appliances, thimble openings can remain open. (Page 53)",
     options: ["True", "False"],
-    answer: "Protecting the job site from dust"
+    answer: "False"
   },
   {
     question: "This handy tool can make looking up a flue, or through a thimble or cleanout opening, easy and fast. (Page 53)",
