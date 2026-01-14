@@ -226,12 +226,12 @@ const essentialsChapter4QuizData = [
   },
   {
     question: "The _________ is one of the most critical tools used to control dust and maintain cleanliness while sweeping the chimney. (Page 48)",
-    options: ["Vacuum", "Drop cloth", "Polypropylene brush", "Rod system"]
+    options: ["Vacuum", "Drop cloth", "Polypropylene brush", "Rod system"],
     answer: "Vacuum"
   },
   {
     question: "You should always try to plug a vacuum directly into a wall outlet. (Page 48)",
-    options: ["True", "False"]
+    options: ["True", "False"],
     answer: "True"
   },
   {
