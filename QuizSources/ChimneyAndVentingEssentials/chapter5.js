@@ -52,7 +52,7 @@ const essentialsChapter5QuizData = [
   {
     question: "Due to the manufacturing process of wood pellets, they tend to have a hire moisture content than the average cordwood. (Page 58)",
     options: ["True", "False"],
-    answer: "True"
+    answer: "False"
   },
   {
     question: "A PFI Premium pellet has less than _________% moisture content. (Page 59)",
