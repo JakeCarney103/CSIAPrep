@@ -36,3 +36,44 @@ const masterKey = [
 
 if (!window.masterKey) window.masterKey = masterKey;
 window.masterKey = masterKey;
+
+// Test function
+function validateQuizAnswers() {
+  if (!window.masterKey || !window.quizRegistry) {
+    console.error("masterKey or quizRegistry not found!");
+    return;
+  }
+
+  let invalidCount = 0;
+
+  window.masterKey.forEach(book => {
+    const { bookName, quizDictionary } = book;
+    quizDictionary.forEach(quiz => {
+      const quizData = window.quizRegistry[quiz.quizName];
+      if (!quizData) {
+        console.warn(`No quiz data found for ${bookName} / ${quiz.quizName}`);
+        return;
+      }
+
+      quizData.forEach((question, index) => {
+        if (!question.options.includes(question.answer)) {
+          console.log(
+            `Invalid answer detected:\n` +
+            `Book: ${bookName}\n` +
+            `Quiz: ${quiz.quizName}\n` +
+            `Question #${index + 1}: ${question.question}\n` +
+            `Answer: ${question.answer}\n` +
+            `Options: ${question.options.join(", ")}`
+          );
+          invalidCount++;
+        }
+      });
+    });
+  });
+
+  if (invalidCount === 0) {
+    console.log("All quiz answers are valid!");
+  } else {
+    console.warn(`${invalidCount} invalid answer(s) found.`);
+  }
+}
