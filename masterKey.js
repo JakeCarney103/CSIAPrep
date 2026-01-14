@@ -30,6 +30,7 @@ const masterKey = [
       { quizName: "Chapter 1: Role of the Modern Chimney Technician", fileName: "chapter1.js" },
       { quizName: "Chapter 2: Codes, Standards & Regulations", fileName: "chapter2.js" },
       { quizName: "Chapter 3: Health and Safety at the Job Site", fileName: "chapter3.js" },
+	  { quizName: "Chapter 4: Tools and Equipment", fileName: "chapter4.js" },
     ]
   }
 ];
