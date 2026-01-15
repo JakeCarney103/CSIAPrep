@@ -319,6 +319,161 @@ const essentialsChapter5QuizData = [
     options: ["Pyrolysis", "Oxidation", "Condensation", "Moisture evaporation (Drying)"],
     answer: "Pyrolysis"
   },
+  {
+    question: "Hydrocarbon gases start to burn when the internal temperature nears _________°F. (Page 64)",
+    options: ["1000", "1250", "1700", "900"],
+    answer: "1000"
+  },
+  {
+    question: "Gases driven off from burning wood ignite at approximately _________°F. (Page 65)",
+    options: ["1000", "1250", "1700", "900"],
+    answer: "1000"
+  },
+  {
+    question: "_________ of the available heat in wood comes from the burning of gaseous hydrocarbons and carbon monoxide. (Page 65)",
+    options: ["More than half", "All", "None", "About 20%"],
+    answer: "More than half"
+  },
+  {
+    question: "If enough oxygen and heat are present, carbon monoxide will react with oxygen to create _________. (Page 65)",
+    options: ["Carbon Monoxide", "Creosote", "Nitrogen", "Carbon Dioxide"],
+    answer: "Carbon Dioxide"
+  },
+  {
+    question: "Which type of combustion produces almost exclusively; Water vapor, Carbon dioxide, Heat, and Noncombustible ashes. (Page 65)",
+    options: ["Complete Combustion", "Incomplete Combustion", "Partial Combustion", "Failed Combustion"],
+    answer: "Complete Combustion"
+  },
+  {
+    question: "The less complete the combustion, the more _________. (Page 65)",
+    options: ["Carbon Monoxide", "Combustible Hydrocarbons", "Smoke", "All of these"],
+    answer: "All of these"
+  },
+  {
+    question: "As wood gasses burn, the internal firebox temperatures can reach up to _________°F. (Page 65)",
+    options: ["1000", "1500", "2000", "1700"],
+    answer: "2000"
+  },
+  {
+    question: "Once gases and tars are removed from wood, _________ is the substance that remains. (Page 65)",
+    options: ["Charcoal", "Creosote", "Pyrolysis", "Combustion"],
+    answer: "Charcoal"
+  },
+  {
+    question: "A flame is required to ignite charcoal. (Page 65)",
+    options: ["True", "False"],
+    answer: "False"
+  },
+  {
+    question: "Achieving Complete Combustion happens more often than not. (Page 65)",
+    options: ["True", "False"],
+    answer: "False"
+  },
+  {
+    question: "Incomplete combustion wastes fuel, money, and energy. (Page 66)",
+    options: ["True", "False"],
+    answer: "True"
+  },
+  {
+    question: "_________ is a combustible deposit that originates as condensed wood smoke, including tar, condensed vapors, and other organic compounds. (Page 66)",
+    options: ["Creosote", "Water Vapor", "Ash", "Charcoal"],
+    answer: "Creosote"
+  },
+  {
+    question: "When looking in the flue and you see stuff that is dark brown or black in color and watery or tar like, it is _________. (Page 66)",
+    options: ["Creosote", "Water Vapor", "Soot", "Charcoal"],
+    answer: "Creosote"
+  },
+  {
+    question: "_________ : ashes that are carried up from the heating appliance by the draft. (Page 66)",
+    options: ["Creosote", "Fly Ash", "Soot", "Charcoal"],
+    answer: "Fly Ash"
+  },
+  {
+    question: "These deposits are soft and are black or brown in color. They are often mixed with fly ash. (Page 66)",
+    options: ["Coal", "Fly Ash", "Soot", "Charcoal"],
+    answer: "Soot"
+  },
+  {
+    question: "Soot forms in yellow-orange flames as the result of _________ leaving an active flame. (Page 66)",
+    options: ["Unburned Carbon Particles", "Heat", "Oxygen", "Light"],
+    answer: "Unburned Carbon Particles"
+  },
+  {
+    question: "_________ is the quantity of unburned hydrocarbons in the flue gas. (Page 68)",
+    options: ["Smoke Density", "Residence Time", "Inches of Water Column", "Coal"],
+    answer: "Smoke Density"
+  },
+  {
+    question: "If there isn't a lot of smoke, that means there isn't many unburned hydrocarbons. (Page 68)",
+    options: ["True", "False"],
+    answer: "True"
+  },
+  {
+    question: "_________ is one of the biggest factors effecting wood combustion, resulting in creosote buildup. (Page 68)",
+    options: ["Wood Moisture Content", "Wood Species", "Users burning pine", "The chimney being 3 feet above the roof line"],
+    answer: "Wood Moisture Content"
+  },
+  {
+    question: "Which type of chimney is usually colder. (Page 68)",
+    options: ["Uninsulated masonry chimney located on the exterior walls", "Insulated masonry chimney located on the exterior walls", "Uninsulated masonry chimney located on the interior", "Insulated masonry chimney located on the interior"],
+    answer: "Uninsulated masonry chimney located on the exterior walls"
+  },
+  {
+    question: "Cold chimney walls will actually warm flue gases, causing them to not condense and deposit creosote on chimney liners. (Page 68)",
+    options: ["True", "False"],
+    answer: "False"
+  },
+  {
+    question: "The more bends in a chimney flue the better. (Page 68)",
+    options: ["True", "False"],
+    answer: "False"
+  },
+  {
+    question: "_________ is the length of time smoke remains in the venting system. (Page 68)",
+    options: ["Residence Time", "Smoke Density", "Smoke Time", "Time of Smokiness"],
+    answer: "Residence Time"
+  },
+  {
+    question: "When large amounts of wood are loaded into a firebox (Large, or overloaded fuel loads) and the user doesn't open the stove air inlet more, why is more smoke generated? (Page 69)",
+    options: ["Less oxygen resulting in incomplete combustion", "Less fuel resulting in incomplete combustion", "Less smoke is actually generated, more fuel means more heat", "Mainly carbon dioxide is being generated"],
+    answer: "Less oxygen resulting in incomplete combustion"
+  },
+  {
+    question: "Once a fire has been established, it is useful to reduce the available air to extend the duration of the burn. (Page 69)",
+    options: ["True", "False"],
+    answer: "True"
+  },
+  {
+    question: "Operating a wood burning appliance properly will entirely eliminate the accumulation of creosote. (Page 69)",
+    options: ["True", "False"],
+    answer: "False"
+  },
+  {
+    question: "If a large wood stove is used to heat a small area (oversized appliance), the stove is usually operated at a low heat output. This does not increase creosote deposits. (Page 69)",
+    options: ["True", "False"],
+    answer: "False"
+  },
+  {
+    question: "Multiple flue offsets, protrusions of mortar in the flue, or off-centered stacked tiles can cause _________. (Page 69)",
+    options: ["Reduced flow rate", "Flue gas turbulence", "Increased creosote buildup", "All of these"],
+    answer: "All of these"
+  },
+  {
+    question: "Each load of fuel should contain only enough wood for immediate involvement in the fire. (Page 70)",
+    options: ["True", "False"],
+    answer: "True"
+  },
+  {
+    question: "In ideal circumstances, only a plume of steam, starting approximately _________ above the chimney top will be visible. (Page 70)",
+    options: ["1 foot", "6 inches", "3 feet", "2 feet"],
+    answer: "1 foot"
+  },
+  {
+    question: "The most common error when operating a wood stove is to operate the appliance only according to _________. (Page 70)",
+    options: ["Comfort", "The Manufacturer's Instructions", "EPA's Burn Wise Program", "Proper Techniques"],
+    answer: "Comfort"
+  },
 ];
 
 if (!window.quizRegistry) window.quizRegistry = {};
