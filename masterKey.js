@@ -47,18 +47,20 @@ function validateQuizAnswers() {
     return;
   }
 
-  let invalidCount = 0;
-
   window.masterKey.forEach(book => {
     const { bookName, quizDictionary } = book;
     quizDictionary.forEach(quiz => {
       const quizData = window.quizRegistry[quiz.quizName];
+	  let invalidCount = 0;
+	  let questionCount = 0;
+	  
       if (!quizData) {
         console.warn(`No quiz data found for ${bookName} / ${quiz.quizName}`);
         return;
       }
 
       quizData.forEach((question, index) => {
+		questionCount++;
         if (!question.options.includes(question.answer)) {
           console.log(
             `Invalid answer detected:\n` +
@@ -71,12 +73,13 @@ function validateQuizAnswers() {
           invalidCount++;
         }
       });
+	  if (invalidCount === 0) {
+		console.log(`(${questionCount-invalidCount}/${questionCount}) | '${bookName} | ${quiz.quizName}' All answers are valid!`);
+	  } else {
+		console.warn(`(${questionCount-invalidCount}/${questionCount}) | '${bookName} | ${quiz.quizName}' ${invalidCount} invalid answer(s) found.`);
+	  }
     });
   });
 
-  if (invalidCount === 0) {
-    console.log("All quiz answers are valid!");
-  } else {
-    console.warn(`${invalidCount} invalid answer(s) found.`);
-  }
+
 }
