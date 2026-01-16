@@ -256,8 +256,8 @@ const essentialsChapter5QuizData = [
   },
   {
     question: "Incomplete combustion or complete stopping could happen to burning if heat, oxygen, and fuel are present in the wrong proportion. (Page 62)",
-    options: ["Heat, Oxygen, and Fuel", "Smoke, Gas, and Fuel", "Pyrolysis, Charcoal, and Gas", "Wood, Fireplace, and Flue"],
-    answer: "Heat, Oxygen, and Fuel"
+    options: ["True", "False"],
+    answer: "True"
   },
   {
     question: "Smoke is _________. (Page 62)",
@@ -298,21 +298,6 @@ const essentialsChapter5QuizData = [
     question: "What is the fourth stage of wood combustion? (Page 64)",
     options: ["Moisture Evaporation (Drying)", "Ignition of hydrocarbon gases (Burning)", "Vaporization of hydrocarbon compounds (Pyrolysis)", "Char burning (Charcoal)"],
     answer: "Char burning (Charcoal)"
-  },
-  {
-    question: "What is the first stage of wood combustion? (Page 64)",
-    options: ["Moisture Evaporation (Drying)", "Ignition of hydrocarbon gases (Burning)", "Vaporization of hydrocarbon compounds (Pyrolysis)", "Char burning (Charcoal)"],
-    answer: "Moisture Evaporation (Drying)"
-  },
-  {
-    question: "What is the second stage of wood combustion? (Page 64)",
-    options: ["Moisture Evaporation (Drying)", "Ignition of hydrocarbon gases (Burning)", "Vaporization of hydrocarbon compounds (Pyrolysis)", "Char burning (Charcoal)"],
-    answer: "Vaporization of hydrocarbon compounds (Pyrolysis)"
-  },
-  {
-    question: "What is the third stage of wood combustion? (Page 64)",
-    options: ["Moisture Evaporation (Drying)", "Ignition of hydrocarbon gases (Burning)", "Vaporization of hydrocarbon compounds (Pyrolysis)", "Char burning (Charcoal)"],
-    answer: "Ignition of hydrocarbon gases (Burning)"
   },
   {
     question: "_________ is a chemical alteration of the fuel molecules due to the application of heat? (Page 64)",
