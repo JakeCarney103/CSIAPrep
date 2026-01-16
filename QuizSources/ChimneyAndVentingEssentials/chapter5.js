@@ -474,6 +474,262 @@ const essentialsChapter5QuizData = [
     options: ["Comfort", "The Manufacturer's Instructions", "EPA's Burn Wise Program", "Proper Techniques"],
     answer: "Comfort"
   },
+  {
+    question: "The primary reason to remove creosote is to reduce the possibility of _________. (Page 71)",
+    options: ["Chimney Fires", "Inefficient Burning", "Decreased Aesthetics", "Not having enough heat"],
+    answer: "Chimney Fires"
+  },
+  {
+    question: "A load roaring noise coming from the flue is a strong indicator of a _________. (Page 71)",
+    options: ["Chimney Fire", "Inefficient Burning", "Lion", "Chimney Swift Problem"],
+    answer: "Chimney Fire"
+  },
+  {
+    question: "A vibrating connector pipe and/or stove is a strong indicator of a _________. (Page 71)",
+    options: ["Chimney Fire", "Unlisted Stove", "Phone Dropped in the Flue", "Improperly Sized Flue"],
+    answer: "Chimney Fire"
+  },
+  {
+    question: "During chimney fires, temperatures in the flue often exceed _________°F. (Page 71)",
+    options: ["2000", "2100", "2200", "3000"],
+    answer: "2000"
+  },
+  {
+    question: "A load roaring noise coming from the flue is a strong indicator of a _________. (Page 71)",
+    options: ["Chimney Fires", "Inefficient Burning", "Lion", "Chimney Sweep Problem"],
+    answer: "Chimney Fire"
+  },
+  {
+    question: "If there is a chimney fire, you should _________. (Page 72)",
+    options: ["Get everyone out of the house and go to a prearranged meeting place", "Call 911 ASAP", "Do not risk your personal safety", "All of these"],
+    answer: "All of these"
+  },
+  {
+    question: "Creosote deposits of _________ or more should be removed from the venting system (swept). (Page 72)",
+    options: ["1/8 inch", "1/16 inch", "1/4 inch", "1/2 inch"],
+    answer: "All of these"
+  },
+  {
+    question: "Can creosote expand due to heat? (Page 73)",
+    options: ["Yes", "No"],
+    answer: "Yes"
+  },
+  {
+    question: "Creosote is acidic / corrosive. (Page 72)",
+    options: ["True", "False"],
+    answer: "True"
+  },
+  {
+    question: "The 2 major principles at work in a chimney are _________. (Page 74)",
+    options: ["Wind and Fire", "Draft and Flow", "Combustion and Emission", "Pressure and Energy"],
+    answer: "Draft and Flow"
+  },
+  {
+    question: "_________ is the force or pressure difference between the inside and the outside of the venting system that causes gases to flow up and out of the chimney and air to flow into the appliance. (Page 74)",
+    options: ["Draft", "Flow", "Combustion", "Emission"],
+    answer: "Draft"
+  },
+  {
+    question: "_________ is a measure of force that drives the venting system. (Page 74)",
+    options: ["Draft", "Flow", "Combustion", "Emission"],
+    answer: "Draft"
+  },
+  {
+    question: "_________ is the volume of gases that pass through the system. (Page 74)",
+    options: ["Draft", "Flow", "Combustion", "Emission"],
+    answer: "Flow"
+  },
+  {
+    question: "_________ is the force or pressure difference between the inside and the outside of the venting system that causes gases to flow up and out of the chimney and air to flow into the appliance. (Page 74)",
+    options: ["Draft", "Flow", "Combustion", "Emission"],
+    answer: "Draft"
+  },
+  {
+    question: "Two major factors influencing the amount of _________ are the height of the chimney and the differences between the flue gas temperature and the temperature of the outside air. (Page 74)",
+    options: ["Draft", "Flow", "Combustion", "Emission"],
+    answer: "Draft"
+  },
+  {
+    question: "The GREATER the temperature difference between the gases inside the flue and the air outside the chimney, the _________ the draft or pressure difference and the more forcefully air is drawn into the system. (Page 74)",
+    options: ["Greater", "Lower", "More unaffected", "None of these"],
+    answer: "Greater"
+  },
+  {
+    question: "The actual height of the chimney is the critical factor for DRAFT, not the volume of gases contained in it. (Page 74)",
+    options: ["True", "False"],
+    answer: "True"
+  },
+  {
+    question: "Draft, Amount of resistance and the Size of the vent are the 3 major factors that influence the amount of _________. (Page 75)",
+    options: ["Draft", "Flow", "Combustion", "Emission"],
+    answer: "Flow"
+  },
+  {
+    question: "The _________ the total venting passageway, the greater the flow resistance will be. (Page 75)",
+    options: ["Shorter", "Longer"],
+    answer: "Longer"
+  },
+  {
+    question: "The size of the _________ has the most critical influence on the amount of flow. (Page 76)",
+    options: ["Flue and Connector", "Appliance", "Smoke Chamber", "Fireplace Opening"],
+    answer: "Flue and Connector"
+  },
+  {
+    question: "The area of a 6 inch round flue is _________. (Page 76)",
+    options: ["28.26 sq inches", "113.04 sq inches", "36 sq inches", "27 sq inches"],
+    answer: "28.26 sq inches"
+  },
+  {
+    question: "The area of an 8 inch round flue is _________. (Page 76)",
+    options: ["64 sq inches", "50.24 sq inches", "32 sq inches", "200.96 sq inches"],
+    answer: "50.24 sq inches"
+  },
+  {
+    question: "The area of an 8 x 12 flue tile is _________. (Page 76)",
+    options: ["96 sq inches", "40 sq inches", "20 sq inches", "64 sq inches"],
+    answer: "96 sq inches"
+  },
+  {
+    question: "The area of an 8 x 8 flue tile is _________. (Page 76)",
+    options: ["64 sq inches", "16 sq inches", "200.96 sq inches", "32 sq inches"],
+    answer: "64 sq inches"
+  },
+  {
+    question: "An open fireplace system requires a _________ flow capacity. (Page 76)",
+    options: ["Large", "Medium", "Small", "Non existent"],
+    answer: "Large"
+  },
+  {
+    question: "An open fireplace system relies on _________. (Page 76)",
+    options: ["Flow", "Draft", "Emissions", "Hope"],
+    answer: "Flow"
+  },
+  {
+    question: "An Stove or Insert relies on _________. (Page 76)",
+    options: ["Flow", "Draft", "Emissions", "Hope"],
+    answer: "Draft"
+  },
+  {
+    question: "An increase in draft always _________ the amount of flow. (Page 78)",
+    options: ["Increases", "Decreases", "Has no effect", "Completely Zeroes it out"],
+    answer: "Increases"
+  },
+  {
+    question: "Increasing Flue Size _________ the amount of flow. (Page 78)",
+    options: ["Increases", "Decreases", "Has no effect", "Completely Zeroes it out"],
+    answer: "Increases"
+  },
+  {
+    question: "Increasing Flue Size _________ the amount of Draft. (Page 78)",
+    options: ["Increases", "Decreases", "Has no effect", "Completely Zeroes it out"],
+    answer: "Decreases"
+  },
+  {
+    question: "Increasing Flow _________ the amount of Draft. (Page 78)",
+    options: ["Increases", "Decreases", "Has no effect", "Completely Zeroes it out"],
+    answer: "Decreases"
+  },
+  {
+    question: "Anything that restricts the entry of air into the system IMMEDIATELY decreases flow and EVENTUALLY decreases draft as the slow-moving gases cool. (Page 79)",
+    options: ["True", "False"],
+    answer: "True"
+  },
+  {
+    question: "When it comes to clearances, the normal safety testing process, they will measure temperature in _________ different places. (Page 79)",
+    options: ["100 to 200", "50", "150 to 250", "75 to 100"],
+    answer: "100 to 200"
+  },
+  {
+    question: "During the safety testing process, if only 1 sensor has a temperature exceeding the safety standard's maximum the test passes. (Page 79)",
+    options: ["True", "False"],
+    answer: "False"
+  },
+  {
+    question: "During the safety testing process, typically surrounding exposed combustibles can reach _________°F over room temperature and pass the test. (Page 80)",
+    options: ["117", "120", "133", "127"],
+    answer: "117"
+  },
+  {
+    question: "During the safety testing process, typically surrounding concealed combustibles must not exceed _________°F over room temperature to pass the test. (Page 80)",
+    options: ["117", "90", "100", "103"],
+    answer: "90"
+  },
+  {
+    question: "A substance that is likely to catch fire or burn is _________. (Page 80)",
+    options: ["Combustible", "Lintel", "Fire", "Emissions"],
+    answer: "Combustible"
+  },
+  {
+    question: "Fire-rated drywall is a combustible. (Page 80)",
+    options: ["True", "False"],
+    answer: "True"
+  },
+  {
+    question: "Material that cannot catch fire or burn is _________. (Page 80)",
+    options: ["Combustible", "Non-Combustible", "Fire-rated Drywall", "Emissions"],
+    answer: "Non-Combustible"
+  },
+  {
+    question: "Wood burns at _________°F. (Page 81)",
+    options: ["1000", "450", "600", "1100"],
+    answer: "450"
+  },
+  {
+    question: "Over time and with consistent exposure to heat, the chemical change in the surrounding combustibles through Pyrolysis INCREASES the temperature at which the wood will ignite. (Page 81)",
+    options: ["True", "False"],
+    answer: "False"
+  },
+  {
+    question: "Unlisted wood burning stoves require _________ inches minimum clearances to combustibles. (Page 81)",
+    options: ["12", "18", "36", "9"],
+    answer: "36"
+  },
+  {
+    question: "NFPA 211 contains a clearance reduction chart that allows unlisted stove clearances to combustibles to be reduced by as much as _________. (Page 81)",
+    options: ["50%", "66%", "20%", "75%"],
+    answer: "66%"
+  },
+  {
+    question: "NFPA 211's clearance reductions can always be used for connector pipes, however clearances can not be less that _________ inches. (Page 81)",
+    options: ["9", "12", "6", "4"],
+    answer: "6"
+  },
+  {
+    question: "NFPA 211's clearance reductions can always be used for appliances/stoves, however unless the appliance manufacturer specifically approves it, clearances can not be less that _________ inches. (Page 81)",
+    options: ["9", "12", "18", "6"],
+    answer: "12"
+  },
+  {
+    question: "_________ is the percentage of the potential chemical energy contained in the fuel that is converted to useful heat inside the fire chamber. (Page 82)",
+    options: ["Combustion efficiency", "Heat transfer efficiency", "Chemical efficiency", "Useful efficiency"],
+    answer: "Combustion efficiency"
+  },
+  {
+    question: "_________ refers to the percentage of heat generated by combustion that is transferred to the interior space or room. (Page 82)",
+    options: ["Combustion efficiency", "Heat transfer efficiency", "Chemical efficiency", "Radiation efficiency"],
+    answer: "Heat transfer efficiency"
+  },
+  {
+    question: "_________ is referred to as heat transfer through solid objects. (Page 82)",
+    options: ["Conduction", "Radiation", "Convection", "Emissions"],
+    answer: "Conduction"
+  },
+  {
+    question: "An object that is hotter than its surrounding emits this in straight lines and in all directions. Warming things in the room this way is referred to as _________. (Page 82)",
+    options: ["Conduction", "Radiation", "Convection", "Emissions"],
+    answer: "Radiation"
+  },
+  {
+    question: "Infrared Radiation can pass through solid objects and warm directly behind those objects. (Page 82)",
+    options: ["True", "False"],
+    answer: "False"
+  },
+  {
+    question: "When air is heated, it expands, becoming less dense than the surrounding air. It rises, cools, then falls, forming a current. This is known as _________. (Page 82)",
+    options: ["Conduction", "Radiation", "Convection", "Emissions"],
+    answer: "Convection"
+  },
+  
 ];
 
 if (!window.quizRegistry) window.quizRegistry = {};
