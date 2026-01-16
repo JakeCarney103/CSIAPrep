@@ -496,7 +496,7 @@ const essentialsChapter5QuizData = [
   },
   {
     question: "A load roaring noise coming from the flue is a strong indicator of a _________. (Page 71)",
-    options: ["Chimney Fires", "Inefficient Burning", "Lion", "Chimney Sweep Problem"],
+    options: ["Chimney Fire", "Inefficient Burning", "Lion", "Chimney Sweep Problem"],
     answer: "Chimney Fire"
   },
   {
@@ -507,7 +507,7 @@ const essentialsChapter5QuizData = [
   {
     question: "Creosote deposits of _________ or more should be removed from the venting system (swept). (Page 72)",
     options: ["1/8 inch", "1/16 inch", "1/4 inch", "1/2 inch"],
-    answer: "All of these"
+    answer: "1/8 inch"
   },
   {
     question: "Can creosote expand due to heat? (Page 73)",
