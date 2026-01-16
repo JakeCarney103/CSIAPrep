@@ -33,6 +33,7 @@ const masterKey = [
 	  { quizName: "Chapter 4: Tools and Equipment", fileName: "chapter4.js" },
 	  { quizName: "Chapter 5: Basic Theories", fileName: "chapter5.js" },
 	  { quizName: "Chapter 6: Professional Etiquette", fileName: "chapter6.js" },
+	  { quizName: "Chapter 6: Identifying Appliance And Venting System Types", fileName: "chapter7.js" },
     ]
   }
 ];
