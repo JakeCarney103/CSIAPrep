@@ -32,6 +32,7 @@ const masterKey = [
       { quizName: "Chapter 3: Health and Safety at the Job Site", fileName: "chapter3.js" },
 	  { quizName: "Chapter 4: Tools and Equipment", fileName: "chapter4.js" },
 	  { quizName: "Chapter 5: Basic Theories", fileName: "chapter5.js" },
+	  { quizName: "Chapter 6: Professional Etiquette", fileName: "chapter6.js" },
     ]
   }
 ];
