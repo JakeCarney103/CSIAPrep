@@ -69,6 +69,56 @@ const essentialsChapter7QuizData = [
     options: ["2", "3", "2.5", "5"],
     answer: "2",
   },
+  {
+    question: "_________ are composed of factory-made, field-assembled components of pre-cast masonry materials. (Page 90)",
+    options: ["Modular Chimneys", "Stainless Steel Liners", "Chimney Chase", "Connector Pipe"],
+    answer: "Modular Chimneys",
+  },
+  {
+    question: "Most factory-built fireplaces are tested to _________. (Page 90)",
+    options: ["UL 127", "UL 103", "UL 1777", " UL 103-HT"],
+    answer: "UL 127",
+  },
+  {
+    question: "When it comes to Factory-Built Chimneys, _________ is responsible to specify the minimum and maximum heights, the number of elbow or offsets that may be used, and the acceptable venting configurations. (Page 90)",
+    options: ["The appliance manufacturer", "NFPA 211", "IRC", "Installer"],
+    answer: "The appliance manufacturer",
+  },
+  {
+    question: "Some factory-built chimneys are double-wall pipe while others are triple-wall chimney pipe. (Page 90)",
+    options: ["True", "False"],
+    answer: "True",
+  },
+  {
+    question: "Most factory-built chimneys used for UL 127 fireplaces are tested to _________°F. (Page 91)",
+    options: ["1700", "2100", "2000", "1500"],
+    answer: "1700",
+  },
+  {
+    question: "Most factory-built chimneys used for UL 127 fireplaces are UL 103-HT listed. (Page 91)",
+    options: ["True", "False"],
+    answer: "False",
+  },
+  {
+    question: "The UL 1482, Standard for Solid-Fuel Type Room Heaters, requires that the venting system be tested to _________. (Page 91)",
+    options: ["UL 103", "UL 103-HT", "NFPA 54", "NFPA 211"],
+    answer: "UL 103-HT",
+  },
+  {
+    question: "Freestanding wood burning stoves often use a _________ that goes from the flue collar on the stove to the ceiling, wall or fireplace where the conversion to the chimney takes place. (Page 91)",
+    options: ["Draft Hood", "Baffle", "Connector Pipe", "Damper"],
+    answer: "Connector Pipe",
+  },
+  {
+    question: "_________ is the most common type of connector pipe. (Page 91)",
+    options: ["Single Wall Stovepipe", "Double-Wall Insulated Pipe", "Triple-Wall Chimney Pipe", "Terra Cotta Tile"],
+    answer: "Single Wall Stovepipe",
+  },
+  {
+    question: "Today, single-wall pipe should be at least _________ gauge. (Page 91)",
+    options: ["16", "24", "26", "22"],
+    answer: "24",
+  },
 ];
 
 if (!window.quizRegistry) window.quizRegistry = {};
