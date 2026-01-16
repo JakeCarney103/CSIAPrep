@@ -713,8 +713,7 @@ const essentialsChapter5QuizData = [
     question: "When air is heated, it expands, becoming less dense than the surrounding air. It rises, cools, then falls, forming a current. This is known as _________. (Page 82)",
     options: ["Conduction", "Radiation", "Convection", "Emissions"],
     answer: "Convection"
-  },
-  
+  }
 ];
 
 if (!window.quizRegistry) window.quizRegistry = {};
