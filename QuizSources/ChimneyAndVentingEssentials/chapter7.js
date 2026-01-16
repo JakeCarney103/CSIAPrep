@@ -11,7 +11,7 @@ const essentialsChapter7QuizData = [
   },
   {
     question: "As hot flue gases travel up the venting system and out of the home, there is an area of _________ pressure created inside the combustion chamber. (Page 89)",
-    options: ["Negative", "Positive", "Neutral", "Hydrolic"],
+    options: ["Negative", "Positive", "Neutral", "Hydraulic"],
     answer: "Negative"
   },
   {
@@ -38,6 +38,36 @@ const essentialsChapter7QuizData = [
     question: "If a chimney has multiple flues, they should be separated by a masonry divider called a _________. (Page 89)",
     options: ["Wythe", "Separator", "Barrier", "Strife"],
     answer: "Wythe",
+  },
+  {
+    question: "Where can you find the current specifications for masonry chimneys including information on general requirements, specific construction details, termination (height) requirements, and clearance from combustibles. (Page 90)",
+    options: ["NFPA 211 Only", "IRC Only", "NFPA 211 and IRC", "NFPA 211 and NFPA 54"],
+    answer: "NFPA 211 and IRC",
+  },
+  {
+    question: "These are made from an extruded clay product and baked for strength and durability. (Page 90)",
+    options: ["Terra Cotta Flue Tiles", "Chimney Crown", "Parging", "Hearth"],
+    answer: "Terra Cotta Flue Tiles",
+  },
+  {
+    question: "Refractory cement is designed to hold its strength at temperatures of _________°F or higher. (Page 90)",
+    options: ["2000", "1000", "500", "1500"],
+    answer: "1000",
+  },
+  {
+    question: "NFPA 211 specifies _________ be used between tiles. (Page 90)",
+    options: ["Concrete", "Non-Water-Soluble Refractory Cement", "Grout", "Nothing"],
+    answer: "Non-Water-Soluble Refractory Cement",
+  },
+  {
+    question: "Terra Cotta Flue Tiles are usually _________ inch thick or thicker. (Page 90)",
+    options: ["5/8", "1/2", "3/4", "1"],
+    answer: "5/8",
+  },
+  {
+    question: "Terra Cotta Flue Tiles are usually _________ feet long. (Page 90)",
+    options: ["2", "3", "2.5", "5"],
+    answer: "2",
   },
 ];
 
