@@ -119,6 +119,46 @@ const essentialsChapter7QuizData = [
     options: ["16", "24", "26", "22"],
     answer: "24",
   },
+  {
+    question: "Stove pipe that requires the installer to assemble the pipe itself has something called a _________. (Page 92)",
+    options: ["Snap Lock", "Seam Joiner", "Joint Connection", "Slip Seam"],
+    answer: "Snap Lock",
+  },
+  {
+    question: "Single wall stovepipe requires _________ inches of clearance to combustibles. (Page 92)",
+    options: ["18", "36", "12", "9"],
+    answer: "18",
+  },
+  {
+    question: "Double wall connector pipe can be cut to size. (Page 92)",
+    options: ["True", "False"],
+    answer: "False",
+  },
+  {
+    question: "What kind of connector pipe can go through walls, ceilings, or any combustible material? (Page 92)",
+    options: ["No connector pipe can do this", "6 inch and under", "Double Wall", "Triple Wall"],
+    answer: "No connector pipe can do this",
+  },
+  {
+    question: "What happens to Terra Cotta Flue Tiles if subjected to rapid change in temperature (Thermal Shock), often associated with a chimney fire. (Page 92)",
+    options: ["They can fracture or crack", "They melt", "The refractory cement in between the tiles melts", "Nothing, they are built with this in mind"],
+    answer: "They can fracture or crack",
+  },
+  {
+    question: "According to NFPA 211, if the flue lining is damaged, repair or replacement isn't necessary. (Page 92)",
+    options: ["True", "False"],
+    answer: "False",
+  },
+  {
+    question: "Coating and repair systems repair joints in tile liners and resurface defecting flue tiles with refractory materials. (Page 92)",
+    options: ["True", "False"],
+    answer: "True",
+  },
+  {
+    question: "Double wall connector pipe can be cut to size. (Page 92)",
+    options: ["True", "False"],
+    answer: "False",
+  },
 ];
 
 if (!window.quizRegistry) window.quizRegistry = {};
