@@ -14,6 +14,7 @@ function onDomReady(callback) {
 onDomReady(() => {
   replaceState({ stage: 'book-selection' });
   loadBookSelectionOptions();
+  validateQuizAnswers();
 });
 
 // Popstate handler
