@@ -534,6 +534,81 @@ const essentialsChapter7QuizData = [
     options: ["Cooler flue gases results in the smoke condensing in the flue", "It increases draft", "It converts Carbon Dioxide back into Carbon Monoxide", "It always generates a small fire directly in the flue"],
     answer: "Cooler flue gases results in the smoke condensing in the flue",
   },
+  {
+    question: "According to the NFPA 211 and the IRC, a chimney connector must not pass through any ceiling, floor, concealed space, firewall, or fire partition while in route to the chimney. (Page 104)",
+    options: ["True", "False"],
+    answer: "True",
+  },
+  {
+    question: "IRC and NFPA 211 require that a connector to a masonry chimney must extend through the chimney wall to the _________ and be firmly cemented to the masonry. (Page 104)",
+    options: ["Inner face of the flue liner, but not beyond (must be flush)", "Inner face of the flue liner, and between 1 and 3 inches beyond", "The middle of the flue to ensure gases will be contained", "Area 1 inch before the inner face of the flue liner"],
+    answer: "Inner face of the flue liner, but not beyond (must be flush)",
+  },
+  {
+    question: "When doesn't a chimney connector not need to be cemented to the masonry? (Page 104)",
+    options: ["When thimbles are used to aid in the removal of the chimney connector for cleaning", "When the diameter of the connector is 6 inches or under", "When venting a gas appliance", "When you are on the main floor of the house"],
+    answer: "When thimbles are used to aid in the removal of the chimney connector for cleaning",
+  },
+  {
+    question: "A _________ is a fixed or removable ring, tube, or lining usually located in the hole where a chimney connector or vent connector passes through a wall or enters a chimney or vent. (Page 104)",
+    options: ["Thimble", "Tee Snout", "Connector", "Flue Collar"],
+    answer: "Thimble",
+  },
+  {
+    question: "A thimble must be permanently cemented in place with _________. (Page 104)",
+    options: ["Refractory Cement", "Grout", "Refractory Silicone", "Mill-Pac"],
+	answer: "Refractory Cement",
+  },
+  {
+    question: "Thimbles must be constructed of _________. (Page 104)",
+    options: ["Fire Clay or Galvanized Steel of minimum 24-gauge thickness", "Fire Clay or Galvanized Steel of minimum 16-gauge thickness", "Galvanized Steel of minimum 22-gauge thickness", "Refractory Cement"],
+	answer: "Fire Clay or Galvanized Steel of minimum 24-gauge thickness",
+  },
+  {
+    question: "A _________ is a type of thimble most commonly defined as a method to penetrate a combustible wall to reach a masonry chimney. (Page 104)",
+    options: ["Wall Pass-Through", "24 Gauge Galvanized Steel Thimble", "Non-Combustible Thimble", "Wall Protector"],
+	answer: "Wall Pass-Through",
+  },
+  {
+    question: "Wall Pass-Throughs are usually insulated. (Page 104)",
+    options: ["True", "False"],
+	answer: "True",
+  },
+  {
+    question: "Wood burning stoves, heath stoves and fireplace inserts MAY NOT be connected to a masonry chimney serving a fireplace. (Page 104)",
+    options: ["True", "False"],
+	answer: "False",
+  },
+  {
+    question: "These replace a short section of the connector pipe with a specially designed heater to pre-heat the venting system so you can establish draft quicker and without a lot of smoke billowing into the room. (Page 104)",
+    options: ["Heat Reclaimers", "Vent Pipe Heaters", "Heat Exchangers", "Barometric Dampers"],
+	answer: "Vent Pipe Heaters",
+  },
+  {
+    question: "Mechanical Draft fans are able to operate without electricity. (Page 105)",
+    options: ["True", "False"],
+	answer: "False",
+  },
+  {
+    question: "_________ is designed to protect the top of a chimney and are made of masonry or metal. They help prevent rain, snow, debris, leaves, animals, and birds from entering the chimney. Screens and spark arrestors are often a part of these. (Page 105)",
+    options: ["Chimney Cap", "Wash", "Crown", "Splay"],
+	answer: "Chimney Cap",
+  },
+  {
+    question: "Premature deterioration of the firebox and liner mortar joints in a fireplace is usually a result of _________. (Page 105)",
+    options: ["Water Damage", "Chimney Fires", "Bad Construction", "Creosote"],
+	answer: "Water Damage",
+  },
+  {
+    question: "If wind-induced downdraft is caused by turbulence, a _________ may deflect the wind enough for the chimney to function normally. (Page 105)",
+    options: ["Crown", "Chimney Cap", "Corbelled Chimney", "Chimney under 3 feet"],
+	answer: "Chimney Cap",
+  },
+  {
+    question: "Most masonry fireplaces are very efficient. (Page 105)",
+    options: ["True", "False"],
+	answer: "False",
+  },
 ];
 
 if (!window.quizRegistry) window.quizRegistry = {};
