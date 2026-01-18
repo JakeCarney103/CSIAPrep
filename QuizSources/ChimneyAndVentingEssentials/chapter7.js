@@ -405,9 +405,134 @@ const essentialsChapter7QuizData = [
     answer: "Throat Damper",
   },
   {
-    question: "Pellet Vent pipe joints must contain pressure utilizing a gasket, high-temp sealant, or special design. (Page 99)",
+    question: "Throat dampers are usually deeper than they are wide. (Page 100)",
+    options: ["True", "False"],
+    answer: "False",
+  },
+  {
+    question: "Throat Dampers consist of a pivoting _________, which opens and closes over an opening in the damper frame. (Page 100)",
+    options: ["Valve Plate", "Fan", "Piston", "Gasket"],
+    answer: "Valve Plate",
+  },
+  {
+    question: "A Damper Blade is also known as a 'Valve Plate'. (Page 100)",
     options: ["True", "False"],
     answer: "True",
+  },
+  {
+    question: "This type of Throat Damper contains a long rod that passes through the fireplace face. A spiral screw is mounted on the rod, and a valve plate attachment fits over this screw. As the user turns the rod from the outside, the damper opens or closes. (Page 100)",
+    options: ["Rotary", "Lever", "Poker", "Twister"],
+    answer: "Rotary",
+  },
+  {
+    question: "Removing the valve plate on a rotary type is often very easy. (Page 100)",
+    options: ["True", "False"],
+    answer: "False",
+  },
+  {
+    question: "How do you remove a Rotary type valve plate? (Page 100)",
+    options: ["Usually by separating the valve plate from the rest of the damper mechanism", "You must always have to break it", "They cannot be removed", "Simply by lifting the valve plate away from the frame"],
+    answer: "Usually by separating the valve plate from the rest of the damper mechanism",
+  },
+  {
+    question: "A lever or poker control mechanism is moved from inside the fireplace to open and shut the damper. (Page 100)",
+    options: ["True", "False"],
+    answer: "True",
+  },
+  {
+    question: "A Vestal Damper uses what mechanism? (Page 100)",
+    options: ["Rotary", "Lever", "Automatic", "Twister"],
+    answer: "Lever",
+  },
+  {
+    question: "What is the main way to remove a vestal damper? (Page 101)",
+    options: ["Open the damper then remove the cotter pin to free the damper handle", "Leave it closed and lift it from the rear", "They cannot be removed", "You must cut it out"],
+    answer: "Open the damper then remove the cotter pin to free the damper handle",
+  },
+  {
+    question: "When dealing with dampers, it is good to carry these in case they break? (Page 101)",
+    options: ["Cotter Pins", "Bolts", "Levers", "Damper Frames"],
+    answer: "Cotter Pins",
+  },
+  {
+    question: "An Allied/Donley Damper uses what mechanism? (Page 101)",
+    options: ["Rotary Only", "Lever Only", "Rotary or Lever", "Automatic"],
+    answer: "Rotary or Lever",
+  },
+  {
+    question: "Majestic dampers should be removed in the closed position. (Page 101)",
+    options: ["True", "False"],
+    answer: "False",
+  },
+  {
+    question: "What is one key differentiation about a Majestic Damper? (Page 101)",
+    options: ["They have a handle with a large round hole in the center", "They are Rotary Controlled", "They are circular", "They are made of wood"],
+    answer: "They have a handle with a large round hole in the center",
+  },
+  {
+    question: "How do you remove dampers for steel fireplace units that are manufactured as a part of the firebox? (Page 101)",
+    options: ["Remove their cotter pin", "Simply lift it out", "They cannot be removed", "'Over' Open the damper to pop it out of place"],
+    answer: "They cannot be removed",
+  },
+  {
+    question: "According to NFPA 211, what must be installed when a metal fireplace has heat exchanger tubes? (Page 102)",
+    options: ["Automatic Fire Extinguisher", "Access Door that allows entry into the smoke chamber", "Top Mount Damper", "Donley Damper"],
+    answer: "Access Door that allows entry to the smoke chamber",
+  },
+  {
+    question: "This damper is opened and closed by a cable attached to a chain and bracket located on the sidewall of the firebox. The damper itself is located on the top of the chimney? (Page 102)",
+    options: ["Chimney Damper", "Top-Mounted Damper", "Flue Damper", "Damper from Above"],
+    answer: "Top-Mounted Damper",
+  },
+  {
+    question: "Where are most dampers located for factory-built fireplaces? (Page 102)",
+    options: ["Where the chimney joins the top of the firebox", "At the top of the chimney", "In the middle of the flue", "They don't have dampers that can close"],
+    answer: "Where the chimney joins the top of the firebox",
+  },
+  {
+    question: "Connector pipe dampers should not obstruct more than _________ of the interior connector area when closed? (Page 103)",
+    options: ["90%", "80%", "50%", "75%"],
+    answer: "80%",
+  },
+  {
+    question: "This damper a valve, usually in the form of a rotating, round-plate, for controlling the flow of smoke through the connector pipe and therefore the venting system? (Page 103)",
+    options: ["Chimney Damper", "Connector Damper", "Flue Damper", "Damper from Above"],
+    answer: "Connector Damper",
+  },
+  {
+    question: "_________ Dampers are prohibited in vents for gas and oil fired appliances. (Page 103)",
+    options: ["Automatic", "Manual", "Barometric", "Metal"],
+    answer: "Manual",
+  },
+  {
+    question: "This damper fits in a t-section on the connector. It operates automatically and limits the draft that pulls air into the heating appliance. (Page 103)",
+    options: ["Chimney Damper", "Barometric Damper", "Connector Damper", "Majestic Damper"],
+    answer: "Barometric Damper",
+  },
+  {
+    question: "A barometric damper increases draft in the appliance? (Page 103)",
+    options: ["True", "False"],
+    answer: "False",
+  },
+  {
+    question: "What happens to a barometric damper when a chimney fire occurs? (Page 103)",
+    options: ["Makes a loud ringing noise to alert the homeowner", "Completely closes to prevent air from fueling the chimney fire", "Completely opens resulting in air entering the flue and sustaining the fire", "Reverses Draft causing a forced downdraft"],
+    answer: "Completely opens resulting in air entering the flue and sustaining the fire",
+  },
+  {
+    question: "Barometric dampers are highly recommended on wood burning systems. (Page 103)",
+    options: ["True", "False"],
+    answer: "False",
+  },
+  {
+    question: "A _________ fits in the connector directly behind or above the stove. This extracts heat from flue gases and pushes them to the room. (Page 103)",
+    options: ["Heat Exchanger", "Heat Reclaimer", "Fan", "Barometric Damper"],
+    answer: "Heat Reclaimer",
+  },
+  {
+    question: "Why do Heat Reclaimers increase the likelihood of excessive creosote buildup? (Page 103)",
+    options: ["Cooler flue gases results in the smoke condensing in the flue", "It increases draft", "It converts Carbon Dioxide back into Carbon Monoxide", "It always generates a small fire directly in the flue"],
+    answer: "Cooler flue gases results in the smoke condensing in the flue",
   },
 ];
 
