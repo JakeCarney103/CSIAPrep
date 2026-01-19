@@ -177,7 +177,7 @@ const essentialsChapter7QuizData = [
   {
     question: "_________ These alloys are often termed all fuel alloys (wood, pellet, coal, oil and gas). When it comes to gas, they are only suitable for Category 1. (Page 94)",
     options: ["304 and 304L", "AL29-4C", "316, 316L and 316TI", "321"],
-    answer: "316,316L and 316TI",
+    answer: "316, 316L and 316TI",
   },
   {
     question: "_________ These alloys are suitable for wood and pellet burning applications. However, it is no longer being used. (Page 94)",
@@ -261,7 +261,7 @@ const essentialsChapter7QuizData = [
   },
   {
     question: "A common way of insulating a stainless steel liner is to fill the void between the liner and the chimney walls with _________. (Page 95)",
-    options: ["A mixture of expanded mica, perlite or vermiculite and cement", "Fiberglass Insulation", "Expanding Foam", "Refractory Silicone"],
+    options: ["A mixture of expanded mica, perlite, or vermiculite and cement", "Fiberglass Insulation", "Expanding Foam", "Refractory Silicone"],
     answer: "A mixture of expanded mica, perlite, or vermiculite and cement",
   },
   {
@@ -477,7 +477,7 @@ const essentialsChapter7QuizData = [
   {
     question: "According to NFPA 211, what must be installed when a metal fireplace has heat exchanger tubes? (Page 102)",
     options: ["Automatic Fire Extinguisher", "Access Door that allows entry into the smoke chamber", "Top Mount Damper", "Donley Damper"],
-    answer: "Access Door that allows entry to the smoke chamber",
+    answer: "Access Door that allows entry into the smoke chamber",
   },
   {
     question: "This damper is opened and closed by a cable attached to a chain and bracket located on the sidewall of the firebox. The damper itself is located on the top of the chimney? (Page 102)",
@@ -608,6 +608,366 @@ const essentialsChapter7QuizData = [
     question: "Most masonry fireplaces are very efficient. (Page 105)",
     options: ["True", "False"],
 	answer: "False",
+  },
+  {
+    question: "_________ are tall and shallow to reflect more heat, and they have streamlined throats to eliminate turbulence and carry away the smoke with little loss of heated room air. (Page 106)",
+    options: ["Rumford Fireplaces", "Heatilators", "Hearth Stoves", "Gas Inserts"],
+	answer: "Rumford Fireplaces",
+  },
+  {
+    question: "Double Wall Steel Fireboxes surrounded by masonry in fireplaces was popular in this time period. (Page 106)",
+    options: ["1960-1980", "1940-1950", "1990-2000", "2005-2015"],
+	answer: "1960-1980",
+  },
+  {
+    question: "Two popular brands of Steel Fireboxes were Superior and Heatilator. (Page 106)",
+    options: ["True", "False"],
+	answer: "True",
+  },
+  {
+    question: "_________ consist of a factory-made firebox assembly and metal chimney system. They are usually enclosed within framed walls that can be covered with masonry or other materials. (Page 106)",
+    options: ["Factory-Built Fireplaces", "Masonry Fireplaces", "Fireplace Insert", "Freestanding Stoves"],
+	answer: "Factory-Built Fireplaces",
+  },
+  {
+    question: "Although most factory-built fireplaces today have some sort of minimum clearances to combustibles, they have never been able to shed the name _________. (Page 107)",
+    options: ["Zero-Clearance", "Anti-combustible", "User-Friendly", "Safety-Fireplaces"],
+	answer: "Zero-Clearance",
+  },
+  {
+    question: "Accessories can be installed on masonry and factory-built fireplaces if the accessories are listed and installed according to their listing, installed according to the manufacturer's instructions or installed by a qualified agency and are acceptable to the AHJ. (Page 107)",
+    options: ["True", "False"],
+	answer: "True",
+  },
+  {
+    question: "_________ is credited with developing the first 'mass produced' wood burning stove in this country. (Page 107)",
+    options: ["Benjamin Franklin", "Elon Musk", "George Washington", "Dick Van Dyke"],
+	answer: "Benjamin Franklin",
+  },
+  {
+    question: "New wood stove construction techniques make it possible to build stoves that are sealed much tighter, giving the control of combustion air to the operator. These quickly gained the name _________. (Page 107)",
+    options: ["Zero-Clearance", "Air-Tight", "Quick Seal", "User Lenient"],
+	answer: "Air-Tight",
+  },
+  {
+    question: "In general most stoves sold today must be EPA Approved. (Page 108)",
+    options: ["True", "False"],
+	answer: "True",
+  },
+  {
+    question: "There are _________ major types of freestanding wood stoves. (Page 108)",
+    options: ["3", "4", "2", "5"],
+	answer: "3",
+  },
+  {
+    question: "_________ are typically built from flat panels of steel 1/8 - 3/8 of an inch thick. (Page 108)",
+    options: ["Steel Stoves", "Cast Iron Stoves", "Soapstone Stoves", "Titanium Stoves"],
+	answer: "Steel Stoves",
+  },
+  {
+    question: "_________ are constructed of panels. Cast iron is poured into molds; is is not a flat piece of metal. (Page 108)",
+    options: ["Steel Stoves", "Cast Iron Stoves", "Soapstone Stoves", "Titanium Stoves"],
+	answer: "Cast Iron Stoves",
+  },
+  {
+    question: "_________ are either built with an inner firebox of steel or cast iron and stone panels, or the firebox is made from thicker soapstone panels that are exposed directly to the fire. (Page 108)",
+    options: ["Steel Stoves", "Cast Iron Stoves", "Soapstone Stoves", "Titanium Stoves"],
+	answer: "Soapstone Stoves",
+  },
+  {
+    question: "How can you tell the difference between a Steel Stove and a Cast Iron Stove? (Page 108)",
+    options: ["Steel stoves have panels that are welded together, while Cast Iron Stoves have panels that are joined with tongue and groove joints, or the seams are sealed with furnace cement", "Cast Iron stoves have panels that are welded together, while Steel Stoves have panels that are joined with tongue and groove joints, or the seams are sealed with furnace cement", "Steel Stoves are usually polished and reflective, while Cast Iron Stoves are usually flat black", "Steel Stoves have soapstone panels, while Cast Iron Stoves do not"],
+	answer: "Steel stoves have panels that are welded together, while Cast Iron Stoves have panels that are joined with tongue and groove joints, or the seams are sealed with furnace cement",
+  },
+  {
+    question: "A _________ is a device designed to increase the combustion efficiency of a wood heating system by lowering the ignition temperature of the flue gasses passing through it. (Page 108)",
+    options: ["Heat Reclaimer", "Catalytic Combustor", "Heat Exchanger", "Baffle Plate"],
+	answer: "Catalytic Combustor",
+  },
+  {
+    question: "When operating a wood stove, up to _________ of the potential energy content of the fuel is converted to a variety of gases. (Page 108)",
+    options: ["20%", "40%", "50%", "10%"],
+	answer: "50%",
+  },
+  {
+    question: "A catalytic combustor works to lower the ignition temperature of the escaping gases to approximately _________°F. (Page 109)",
+    options: ["500", "900", "800", "1000"],
+	answer: "500",
+  },
+  {
+    question: "The Catalytic Combustor's pad is coated with a combination of _________. (Page 109)",
+    options: ["Noble Metal Catalysts", "Creosote Busters", "Natural Gas and LP residue", "Fuel and Oxygen"],
+	answer: "Noble Metal Catalysts",
+  },
+  {
+    question: "If a Catalytic Combustor is glowing red, it is a VALID indication that the combustor is functioning correctly. (Page 109)",
+    options: ["True", "False"],
+	answer: "False",
+  },
+  {
+    question: "If the Catalytic Combustor is glowing red, that means it has reached _________. (Page 109)",
+    options: ["500°F - 700°F", "1500°F - 1700°F", "1300°F - 1500°F", "704°F - 816°F"],
+	answer: "1300°F - 1500°F",
+  },
+  {
+    question: "How can you verify a Catalytic Combustor is working correctly? (Page 109)",
+    options: ["Insert a probe thermometer just above it; the higher the reading the better", "If it is glowing red", "Measure the temperature of the stovepipe", "If it is making a faint whistling sound"],
+	answer: "Insert a probe thermometer just above it; the higher the reading the better",
+  },
+  {
+    question: "Catalytic Combustors never need changed. (Page 109)",
+    options: ["True", "False"],
+	answer: "False",
+  },
+  {
+    question: "What is a catalytic combustor's lifetime expressed as? (Page 109)",
+    options: ["Hours of Usage", "Years", "Burning Seasons", "Months"],
+	answer: "Hours of Usage",
+  },
+  {
+    question: "Most fireplace inserts draw air in the space between the firebox and shell so the heat from the firebox can be transferred to the room by means of _________? (Page 109)",
+    options: ["Radiation", "Conduction", "Convection", "Combustion"],
+	answer: "Convection",
+  },
+  {
+    question: "When it comes to relining a chimney for a fireplace insert, it is best to _________. (Page 109)",
+    options: ["Reline all the way to the top of the chimney", "Reline to the first flue tile", "No relining is needed if the existing Terra Cotta tile is still in great shape", "Just have a small run of connector pipe into the smoke chamber"],
+	answer: "Reline all the way to the top of the chimney",
+  },
+  {
+    question: "According to NFPA 211, all fireplace inserts require the use of a _________ chimney system. (Page 110)",
+    options: ["1700°F HT", "2100°F HT", "2000°F HT", "1700°F"],
+	answer: "2100°F HT",
+  },
+  {
+    question: "A _________ sits on the hearth and is designed with a rear flue exit that is low enough to fit under the fireplace lintel and make use of fireplace chimney. (Page 110)",
+    options: ["Wood Burning Insert", "Hearth Stove", "Open Fireplace", "Freestanding Stove"],
+	answer: "Hearth Stove",
+  },
+  {
+    question: "When it comes to Inserts and Hearth Stoves, the minimum requirement for relining the flue is _________. (Page 110)",
+    options: ["You must reline all the way to the top of the chimney", "You must at least line from the appliance to the first flue tile", "You don't need a liner as long as the flue collar rests directly under the throat", "The liner must always reduce at least 2 inches in diameter between the flue collar and the stainless steel liner"],
+	answer: "You must at least line from the appliance to the first flue tile",
+  },
+  {
+    question: "Although coal burns hotter than cordwood, all wood burning stoves are built to withstand the heat of burning coal. (Page 111)",
+    options: ["True", "False"],
+	answer: "False",
+  },
+  {
+    question: "Gas appliances now represent almost _________ of the hearth products installed today. (Page 111)",
+    options: ["All", "80%", "20%", "50%"],
+	answer: "80%",
+  },
+  {
+    question: "Chimney technicians should promote annual service for gas hearth appliances as well. (Page 111)",
+    options: ["True", "False"],
+	answer: "True",
+  },
+  {
+    question: "When it comes to gas units, if you want to convert from Natural Gas to LP, or vise versa, you can do so without the need of any modifications. (Page 111)",
+    options: ["True", "False"],
+	answer: "False",
+  },
+  {
+    question: "_________ offer the look an effect of a real wood fireplace and is the 'original' gas hearth appliance. (Page 111)",
+    options: ["Gas Hearth Stove", "Gas Insert", "Gas Logs", "Wall Mounted Propane Heater"],
+	answer: "Gas Logs",
+  },
+  {
+    question: "Gas logs can be installed in a fireplace suitable for wood burning or specifically designed for gas logs. (Page 112)",
+    options: ["True", "False"],
+	answer: "True",
+  },
+  {
+    question: "_________ are a must for LP and all vent-free logs sets. These are also required for vented natural gas sets in many jurisdictions. (Page 112)",
+    options: ["Safety Pilots", "Stainless Steel Liners", "Power Vents", "Gas Leak Detectors"],
+	answer: "Safety Pilots",
+  },
+  {
+    question: "Vented gas logs must be installed in a working fireplace with adequate draft. (Page 112)",
+    options: ["True", "False"],
+	answer: "True",
+  },
+  {
+    question: "Gas logs are a repair option for unsatisfactory chimneys or fireplaces. (Page 112)",
+    options: ["True", "False"],
+	answer: "True",
+  },
+  {
+    question: "In relations to Vented Gas Logs, the damper should be _________, as specified by the gas log manufacturer instructions. (Page 112)",
+    options: ["Manually operated", "Removed or Fixed in the Open Position", "Barely cracked open", "Sealed shut"],
+	answer: "Removed or Fixed in the Open Position",
+  },
+  {
+    question: "Factory-Built Fireplaces built before _________ were not tested for use with vent free gas appliances. (Page 112)",
+    options: ["1998", "2010", "1970", "2020"],
+	answer: "1998",
+  },
+  {
+    question: "Where must B-Vent appliances terminate? (Page 113)",
+    options: ["Vertically above the roof", "Horizontally after exiting the roof", "Horizontally directly perpendicular to the appliance", "Diagonally following the pitch of the house"],
+	answer: "Vertically above the roof",
+  },
+  {
+    question: "B-Vent appliances rely on _________ for proper venting. (Page 113)",
+    options: ["Mechanical Draft", "Natural Draft", "Extremely high heat", "Hard Cordwood Species"],
+	answer: "Natural Draft",
+  },
+  {
+    question: "Factory-built gas fireplaces using Type B venting systems normally have _________ as an integral part of the appliance. (Page 113)",
+    options: ["Leak Detection", "Glass Doors", "Gas Pressure Gauge", "Ash Dump"],
+	answer: "Glass Doors",
+  },
+  {
+    question: "Log sets are interchangeable with other log sets. (Page 113)",
+    options: ["True", "False"],
+	answer: "False",
+  },
+  {
+    question: "Direct vent gas fireplaces have operable doors. (Page 113)",
+    options: ["True", "False"],
+	answer: "False",
+  },
+  {
+    question: "Direct Vent Fireplace Inserts use a _________ venting system. (Page 114)",
+    options: ["Co-Axial", "Co-Linear", "Vent-Free", "Mechanical"],
+	answer: "Co-Linear",
+  },
+  {
+    question: "Direct Vent Gas fireplace Inserts usually have a tall venting system. With this in mind, what would happen if you don't install or adjust the appliance's restrictor plate. (Page 114)",
+    options: ["Distorted 'Flame Picture'. The flames would be very short and not the relaxed flame as expected.", "The gas flames would be pulled up by the large amount of draft and cause a fire hazard.", "The draft would never allow the gas appliance to shut off.", "The Flame Picture would change to green instead of the more natural looking flame."],
+	answer: "Distorted 'Flame Picture'. The flames would be very short and not the relaxed flame as expected.",
+  },
+  {
+    question: "Where do you find venting configurations, hearth protection requirements, and clearances to combustibles for Freestanding Direct Vent Gas Stoves. (Page 114)",
+    options: ["Appliance Manufacturer", "NFPA 211", "IRC", "NFPA 54"],
+	answer: "Appliance Manufacturer",
+  },
+  {
+    question: "The glass on a gas appliance stays cool during operation. (Page 114)",
+    options: ["True", "False"],
+	answer: "False",
+  },
+  {
+    question: "Beginning January 1, 2015 all newly manufactured glass fronted gas fireplaces, inserts and freestanding stoves were required to have an installed protective barrier if the glass exceeds _________°F during operation. (Page 115)",
+    options: ["500", "172", "212", "451"],
+	answer: "172",
+  },
+  {
+    question: "Vent-Free Gas Appliances are advertised at 99.9% efficient. (Page 115)",
+    options: ["True", "False"],
+	answer: "True",
+  },
+  {
+    question: "Vent-Free Appliances are designed to be used as a primary source of heat. (Page 115)",
+    options: ["True", "False"],
+	answer: "False",
+  },
+  {
+    question: "Vent-Free appliances are required to have a(n) _________ built into the pilot assembly. (Page 115)",
+    options: ["Oxygen Depletion Sensor", "Gas Accelerator", "Leak Sensor", "Barometric Damper"],
+	answer: "Oxygen Depletion Sensor",
+  },
+  {
+    question: "ODS shuts the appliance down if the oxygen level in the home goes below _________. (Page 115)",
+    options: ["18%", "20.9%", "5%", "12%"],
+	answer: "18%",
+  },
+  {
+    question: "Vent-Free appliances installed at high altitudes will experience nuisance outages are are not recommended. (Page 115)",
+    options: ["True", "False"],
+	answer: "True",
+  },
+  {
+    question: "Vent-Free appliances are limited to _________ BTUs input except in bedrooms or bathrooms. (Page 115)",
+    options: ["40,000", "50,000", "8,600", "100,000"],
+	answer: "40,000",
+  },
+  {
+    question: "Vent-Free appliances installed in bedrooms are limited to _________ BTUs. (Page 115)",
+    options: ["40,000", "10,000", "6,000", "8,600"],
+	answer: "10,000",
+  },
+  {
+    question: "Vent-Free appliances installed in bathrooms are limited to _________ BTUs. (Page 115)",
+    options: ["40,000", "10,000", "6,000", "8,600"],
+	answer: "6,000",
+  },
+  {
+    question: "Vent-Free units are not allowed in many jurisdictions to be installed in bedrooms or bathrooms. (Page 115)",
+    options: ["True", "False"],
+	answer: "True",
+  },
+  {
+    question: "The combustion of 100,000 BTUs of gas will produce approximately _________ gallon(s) of water vapor. (Page 115)",
+    options: ["1", "0.5", "2", "10"],
+	answer: "1",
+  },
+  {
+    question: "VA 40,000 BTU vent-free appliance will add almost _________ gallon(s) of water into the room air every hour. (Page 115)",
+    options: ["1", "0.5", "2", "10"],
+	answer: "0.5",
+  },
+  {
+    question: "You can smell carbon monoxide. (Page 116)",
+    options: ["True", "False"],
+	answer: "False",
+  },
+  {
+    question: "This category of gas appliance has flue gas temperatures hot enough to prevent condensation and vent by natural draft. (Page 116)",
+    options: ["Category I", "Category II", "Category III", "Category IV"],
+	answer: "Category I",
+  },
+  {
+    question: "This category of gas appliance is a negative pressure condensing unit whose category is not currently being used. (Page 116)",
+    options: ["Category I", "Category II", "Category III", "Category IV"],
+	answer: "Category II",
+  },
+  {
+    question: "This category of gas appliance is a positive pressure non-condensing unit. These are in use, but not that common. (Page 116)",
+    options: ["Category I", "Category II", "Category III", "Category IV"],
+	answer: "Category III",
+  },
+  {
+    question: "This category of gas appliance has a mechanical draft system that provides positive vent pressure and functions with temperatures low enough to allow condensation, which is a result of extremely high efficiencies. (Page 116)",
+    options: ["Category I", "Category II", "Category III", "Category IV"],
+	answer: "Category IV",
+  },
+  {
+    question: "Most Pellet stoves are electrically driven. (Page 116)",
+    options: ["True", "False"],
+	answer: "True",
+  },
+  {
+    question: "For the most part, pellet stoves produce heat by _________. (Page 116)",
+    options: ["Convection", "Radiation", "Conduction", "Electricity"],
+	answer: "Convection",
+  },
+  {
+    question: "Pellet stoves blow room air across a(n) _________. (Page 117)",
+    options: ["Internal Heat Exchanger", "Auger", "Firepot", "Condensing Unit"],
+	answer: "Internal Heat Exchanger",
+  },
+  {
+    question: "At this time there are loads of pellet fireplaces on the market. (Page 117)",
+    options: ["True", "False"],
+	answer: "False",
+  },
+  {
+    question: "When it comes to Freestanding Pellet Appliances, the mechanical draft system allows venting straight through the wall. (Page 117)",
+    options: ["True", "False"],
+	answer: "True",
+  },
+  {
+    question: "Why do some manufactures recommend, while others require, enough vertical rise in the venting system to create enough natural draft. (Page 116)",
+    options: ["The pellets burning at the time of a power outage can push smoke into the home", "Pellets don't burn hot", "Because the mechanical draft system of a pellet appliance does not allow venting straight through a wall", "It is required in the IRC"],
+	answer: "The pellets burning at the time of a power outage can push smoke into the home",
+  },
+  {
+    question: "In the Northeast fuel oil remains a major fuel for home heating. (Page 117)",
+    options: ["True", "False"],
+	answer: "True",
   },
 ];
 
