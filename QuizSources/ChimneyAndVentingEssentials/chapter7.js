@@ -95,7 +95,7 @@ const essentialsChapter7QuizData = [
     answer: "1700",
   },
   {
-    question: "Most factory-built chimneys used for UL 127 fireplaces are UL 103-HT listed. (Page 91)",
+    question: "Most factory-built chimneys used for UL 127 fireplaces are HT listed. (Page 91)",
     options: ["True", "False"],
     answer: "False",
   },
@@ -315,7 +315,7 @@ const essentialsChapter7QuizData = [
     answer: "BW Vent",
   },
   {
-    question: "Most heath appliances are not approved for use with BW Vent. (Page 97)",
+    question: "Most hearth appliances are not approved for use with BW Vent. (Page 97)",
     options: ["True", "False"],
     answer: "True",
   },
@@ -575,7 +575,7 @@ const essentialsChapter7QuizData = [
 	answer: "True",
   },
   {
-    question: "Wood burning stoves, heath stoves and fireplace inserts MAY NOT be connected to a masonry chimney serving a fireplace. (Page 104)",
+    question: "Wood burning stoves, hearth stoves and fireplace inserts MAY NOT be connected to a masonry chimney serving a fireplace. (Page 104)",
     options: ["True", "False"],
 	answer: "False",
   },
@@ -792,7 +792,7 @@ const essentialsChapter7QuizData = [
   {
     question: "Gas logs are a repair option for unsatisfactory chimneys or fireplaces. (Page 112)",
     options: ["True", "False"],
-	answer: "True",
+	answer: "False",
   },
   {
     question: "In relations to Vented Gas Logs, the damper should be _________, as specified by the gas log manufacturer instructions. (Page 112)",
@@ -905,7 +905,7 @@ const essentialsChapter7QuizData = [
 	answer: "1",
   },
   {
-    question: "VA 40,000 BTU vent-free appliance will add almost _________ gallon(s) of water into the room air every hour. (Page 115)",
+    question: "A 40,000 BTU vent-free appliance will add almost _________ gallon(s) of water into the room air every hour. (Page 115)",
     options: ["1", "0.5", "2", "10"],
 	answer: "0.5",
   },
