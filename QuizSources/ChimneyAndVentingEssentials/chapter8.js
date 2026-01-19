@@ -6,8 +6,8 @@ const essentialsChapter8QuizData = [
   },
   {
     question: "This is best used for dust control. (Page 119)",
-    options: ["Turning your vacuum control", "Sweeping a chimney with large flow", "Letting draft do all the work", "Opening a window so the dust can escape quickly before it settles"],
-    answer: "Inside the building envelope and is taller than the highest point of the roof"
+    options: ["Turning your vacuum on", "Sweeping a chimney with large flow", "Letting draft do all the work", "Opening a window so the dust can escape quickly before it settles"],
+    answer: "Turning your vacuum on"
   },
   {
     question: "Prior to doing any work, you should set up drop cloths, vacuum equipment, and any other required materialst to prevent any soot or dust from entering the living quarters or soiling the area around the fireplace. (Page 119)",
@@ -228,6 +228,96 @@ const essentialsChapter8QuizData = [
     question: "Secondary Air Tubes are responsible for _________. (Page 124)",
     options: ["Bringing in air to burn gases before they exit", "Dispersing air to the outside", "Lowering the ignition temperature of gases", "Being extra parts for the main air intake"],
     answer: "Bringing in air to burn gases before they exit"
+  },
+  {
+    question: "_________ is regular glass that has been heat treated to increase strength and thermal shock resistance. (Page 124)",
+    options: ["Tempered Glass", "Thermal Glass", "Spider Glass", "Fire Glass"],
+    answer: "Thermal Glass"
+  },
+  {
+    question: "Tempered glass can withstand constant temperatures of _________. (Page 125)",
+    options: ["470°F", "500°F", "1000°F", "121°F"],
+    answer: "470°F"
+  },
+  {
+    question: "If tempered glass is exposed to continuous temperatures of 600°F or more, what happens? (Page 125)",
+    options: ["The glass melts", "The glass catches on fire", "The glass will eventually shatter", "It becomes stronger"],
+    answer: "The glass will eventually shatter"
+  },
+  {
+    question: "_________ is commonly referred to as glass, but it is actually a transparent ceramic. (Page 125)",
+    options: ["Ceramic Glass", "Tempered Glass", "Porcelain Glass", "Transparent Glass"],
+    answer: "Ceramic Glass"
+  },
+  {
+    question: "Ceramic glass can withstand continuous exposure to high temperatures without fear of destruction. (Page 125)",
+    options: ["True", "False"],
+    answer: "True"
+  },
+  {
+    question: "Ceramic Glass is the ideal solution for many wood stoves and fireplaces where glass panels are less than _________ from the flames. (Page 125)",
+    options: ["6 inches", "1 foot", "8 inches", "24 inches"],
+    answer: "6 inches"
+  },
+  {
+    question: "Fiberglass or Ceramic gasketing is used to seal doors, glass and on some cast iron stoves the seams between cast iron panels. (Page 125)",
+    options: ["True", "False"],
+    answer: "True"
+  },
+  {
+    question: "Gasketing thickness is measured based on _________. (Page 125)",
+    options: ["Diameter", "Thread Count", "Radius", "Circumference"],
+    answer: "Diameter"
+  },
+  {
+    question: "Gasketing density is measured based on _________. (Page 125)",
+    options: ["Diameter", "Number of strands", "Radius", "Thickness"],
+    answer: "Number of strands"
+  },
+  {
+    question: "Most stove paint can withstand temperatures up to _________. (Page 125)",
+    options: ["1000°F", "1100°F", "2000°F", "5000°F"],
+    answer: "1100°F"
+  },
+  {
+    question: "An appliance that was overheated may be missing paint on the stove body and the first few feet of connector pipe. (Page 125)",
+    options: ["True", "False"],
+    answer: "True"
+  },
+  {
+    question: "Secondary air tubes are the best way to tell if a Porcelain appliance was over heated. (Page 125)",
+    options: ["True", "False"],
+    answer: "True"
+  },
+  {
+    question: "Older fireplace inserts that were shoved into open fireplaces with no liner or connection are referred to as _________. (Page 126)",
+    options: ["Slammers", "Code-Compliant", "Un-Lined", "Listed"],
+    answer: "Slammers"
+  },
+  {
+    question: "The type of installation where an appliance must at least have a connector that extends to the first flue liner is known as _________. (Page 126)",
+    options: ["Slammers", "Direct Connect", "A Code Violation", "Fully Lined"],
+    answer: "Direct Connect"
+  },
+  {
+    question: "The cross-section area of the flue must _________ than the appliance flue collar. (Page 126)",
+    options: ["No more than 50% larger", "No smaller", "No more than 50% smaller", "No more than 25% smaller"],
+    answer: "No smaller"
+  },
+  {
+    question: "The cross-section area of the flue must not be more than _________ the cross-sectional area of the appliance flue collar if the chimney is NOT exposed to the outside below the roof line. (Page 127)",
+    options: ["3 times", "2 times", "4 times", "5 times"],
+    answer: "3 times"
+  },
+  {
+    question: "The cross-section area of the flue must not be more than _________ the cross-sectional area of the appliance flue collar if one or more walls of the chimney are exposed to the outside below the roof line. (Page 127)",
+    options: ["3 times", "2 times", "4 times", "5 times"],
+    answer: "2 times"
+  },
+  {
+    question: "It is always better to reline the fireplace flue from the appliance flue collar to the first flue tile. (Page 127)",
+    options: ["True", "False"],
+    answer: "False"
   },
 ];
 
