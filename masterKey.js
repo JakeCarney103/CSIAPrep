@@ -38,6 +38,17 @@ const masterKey = [
 	  { quizName: "Chapter 9: Inspecting the Venting System", fileName: "chapter9.js" },
 	  { quizName: "Chapter 10: Sweeping the Chimney: Introduction", fileName: "chapter10.js" },
 	  { quizName: "Chapter 11: Sweeping Masonry Fireplace Chimneys", fileName: "chapter11.js" },
+	  /*
+	  { quizName: "Chapter 12: Sweeping the Factory Built Fireplace Chimney", fileName: "chapter12.js" },
+	  { quizName: "Chapter 13: Sweeping Freestanding Stove Chimneys", fileName: "chapter13.js" },
+	  { quizName: "Chapter 14: Sweeping the Hearth Stove or Fireplace Insert Chimney", fileName: "chapter14.js" },
+	  { quizName: "Chapter 15: Sweeping the Pellet Appliance Chimneys or Vents", fileName: "chapter15.js" },
+	  { quizName: "Chapter 16: Sweeping Gas and Oil Appliance Chimneys or Vents", fileName: "chapter16.js" },
+	  { quizName: "Chapter 17: Sweeping Masonry Heaters", fileName: "chapter17.js" },
+	  { quizName: "Chapter 18: Troubleshooting", fileName: "chapter18.js" },
+	  { quizName: "Chapter 19: Documentation", fileName: "chapter19.js" },
+	  { quizName: "Chapter 20: Advising the Customer and Maintanence", fileName: "chapter20.js" },
+	  */
     ]
   }
 ];
