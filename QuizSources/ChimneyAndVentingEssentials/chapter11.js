@@ -23,6 +23,7 @@ const essentialsChapter11QuizData = [
     question: "The log grate should be nore more than _________ the firebox width and _________ the firebox depth. (Page 147)",
     options: ["1/2 the width and 1/2 the depth", "2/3 the width and 1/2-2/3 the depth", "1/2-2/3 the width and 1/2 the depth", "1/4-1/2 the width and 1/4-1/2 the depth"],
     answer: "2/3 the width and 1/2-2/3 the depth"
+  },
 ];
 
 if (!window.quizRegistry) window.quizRegistry = {};
