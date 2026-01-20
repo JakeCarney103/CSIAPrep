@@ -60,7 +60,7 @@ const essentialsChapter4QuizData = [
     answer: "Flat wire brushes"
   },
   {
-    question: "Flat wire brushes are very difficult, and maybe even impossible to reverse in a masonry flue, depending on the tightness of the fit. (Page 42)",
+    question: "Flat wire brushes are very difficult, and may be even impossible to reverse in a masonry flue, depending on the tightness of the fit. (Page 42)",
     options: ["True", "False"],
     answer: "True"
   },
@@ -340,7 +340,7 @@ const essentialsChapter4QuizData = [
     answer: "Positive Pressure-Powered Air-Purifying Respirator"
   },
   {
-    question: "A _________ utilized the power of the technician's breathing to draw air through filters, cartridges, or canisters to remove contaminants. (Page 51)",
+    question: "A _________ utilizes the power of the technician's breathing to draw air through filters, cartridges, or canisters to remove contaminants. (Page 51)",
     options: ["Positive Pressure-Powered Air-Purifying Respirator", "Negative Pressure Respirator", "Vacuum", "PCR"],
     answer: "Negative Pressure Respirator"
   },
@@ -360,7 +360,7 @@ const essentialsChapter4QuizData = [
     answer: "True"
   },
   {
-    question: "One of a chimney technician's most important obligations and larges challenges is _________. (Page 52)",
+    question: "One of a chimney technician's most important obligations and largest challenges is _________. (Page 52)",
     options: ["Protecting the job site from dust", "Inspecting the inside of a chimney chase during a level 1 inspection", "Climbing a ladder", "Taking measurements"],
     answer: "Protecting the job site from dust"
   },
