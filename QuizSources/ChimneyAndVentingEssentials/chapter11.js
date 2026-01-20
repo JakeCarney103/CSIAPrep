@@ -47,7 +47,7 @@ const essentialsChapter11QuizData = [
   {
     question: "When looking at the damper frame, what could cause excessive air leakage? (Page 147)",
     options: ["Warped valve plates or frames with mortar in the damper track", "A Majestic Damper", "A Top Damper", "The damper frame is made of cast iron"],
-    answer: "Warped valve plates or frames with mortat in the damper track"
+    answer: "Warped valve plates or frames with mortar in the damper track"
   },
   {
     question: "A _________ is a fixed or removable ring, tube, or lining located in the hole where a chimney connector or vent connector passes into a chimney, smoke chamber or flue. (Page 148)",
@@ -62,7 +62,7 @@ const essentialsChapter11QuizData = [
   {
     question: "What is the proper way to repair an open thimble or a thimble covered with a decorative cover? (Page 149)",
     options: ["Close the opening with brick and mortar or an insulated thimble plug", "Remove the decorative cover, sit gravel in the thimble and then replace the decorative cover", "Fill the hole with grout", "Shove a tightly rolled drop cloth or towel in the opening"],
-    answer: "Close the opening with brick and mortar or an isulated thimble plug"
+    answer: "Close the opening with brick and mortar or an insulated thimble plug"
   },
   {
     question: "Pie plate covers have the possibility to leak dust and creosote, so you should cover them or plug them to prevent this. (Page 149)",
