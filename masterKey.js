@@ -86,7 +86,7 @@ function validateQuizAnswers() {
 		console.warn(`(${questionCount-invalidCount}/${questionCount}) | '${bookName} | ${quiz.quizName}' ${invalidCount} invalid answer(s) found.`);
 	  }
     });
-	console.log (`${bookName} | Total of ${totalQuestionCount} questions`);
+	console.log (`${bookName} | Total of ${totalQuestionCount} questions\n\n\n`);
   });
 
 
