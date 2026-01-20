@@ -37,6 +37,7 @@ const masterKey = [
 	  { quizName: "Chapter 8: Inspecting the Appliance", fileName: "chapter8.js" },
 	  { quizName: "Chapter 9: Inspecting the Venting System", fileName: "chapter9.js" },
 	  { quizName: "Chapter 10: Sweeping the Chimney: Introduction", fileName: "chapter10.js" },
+	  { quizName: "Chapter 11: Sweeping Masonry Fireplace Chimneys", fileName: "chapter11.js" },
     ]
   }
 ];
