@@ -26,13 +26,13 @@ const essentialsChapter9QuizData = [
   },
   {
     question: "_________ areas are those that can be reached for inspection or maintenance without the use of tools or ladders. (Page 130)",
-    options: ["Readily Accessible", "Accessible Areas", "Non-Accessible"],
+    options: ["Readily Accessible", "Accessible", "Non-Accessible"],
     answer: "Readily Accessible"
   },
   {
     question: "_________ areas are those that can be reached without destructive action to the building or building finish. Access may require the removal or opening of doors and panels requiring the use of common hand dools or ladders. (Page 130)",
     options: ["Readily Accessible", "Accessible", "Non-Accessible"],
-    answer: "Accessible Areas"
+    answer: "Accessible"
   },
   {
     question: "_________ areas are those that cannot be reached without damage or destruction to the chimney, building or building finish, or areas that would require special tools to reach. (Page 130)",
