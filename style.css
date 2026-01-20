@@ -63,6 +63,20 @@ button {
     transition: all 0.3s ease;
 }
 
+/* Wrapper to center buttons */
+.center-buttons {
+    display: flex;
+    justify-content: center;  /* horizontal centering */
+    gap: 12px;                /* spacing between buttons */
+    flex-wrap: wrap;          /* wrap buttons on small screens */
+}
+
+.center-buttons.vertical {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
 button.back-button {
     display: block;
     width: auto;
@@ -197,6 +211,96 @@ button:active {
     button {
         font-size: 0.95rem;
         padding: 14px;
+    }
+}
+
+/* Password Screen */
+.password-container {
+    max-width: 520px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 16px; /* ensure small screens have space */
+}
+
+.password-block {
+    border-left-color: #0f2a40;
+    background-color: #eef2f7;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Instruction text */
+.instruction {
+    font-size: 1.15rem;
+    margin-bottom: 18px;
+    color: #1a2e3d;
+    font-weight: 700;
+}
+
+/* Password input field */
+.password-input {
+    width: 100%;
+    padding: 14px 16px;
+    font-size: 1rem;
+    border-radius: 12px;
+    border: 2px solid #c3ccd8;
+    background-color: #ffffff;
+    transition: border-color 0.25s ease, box-shadow 0.25s ease;
+    box-sizing: border-box; /* ensures padding and border stay inside width */
+    margin-bottom: 18px;
+}
+
+.password-input:focus {
+    outline: none;
+    border-color: #1f77b4;
+    box-shadow: 0 0 0 3px rgba(31, 119, 180, 0.2);
+}
+
+/* Subtle error feedback */
+@keyframes shake {
+    0% { transform: translateX(0); }
+    20% { transform: translateX(-6px); }
+    40% { transform: translateX(6px); }
+    60% { transform: translateX(-4px); }
+    80% { transform: translateX(4px); }
+    100% { transform: translateX(0); }
+}
+
+.password-block.shake {
+    animation: shake 0.35s ease;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .password-block {
+        padding: 20px;
+    }
+
+    .password-input {
+        padding: 12px 14px;
+        font-size: 0.95rem;
+    }
+
+    button#loginBtn {
+        width: 100%;
+        padding: 14px;
+        font-size: 1rem;
+        border-radius: 12px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 400px) {
+    .password-input {
+        padding: 10px 12px;
+        font-size: 0.9rem;
+    }
+
+    button#loginBtn {
+        padding: 12px;
+        font-size: 0.9rem;
     }
 }
 

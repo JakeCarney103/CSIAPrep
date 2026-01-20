@@ -10,12 +10,101 @@ function onDomReady(callback) {
   }
 }
 
-// Initialize
 onDomReady(() => {
+  if (sessionStorage.getItem('auth') !== 'true') {
+    showPasswordGate();
+    return;
+  }
+
   replaceState({ stage: 'book-selection' });
   loadBookSelectionOptions();
   validateQuizAnswers();
 });
+
+function showPasswordGate() {
+  const main = document.getElementById('main');
+  main.innerHTML = `
+    <div class="password-container">
+      <h1>Tool Access</h1>
+
+      <div class="block password-block">
+        <p class="instruction">
+          Enter the access password to continue.
+        </p>
+
+        <input
+          type="password"
+          id="pw"
+          class="password-input"
+          placeholder="Password"
+          autocomplete="current-password"
+        />
+
+        <button id="loginBtn">Enter</button>
+
+        <p class="password-error" style="display:none;"></p>
+      </div>
+    </div>
+  `;
+
+  // Shake animation helper
+  function shakePasswordBlock() {
+    const block = document.querySelector('.password-block');
+    if (!block) return;
+    block.classList.remove('shake');
+    void block.offsetWidth; // force reflow
+    block.classList.add('shake');
+  }
+
+  // Show inline error
+  function showPasswordError(msg) {
+    const errorEl = document.querySelector('.password-error');
+    errorEl.textContent = msg;
+    errorEl.style.display = 'block';
+  }
+
+  // Clear error when typing
+  document.getElementById('pw').addEventListener('input', () => {
+    const errorEl = document.querySelector('.password-error');
+    errorEl.style.display = 'none';
+  });
+
+  // Login button
+  document.getElementById('loginBtn').onclick = async (e) => {
+	e.preventDefault();
+    const pw = document.getElementById('pw').value;
+    const ok = await verifyPassword(pw);
+
+    if (ok) {
+      // Correct password: save auth and reload
+      sessionStorage.setItem('auth', 'true');
+      location.reload();
+    } else {
+      // Wrong password: shake and show error
+      shakePasswordBlock();
+      showPasswordError('Incorrect password. Try again!');
+    }
+  };
+}
+
+function shakePasswordBlock() {
+  const block = document.querySelector('.password-block');
+  if (!block) return;
+  block.classList.remove('shake');
+  void block.offsetWidth;
+  block.classList.add('shake');
+}
+
+async function verifyPassword(input) {
+  const data = new TextEncoder().encode(input);
+  const digest = await crypto.subtle.digest('SHA-256', data);
+  const hash = [...new Uint8Array(digest)]
+    .map(b => b.toString(16).padStart(2, '0'))
+    .join('');
+
+  return hash === '5c0d52abd9a9ecbe7bf08a7b55ce689a210ca31e8a1d652cf719ff23e4518cac';
+}
+
 
 // Popstate handler
 window.addEventListener('popstate', function (event) {
@@ -46,7 +135,7 @@ function loadBookSelectionOptions() {
   const div = document.createElement('div');
   div.classList.add('block');
   const quizSelectionQuestion = document.createElement('p');
-  quizSelectionQuestion.classList.add('selectionQuestion');
+  quizSelectionQuestion.classList.add('instruction');
   quizSelectionQuestion.innerHTML = 'Select the book you would like to take quizzes against!';
   div.appendChild(quizSelectionQuestion);
 
@@ -58,6 +147,10 @@ function loadBookSelectionOptions() {
     div.appendChild(document.createElement('br'));
   });
   main.appendChild(div);
+  
+  // Wrap the button in a center-buttons container
+  const buttonWrapper = document.createElement('div');
+  buttonWrapper.classList.add('center-buttons');
 
   const viewQuizOptionsButton = document.createElement('button');
   viewQuizOptionsButton.textContent = 'View Quiz Options!';
@@ -77,7 +170,9 @@ function loadBookSelectionOptions() {
       alert("Please select a Book!");
     }
   };
-  main.appendChild(viewQuizOptionsButton);
+  
+  buttonWrapper.appendChild(viewQuizOptionsButton);
+  main.appendChild(buttonWrapper);
 }
 
 // Load quiz selection for a book
@@ -87,7 +182,7 @@ function loadQuizSelectionOptions(selectedBookInfo) {
   const div = document.createElement('div');
   div.classList.add('block');
   const quizSelectionQuestion = document.createElement('p');
-  quizSelectionQuestion.classList.add('selectionQuestion');
+  quizSelectionQuestion.classList.add('instruction');
   quizSelectionQuestion.innerHTML = 'Select the quiz you would like to take!';
   div.appendChild(quizSelectionQuestion);
 
@@ -99,6 +194,11 @@ function loadQuizSelectionOptions(selectedBookInfo) {
     div.appendChild(document.createElement('br'));
   });
   main.appendChild(div);
+  
+  // Wrap the button in a center-buttons container
+  const buttonWrapper = document.createElement('div');
+  buttonWrapper.classList.add('center-buttons');
+  buttonWrapper.classList.add('vertical');
 
   const beginQuizButton = document.createElement('button');
   beginQuizButton.textContent = 'Begin Quiz!';
@@ -119,7 +219,7 @@ function loadQuizSelectionOptions(selectedBookInfo) {
       alert("Please select a Quiz!");
     }
   };
-  main.appendChild(beginQuizButton);
+  buttonWrapper.appendChild(beginQuizButton);
 
   const backToBookSelectionButton = document.createElement('button');
   backToBookSelectionButton.textContent = 'Back to Book Selection';
@@ -128,7 +228,9 @@ function loadQuizSelectionOptions(selectedBookInfo) {
   backToBookSelectionButton.onclick = function () {
     history.back();
   };
-  main.appendChild(backToBookSelectionButton);
+  buttonWrapper.appendChild(backToBookSelectionButton);
+  
+  main.appendChild(buttonWrapper);
 }
 
 // Load and render quiz
@@ -162,6 +264,11 @@ function loadQuiz(selectedQuizInfo, selectedBookInfo) {
 
     main.appendChild(div);
   });
+  
+  // Wrap the button in a center-buttons container
+  const buttonWrapper = document.createElement('div');
+  buttonWrapper.classList.add('center-buttons');
+  buttonWrapper.classList.add('vertical');
 
   const submitQuizButton = document.createElement('button');
   submitQuizButton.textContent = 'Check Results!';
@@ -169,7 +276,7 @@ function loadQuiz(selectedQuizInfo, selectedBookInfo) {
   submitQuizButton.onclick = function () {
     submitQuiz(selectedQuizInfo, shuffledQuizData);
   };
-  main.appendChild(submitQuizButton);
+  buttonWrapper.appendChild(submitQuizButton);
 
   const backToQuizSelectionButton = document.createElement('button');
   backToQuizSelectionButton.textContent = 'Back to Quiz Selection';
@@ -178,7 +285,8 @@ function loadQuiz(selectedQuizInfo, selectedBookInfo) {
   backToQuizSelectionButton.onclick = function () {
     history.back();
   };
-  main.appendChild(backToQuizSelectionButton);
+  buttonWrapper.appendChild(backToQuizSelectionButton);
+  main.appendChild(buttonWrapper);
 }
 
 // --- Quiz handling functions remain unchanged ---
