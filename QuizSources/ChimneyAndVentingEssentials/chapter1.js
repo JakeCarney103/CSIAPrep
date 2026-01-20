@@ -6,7 +6,7 @@ const essentialsChapter1QuizData = [
   },
   {
     question: "Why did the chimney sweep trade experience a rebirth? (Page 1)",
-    options: ["Popularity increase due to public media", "Because of Dick Van Dyke", "Energy Crisis caused people to burn more wood", "None of the above"],
+    options: ["Popularity increase due to public media", "Because of Dick Van Dyke", "Energy Crisis caused people to burn more wood", "None of these"],
     answer: "Energy Crisis caused people to burn more wood"
   },
   {
