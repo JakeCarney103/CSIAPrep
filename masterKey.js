@@ -54,6 +54,7 @@ function validateQuizAnswers() {
 
   window.masterKey.forEach(book => {
     const { bookName, quizDictionary } = book;
+	let totalQuestionCount = 0;
     quizDictionary.forEach(quiz => {
       const quizData = window.quizRegistry[quiz.quizName];
 	  let invalidCount = 0;
@@ -66,6 +67,7 @@ function validateQuizAnswers() {
 
       quizData.forEach((question, index) => {
 		questionCount++;
+		totalQuestionCount++;
         if (!question.options.includes(question.answer)) {
           console.log(
             `Invalid answer detected:\n` +
@@ -84,6 +86,7 @@ function validateQuizAnswers() {
 		console.warn(`(${questionCount-invalidCount}/${questionCount}) | '${bookName} | ${quiz.quizName}' ${invalidCount} invalid answer(s) found.`);
 	  }
     });
+	console.log (`${bookName} | Total of ${totalQuestionCount} questions`);
   });
 
 
