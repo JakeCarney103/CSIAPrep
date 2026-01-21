@@ -314,6 +314,171 @@ const essentialsChapter11QuizData = [
     options: ["Leave it for the homeowner to clean", "Scoop them into a 5 Gallon plastic bucket", "Scoop them into a metal container", "Do not shovel, utilize your vacuum and suck everything up"],
     answer: "Scoop them into a metal container"
   },
+  {
+    question: "Traditional Sweeping methods will remove hard creosote deposits in most cases. (Page 156)",
+    options: ["True", "False"],
+    answer: "False"
+  },
+  {
+    question: "Using chains rotated with a drill and rods is used to remove _________ (Page 156)",
+    options: ["Flue Tile", "Hard-Glazed Creosote", "Light Soot", "Bird Nests"],
+    answer: "Hard-Glazed Creosote"
+  },
+  {
+    question: "Using chains with a drill and rods can still leave creosote in the corners. (Page 156)",
+    options: ["True", "False"],
+    answer: "True"
+  },
+  {
+    question: "Another method of removing Hard-Glazed Creosote, apart from rotary cleaning with chains, is _________. (Page 156)",
+    options: ["Using Chemicals", "A Controlled Chimney Fire", "Rotary Cleaning with a Polypropylene Brush", "Hitting it with a hammer"],
+    answer: "Using Chemicals"
+  },
+  {
+    question: "What is a potential hazard of using chemicals that require heat to remove creosote? (Page 156)",
+    options: ["Chimney Fires", "Improved draft performance", "Lower flue temperatures", "No hazards are associated"],
+    answer: "Chimney Fires"
+  },
+  {
+    question: "Homeowners usually know when a chimney fire has occurred. (Page 156)",
+    options: ["True", "False"],
+    answer: "False"
+  },
+  {
+    question: "Evidence of a chimney fire event requires a _________ inspection as recommended in NFPA 211. (Page 156)",
+    options: ["Level I", "Level II", "Level III", "No Inspection is Required"],
+    answer: "Level II"
+  },
+  {
+    question: "If there is a plug in the chimney, usually what side is softer? (Page 157)",
+    options: ["Top", "Bottom", "Inside", "The side closer to an offset"],
+    answer: "Bottom"
+  },
+  {
+    question: "If you discover a solid plug in the flue, it is best to pound on it with a weight from the top? (Page 157)",
+    options: ["True", "False"],
+    answer: "False"
+  },
+  {
+    question: "As a last resort, if all other techniques have failed to clear a plugged flue, what can you do? (Page 157)",
+    options: ["Call the fire department", "Just note to the homeowner not to use it anymore", "Breech at the location of the blockage to clean it", "Use a small amount of tannerite"],
+    answer: "Breech at the location of the blockage to clean it"
+  },
+  {
+    question: "_________ are required to properly sweep offsets. (Page 158)",
+    options: ["Flexible Rods", "Chemical Cleaners", "Long Arms", "Flat Wire Brushes"],
+    answer: "Flexible Rods"
+  },
+  {
+    question: "Most liner manufacturers recommend the uses of a _________ or _________ to prevent damage. (Page 159)",
+    options: ["Polypropylene Brush or Soft Rotary Cleaning", "Polypropylene Brush or a Steel Brush", "Polypropylene Brush or Chains", "Steel Brush or Soft Rotary Cleaning"],
+    answer: "Polypropylene Brush or Soft Rotary Cleaning"
+  },
+  {
+    question: "Gas logs and lighters should have the control key located _________. (Page 159)",
+    options: ["On the Outside of the Firebox", "On the actual logs or lighter", "On the Inner Hearth", "In the Smoke Shelf"],
+    answer: "On the Outside of the Firebox"
+  },
+  {
+    question: "Vent Free and Vent-less are the 2 types of gas logs a chimney technician will encounter. (Page 159)",
+    options: ["True", "False"],
+    answer: "False"
+  },
+  {
+    question: "Vented gas logs must be installed in _________. (Page 159)",
+    options: ["A fireplace suitable for burning wood", "The Basement", "A freestanding stove", "In a Hearth Stove"],
+    answer: "A fireplace suitable for burning wood"
+  },
+  {
+    question: "When it comes to vented gas logs, a _________ keeps the damper open to prevent dangerous fumes and excessive heat from escaping out the front of the fireplace opening. (Page 159)",
+    options: ["Damper Clip", "Damper Blade", "Damper Door Stop", "Damper Kickstand"],
+    answer: "Damper Clip"
+  },
+  {
+    question: "Vent-Free Gas Logs can only be installed in a working fireplace. (Page 160)",
+    options: ["True", "False"],
+    answer: "False"
+  },
+  {
+    question: "All vent free logs have a safety device called a(n) _________. (Page 160)",
+    options: ["Oxygen Depletion Sensor", "Fire Life Saver", "Gas Depletion Sensor", "Dynamic House Alarm"],
+    answer: "Oxygen Depletion Sensor"
+  },
+  {
+    question: "The purpose of an ODS is to shut the gas off when the house's oxygen gets below _________. (Page 160)",
+    options: ["18%", "20%", "5%", "32%"],
+    answer: "18%"
+  },
+  {
+    question: "Every time you sweep a chimney a _________ is required. (Page 159)",
+    options: ["Level I", "Level II", "Level III", "Category II"],
+    answer: "Level I"
+  },
+  {
+    question: "As a part of the final examination and Level I Inspection, you must make sure the flue is not blocked. (Page 160)",
+    options: ["True", "False"],
+    answer: "True"
+  },
+  {
+    question: "As a money saver, if badly rusted or warped fireboxes or fireplace parts are found, it is recommended to just patch them. (Page 161)",
+    options: ["True", "False"],
+    answer: "False"
+  },
+  {
+    question: "Should there be any cracks between the outer hearth area and the fireplace inner hearth. (Page 161)",
+    options: ["Yes", "No"],
+    answer: "No"
+  },
+  {
+    question: "How many sides should the bottom flue tile be supported on? (Page 161)",
+    options: ["1", "2", "3", "4"],
+    answer: "4"
+  },
+  {
+    question: "What should the bottom flue tile be supported by? (Page 161)",
+    options: ["Solid Masonry", "Nails", "Bolts", "Rebar"],
+    answer: "Solid Masonry"
+  },
+  {
+    question: "Where should the bottom flue tile be in regards to the smoke chamber. (Page 161)",
+    options: ["Should not extend past the inner surface of the smoke chamber", "Must touch the smoke shelf", "Must extend at least 2 inches past the inner surface of the smoke chamber", "Must 1 foot before the inner surface of the smoke chamber"],
+    answer: "Should not extend past the inner surface of the smoke chamber"
+  },
+  {
+    question: "How should the smoke chamber be finished to allow the proper flow of gases, direct gases into the flue, and minimize turbulence? (Page 161)",
+    options: ["It should be parged smooth", "It should be painted with high temp paint", "It should be visibly corbelled (should look like stair steps)", "It should be angled more than 45° from vertical"],
+    answer: "It should be parged smooth"
+  },
+  {
+    question: "While finishing up the inspection / sweeping, if the damper was removed you should _________. (Page 162)",
+    options: ["Inform the homeowner so they can reinstall it", "Reinstall it and verify it works correctly", "Always replace it with a new one", "Use it to scoop up ashes in the firebox"],
+    answer: "Reinstall it and verify it works correctly"
+  },
+  {
+    question: "Before you leave, you should make sure the damper is in what position? (Page 162)",
+    options: ["Open", "Closed"],
+    answer: "Closed"
+  },
+  {
+    question: "If mortar is missing, and bricks are loose, cracked or damaged, note that the firebox must be _________. (Page 162)",
+    options: ["Used less next burning season", "Repaired or Rebuilt", "Used only for small fires", "Swept more frequently"],
+    answer: "Repaired or Rebuilt"
+  },
+  {
+    question: "If you find floor joists or wooden forms left in place under the hearth, the fireplace should not be used until they are removed. (Page 162)",
+    options: ["True", "False"],
+    answer: "True"
+  },
+  {
+    question: "According to the NFPA 211, chimney and venting systems should be inspected once a year and swept when necessary. (Page 162)",
+    options: ["True", "False"],
+    answer: "True"
+  },
+  {
+    question: "After you share the report with the homeowner, if possible have them _________. (Page 163)",
+    options: ["Sign the report", "Shake your hand", "Only verbally acknowledge the report", "Prove they know how to use their fireplace"],
+    answer: "Sign the report"
+  },
 ];
 
 if (!window.quizRegistry) window.quizRegistry = {};
