@@ -47,7 +47,7 @@ const masterKey = [
 	  { quizName: "Chapter 17: Sweeping Masonry Heaters", fileName: "chapter17.js" },
 	  { quizName: "Chapter 18: Troubleshooting", fileName: "chapter18.js" },
 	  { quizName: "Chapter 19: Documentation", fileName: "chapter19.js" },
-	  { quizName: "Chapter 20: Advising the Customer and Maintanence", fileName: "chapter20.js" },
+	  { quizName: "Chapter 20: Advising the Customer and Maintenance", fileName: "chapter20.js" },
 	  */
     ]
   }
