@@ -202,7 +202,7 @@ const essentialsChapter11QuizData = [
   {
     question: "If you notice severely cracked flue tiles, you should sweep from _________. (Page 152)",
     options: ["Above", "Below"],
-    answer: "Below"
+    answer: "Above"
   },
   {
     question: "Under the guidelines of NFPA 211, a rooftop inspection is required when performing routine sweeping. (Page 152)",

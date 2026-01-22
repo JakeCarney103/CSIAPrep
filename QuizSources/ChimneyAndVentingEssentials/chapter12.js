@@ -137,7 +137,7 @@ const essentialsChapter12QuizData = [
   {
     question: "If you notice severely cracked flue tiles, you should sweep from _________. (Page 168)",
     options: ["Above", "Below"],
-    answer: "Below"
+    answer: "Above"
   },
   {
     question: "Caps manufactured for Factory-Built Chimney Systems are typically secured with _________. (Page 169)",
@@ -200,7 +200,7 @@ const essentialsChapter12QuizData = [
     answer: "Flexible Rods"
   },
   {
-    question: "Typically, additional support is required when a Factory-Built Chimeny protrudes _________ above the roof. (Page 173)",
+    question: "Typically, additional support is required when a Factory-Built Chimney protrudes _________ above the roof. (Page 173)",
     options: ["4 or 5 feet", "1 foot", "3 or 4 feet", "2 foot"],
     answer: "4 or 5 feet"
   },
