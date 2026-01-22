@@ -192,7 +192,7 @@ const essentialsChapter12QuizData = [
   {
     question: "As a last resort, if all other techniques have failed to clear a plugged flue in a Factory-Built Chimney System, what can you do? (Page 172)",
     options: ["Call the fire department", "Just note to the homeowner not to use it anymore", "Replace the entire venting system", "Use a small amount of tannerite"],
-    answer: "REplace the entire venting system"
+    answer: "Replace the entire venting system"
   },
   {
     question: "_________ are required to properly sweep offsets. (Page 172)",
