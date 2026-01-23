@@ -131,6 +131,7 @@ window.addEventListener('popstate', function (event) {
 
 // Load book selection
 function loadBookSelectionOptions() {
+  window.scrollTo(0, 0); 
   const main = document.getElementById('main');
   const div = document.createElement('div');
   div.classList.add('block');
@@ -177,6 +178,7 @@ function loadBookSelectionOptions() {
 
 // Load quiz selection for a book
 function loadQuizSelectionOptions(selectedBookInfo) {
+  window.scrollTo(0, 0); 
   const quizSelectorDictionary = selectedBookInfo.quizDictionary;
   const main = document.getElementById('main');
   const div = document.createElement('div');
@@ -225,7 +227,8 @@ function loadQuizSelectionOptions(selectedBookInfo) {
   backToBookSelectionButton.textContent = 'Back to Book Selection';
   backToBookSelectionButton.type = 'button';
   backToBookSelectionButton.classList.add('back-button');
-  backToBookSelectionButton.onclick = function () {
+  backToBookSelectionButton.onclick = function () { 
+	window.scrollTo(0, 0); 
     history.back();
   };
   buttonWrapper.appendChild(backToBookSelectionButton);
@@ -235,6 +238,7 @@ function loadQuizSelectionOptions(selectedBookInfo) {
 
 // Load and render quiz
 function loadQuiz(selectedQuizInfo, selectedBookInfo) {
+  window.scrollTo(0, 0); 
   const quizData = window.quizRegistry[selectedQuizInfo.quizName];
   const main = document.getElementById('main');
   const quizTitle = document.createElement('h2');
@@ -283,7 +287,8 @@ function loadQuiz(selectedQuizInfo, selectedBookInfo) {
   backToQuizSelectionButton.type = 'button';
   backToQuizSelectionButton.classList.add('back-button');
   backToQuizSelectionButton.onclick = function () {
-    history.back();
+	window.scrollTo(0, 0);
+    history.back(); 
   };
   buttonWrapper.appendChild(backToQuizSelectionButton);
   main.appendChild(buttonWrapper);
