@@ -15,7 +15,7 @@ const essentialsChapter13QuizData = [
     answer: "6 inches"
   },
   {
-    question: "You are sweeping and inspecting a Freestanding Stove. You need to make sure the rise of the connector pipe is correct. What should it be? (Page 177)",
+    question: "You are sweeping and inspecting a Freestanding Stove. You need to make sure the rise of the connector pipe is correct. What should it be at minimum? (Page 177)",
     options: ["1/4 inch per foot", "1/4 foot per inch", "1/4 inch per inch", "1 foot per 3 feet"],
     answer: "1/4 inch per foot"
   },
@@ -202,7 +202,7 @@ const essentialsChapter13QuizData = [
   {
     question: "It is often preferable to sweep the connector pipe indoors. (Page 185)",
     options: ["True", "False"],
-    answer: "True"
+    answer: "False"
   },
   {
     question: "If an elbow becomes separated, they cannot be reused or reassembled and they must be replaced. (Page 185)",
