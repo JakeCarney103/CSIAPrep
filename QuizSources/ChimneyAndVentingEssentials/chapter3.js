@@ -436,7 +436,7 @@ const essentialsChapter3QuizData = [
   },
   {
     question: "What is one reason why you should wear a respirator while sweeping oil and coal flues. (Page 37)",
-    options: ["The soot and fumes combine with moisture to produce Sulfuric Acid, which could render you breathless", "You can instantly die", "Arsenic compounds can cause de-pigmentation of the skin", "They always contian histoplasmosis"],
+    options: ["The soot and fumes combine with moisture to produce Sulfuric Acid, which could render you breathless", "You can instantly die", "Arsenic compounds can cause de-pigmentation of the skin", "They always contain histoplasmosis"],
     answer: "The soot and fumes combine with moisture to produce Sulfuric Acid, which could render you breathless"
   },
 ];
