@@ -42,9 +42,9 @@ const masterKey = [
 	  { quizName: "Chapter 13: Sweeping Freestanding Stove Chimneys", fileName: "chapter13.js" },
 	  { quizName: "Chapter 14: Sweeping Hearth Stove or Fireplace Insert Chimneys", fileName: "chapter14.js" },
 	  { quizName: "Chapter 15: Sweeping Pellet Appliance Chimneys or Vents", fileName: "chapter15.js" },
-	  { quizName: "Chapter 16: Sweeping Gas and Oil Appliance Chimneys or Vents", fileName: "chapter16.js" },
-	  /*
+	  { quizName: "Chapter 16: Sweeping Gas and Oil Appliance Chimneys or Vents", fileName: "chapter16.js" }
 	  { quizName: "Chapter 17: Sweeping Masonry Heaters", fileName: "chapter17.js" },
+	  /*
 	  { quizName: "Chapter 18: Troubleshooting", fileName: "chapter18.js" },
 	  { quizName: "Chapter 19: Documentation", fileName: "chapter19.js" },
 	  { quizName: "Chapter 20: Advising the Customer and Maintenance", fileName: "chapter20.js" },
