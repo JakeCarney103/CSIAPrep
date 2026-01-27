@@ -33,7 +33,7 @@ const masterKey = [
 	  { quizName: "Chapter 4: Tools and Equipment", fileName: "chapter4.js" },
 	  { quizName: "Chapter 5: Basic Theories", fileName: "chapter5.js" },
 	  { quizName: "Chapter 6: Professional Etiquette", fileName: "chapter6.js" },
-	  { quizName: "Chapter 7: Identifying Appliance And Venting System Types", fileName: "chapter7.js" },
+	  { quizName: "Chapter 7: Identifying Appliance and Venting System Types", fileName: "chapter7.js" },
 	  { quizName: "Chapter 8: Inspecting the Appliance", fileName: "chapter8.js" },
 	  { quizName: "Chapter 9: Inspecting the Venting System", fileName: "chapter9.js" },
 	  { quizName: "Chapter 10: Sweeping the Chimney: Introduction", fileName: "chapter10.js" },
@@ -46,9 +46,7 @@ const masterKey = [
 	  { quizName: "Chapter 17: Sweeping Masonry Heaters", fileName: "chapter17.js" },
 	  { quizName: "Chapter 18: Troubleshooting", fileName: "chapter18.js" },
 	  { quizName: "Chapter 19: Documentation", fileName: "chapter19.js" },
-	  /*
 	  { quizName: "Chapter 20: Advising the Customer and Maintenance", fileName: "chapter20.js" },
-	  */
     ]
   }
 ];

@@ -972,4 +972,4 @@ const essentialsChapter7QuizData = [
 ];
 
 if (!window.quizRegistry) window.quizRegistry = {};
-window.quizRegistry['Chapter 7: Identifying Appliance And Venting System Types'] = essentialsChapter7QuizData;
+window.quizRegistry['Chapter 7: Identifying Appliance and Venting System Types'] = essentialsChapter7QuizData;

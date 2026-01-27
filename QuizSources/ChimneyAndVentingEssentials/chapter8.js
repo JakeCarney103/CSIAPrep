@@ -20,11 +20,6 @@ const essentialsChapter8QuizData = [
     answer: "Excessively warped or worn"
   },
   {
-    question: "When examining the log grate, it should not be _________. (Page 120)",
-    options: ["Excessively warped or worn", "Cast iron", "Covered in ash", "Discolored"],
-    answer: "Excessively warped or worn"
-  },
-  {
     question: "A discolored fireplace facade may be evidence of _________. (Page 120)",
     options: ["A smoking problem or marginal draft signifying a performance issue", "Proper use of the fireplace", "A well functioning system", "Creosote leaking through the bricks"],
     answer: "A smoking problem or marginal draft signifying a performance issue"
