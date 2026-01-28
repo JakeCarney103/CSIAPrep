@@ -1,30 +1,36 @@
 const essentialsChapter1QuizData = [
   {
+    id: "1_1",
     question: "What decade did the chimney sweep trade experience a rebirth? (Page 1)",
     options: ["1970s", "1980s", "1990s", "2000s"],
     answer: "1970s"
   },
   {
+    id: "1_2",
     question: "Why did the chimney sweep trade experience a rebirth? (Page 1)",
     options: ["Popularity increase due to public media", "Because of Dick Van Dyke", "Energy Crisis caused people to burn more wood", "None of these"],
     answer: "Energy Crisis caused people to burn more wood"
   },
   {
+    id: "1_3",
     question: "Chimney Sweeps are now considered _________ due to an increase in knowledge and skill. (Page 1)",
     options: ["Chimney Instructors", "Firemen", "Chimney Technicians", "AHJs"],
     answer: "Chimney Technicians"
   },
   {
+    id: "1_4",
     question: "Every jurisdiction could have varying regulations. Some mandated by the state; others are local. (Page 2)",
     options: ["True", "False"],
     answer: "True"
   },
   {
+    id: "1_5",
     question: "Many code sections dealing with chimneys, fireplaces, solid fuel appliances, connectors, and venting systems are based on the _________. (Page 2)",
     options: ["UL 103", "NFPA 54", "NFPA 211", "ASTM E-1509"],
     answer: "NFPA 211"
   },
   {
+    id: "1_6",
     question: "The Chimney And Venting Essentials manual is only a reference manual and should not be considered an industry standard, code or the applicable law. (Page 3)",
     options: ["True", "False"],
     answer: "True"

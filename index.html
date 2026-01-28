@@ -5,12 +5,19 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
 	<meta name="robots" content="noindex, nofollow">
     <title>CSIA Prep Tool</title>
-    <link rel='stylesheet' href='style.css'>
+    <link rel='stylesheet' href='css/style.css'>
 </head>
 <body>
     <h1>CSIA Prep Tool</h1>
     <form id='main'></form>
-	<script src='masterKey.js'></script>
+	<script src='scripts/masterKey.js'></script>
+	
+	<!-- Load utility modules first (no dependencies) -->
+	<script src='scripts/utils.js'></script>
+	<script src='scripts/customQuiz.js'></script>
+	<script src='scripts/auth.js'></script>
+	<script src='scripts/quizHandler.js'></script>
+	<script src='scripts/quizLoader.js'></script>
 
 	<script>
 			
@@ -22,7 +29,7 @@
 			  });
 			});
 			// Always load main script last
-			scriptsToLoad.push('script.js');
+			scriptsToLoad.push('scripts/script.js');
 
 			// Load scripts sequentially to ensure dependencies
 			function loadScriptSequentially(index = 0) {

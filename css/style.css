@@ -304,3 +304,31 @@ button:active {
     }
 }
 
+/* Question Checkbox */
+.question-checkbox-container {
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.question-checkbox {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    accent-color: #1f77b4;
+    flex-shrink: 0;
+}
+
+.question-checkbox:hover {
+    transform: scale(1.1);
+}
+
+.checkbox-label {
+    font-size: 0.85rem;
+    color: #666;
+    font-weight: 400;
+    user-select: none;
+}
+
+
