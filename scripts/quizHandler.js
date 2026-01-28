@@ -32,20 +32,61 @@ function updateQuestionResult(optionElement, questionElement, isCorrect) {
 
 function displayScore(score, total, unanswered) {
   const main = document.getElementById('main');
-  const existingScore = document.querySelector('.score');
-  if (existingScore) existingScore.remove();
+  // remove any previous score display (old .score paragraph or .block.score container)
+  const prevScoreBlock = document.querySelector('.score');
+  if (prevScoreBlock) prevScoreBlock.remove();
 
-  const scoreElement = document.createElement('p');
-  scoreElement.classList.add('score');
-  if (unanswered > 0) scoreElement.classList.add('warning');
+  // Create a block container so the score and counts appear in the same styled block
+  const scoreBlock = document.createElement('div');
+  scoreBlock.classList.add('score');
 
   const resultPercent = (score / total) * 100;
-  scoreElement.innerText = unanswered === 0
-    ? `You scored ${score} out of ${total} (${resultPercent.toFixed(2)}%) ✅`
-    : `You scored ${score} out of ${total} (${resultPercent.toFixed(2)}%) ⚠️ You have ${unanswered} unanswered question(s)!`;
+  const scoreText = document.createElement('p');
+  scoreText.classList.add('score-text');
+  let iconResultBeginning = unanswered > 0 ? '⚠️' : (resultPercent >= 80 ? '✅' : '❌');
+  let iconResultEnd = unanswered > 0 ? '⚠️' : (resultPercent >= 80 ? '✅' : '❌');
+  let classResult = unanswered > 0 ? 'warning' : (resultPercent >= 80 ? 'pass' : 'failed');
+  if (resultPercent === 100) {
+    iconResultBeginning = '🏆🎉🍻';
+    iconResultEnd = '🍻🎉🏆';
+  }
+  scoreBlock.classList.add(classResult);
+  
+  scoreText.innerText = unanswered === 0
+    ? ` ${iconResultBeginning} You scored ${score} out of ${total} (${resultPercent.toFixed(2)}%) ${iconResultEnd} `
+    : ` ${iconResultBeginning} You scored ${score} out of ${total} (${resultPercent.toFixed(2)}%) | You have ${unanswered} unanswered question(s)! ${iconResultEnd} `;
 
-  main.appendChild(scoreElement);
+  scoreBlock.appendChild(scoreText);
+
+  // Counts: Correct / Incorrect / Unanswered stacked and centered
+  const countsContainer = document.createElement('div');
+  countsContainer.className = 'score-counts';
+
+  const correctCount = document.createElement('div');
+  correctCount.className = 'score-count';
+  correctCount.innerText = `Correct ✅: ${score}`;
+
+  const incorrectCount = document.createElement('div');
+  incorrectCount.className = 'score-count';
+  incorrectCount.innerText = `Incorrect ❌: ${Math.max(0, total - score - unanswered)}`;
+
+  const unansweredCount = document.createElement('div');
+  unansweredCount.className = 'score-count';
+  unansweredCount.innerText = `Unanswered ⚠️: ${unanswered}`;
+
+  countsContainer.appendChild(correctCount);
+  countsContainer.appendChild(incorrectCount);
+  countsContainer.appendChild(unansweredCount);
+
+  scoreBlock.appendChild(countsContainer);
+
+  main.appendChild(scoreBlock);
   window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+
+  // Launch confetti when user scores perfectly
+  if (resultPercent === 100) {
+    launchConfetti();
+  }
 }
 
 function addStatusIcon(parentElement, isSuccess) {
@@ -60,4 +101,33 @@ function addStatusIcon(parentElement, isSuccess) {
   icon.style.color = isSuccess ? 'green' : 'red';
   icon.textContent = isSuccess ? '✔' : '✖';
   parentElement.appendChild(icon);
+}
+
+// Simple confetti launcher: creates a bunch of colored divs and lets CSS animate them
+function launchConfetti() {
+  try {
+    const colors = ['#e74c3c', '#f39c12', '#f1c40f', '#2ecc71', '#3498db', '#9b59b6'];
+    const container = document.createElement('div');
+    container.className = 'confetti-container';
+    const count = 150;
+    for (let i = 0; i < count; i++) {
+      const el = document.createElement('div');
+      el.className = 'confetti';
+      const color = colors[Math.floor(Math.random() * colors.length)];
+      el.style.background = color;
+      el.style.left = Math.random() * 100 + '%';
+      el.style.opacity = (0.6 + Math.random() * 0.4).toString();
+      el.style.transform = `rotate(${Math.floor(Math.random() * 360)}deg)`;
+      // longer, varied delays and durations so confetti lingers
+      el.style.animationDelay = (Math.random() * 1.2) + 's';
+      el.style.animationDuration = (4 + Math.random() * 3) + 's';
+      container.appendChild(el);
+    }
+    document.body.appendChild(container);
+    // remove after animations finish (give a bit of buffer)
+    setTimeout(() => { container.remove(); }, 7000);
+  } catch (e) {
+    // fail silently
+    console.error('Confetti error', e);
+  }
 }
