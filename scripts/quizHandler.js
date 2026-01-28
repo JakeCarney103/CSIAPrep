@@ -45,6 +45,7 @@ function displayScore(score, total, unanswered) {
     : `You scored ${score} out of ${total} (${resultPercent.toFixed(2)}%) ⚠️ You have ${unanswered} unanswered question(s)!`;
 
   main.appendChild(scoreElement);
+  window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
 }
 
 function addStatusIcon(parentElement, isSuccess) {
