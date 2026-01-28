@@ -159,7 +159,7 @@ const essentialsChapter8QuizData = [
     id: "8_27",
     question: "When joining connector pipe for a gas or oil burning appliance, the male end of the connector pipe should always be TOWARDS THE APPLIANCE. (Page 122)",
     options: ["True", "False"],
-    answer: "True"
+    answer: "False"
   },
   {
     id: "8_28",
@@ -223,7 +223,7 @@ const essentialsChapter8QuizData = [
   },
   {
     id: "8_38",
-    question: "A UL 1618 Type 1 board provides how much thermal protection? (Page 123)",
+    question: "A UL 1618 Type 2 board provides how much thermal protection? (Page 123)",
     options: ["R >= 1.0", "R = 0.5", "R <= 1.0", "None"],
     answer: "R >= 1.0"
   },
@@ -273,7 +273,7 @@ const essentialsChapter8QuizData = [
     id: "8_46",
     question: "_________ is regular glass that has been heat treated to increase strength and thermal shock resistance. (Page 124)",
     options: ["Tempered Glass", "Thermal Glass", "Spider Glass", "Fire Glass"],
-    answer: "Thermal Glass"
+    answer: "Tempered Glass"
   },
   {
     id: "8_47",
