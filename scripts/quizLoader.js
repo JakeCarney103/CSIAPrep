@@ -6,20 +6,27 @@ const bookSelectionOptions = masterKey.map(book => ({ bookName: book.bookName })
 function loadBookSelectionOptions() {
   window.scrollTo(0, 0); 
   const main = document.getElementById('main');
-  const div = document.createElement('div');
-  div.classList.add('block');
+  main.classList.add('flexCenter');
+  
   const quizSelectionQuestion = document.createElement('p');
   quizSelectionQuestion.classList.add('instruction');
   quizSelectionQuestion.innerHTML = 'Select the book you would like to take quizzes against!';
+  
+  const div = document.createElement('div');
+  div.classList.add('block', 'selection-block');
   div.appendChild(quizSelectionQuestion);
+  
+  const optionsContainer = document.createElement('div');
+  optionsContainer.classList.add('options-container');
 
   bookSelectionOptions.forEach(book => {
     const label = document.createElement('label');
     label.classList.add('options');
     label.innerHTML = `<input type='radio' name='bookSelection' value='${book.bookName}'> ${book.bookName}`;
-    div.appendChild(label);
-    div.appendChild(document.createElement('br'));
+    optionsContainer.appendChild(label);
+    optionsContainer.appendChild(document.createElement('br'));
   });
+  div.appendChild(optionsContainer);
   main.appendChild(div);
   
   // Wrap the button in a center-buttons container
@@ -53,31 +60,43 @@ function loadQuizSelectionOptions(selectedBookInfo) {
   window.scrollTo(0, 0); 
   const quizSelectorDictionary = selectedBookInfo.quizDictionary;
   const main = document.getElementById('main');
-  const div = document.createElement('div');
-  div.classList.add('block');
+  main.classList.add('flexCenter');
+  
+  const bookNameDisplay = document.createElement('h2');
+  bookNameDisplay.className = 'book-name-display';
+  bookNameDisplay.innerText = selectedBookInfo.bookName;
+  main.appendChild(bookNameDisplay);
+  
   const quizSelectionQuestion = document.createElement('p');
   quizSelectionQuestion.classList.add('instruction');
   quizSelectionQuestion.innerHTML = 'Select the quiz you would like to take!';
+  
+  const div = document.createElement('div');
+  div.classList.add('block', 'selection-block');
   div.appendChild(quizSelectionQuestion);
+  
+  const optionsContainer = document.createElement('div');
+  optionsContainer.classList.add('options-container');
 
   quizSelectorDictionary.forEach(quiz => {
     const label = document.createElement('label');
     label.classList.add('options');
     label.innerHTML = `<input type='radio' name='quizSelection' value='${quiz.quizName}'> ${quiz.quizName}`;
-    div.appendChild(label);
-    div.appendChild(document.createElement('br'));
+    optionsContainer.appendChild(label);
+    optionsContainer.appendChild(document.createElement('br'));
   });
+  div.appendChild(optionsContainer);
 
   // Add custom quiz option if any questions are selected
   const customQuizCount = getCustomQuestionIds(selectedBookInfo.bookName).length;
   if (customQuizCount > 0) {
-    div.appendChild(document.createElement('br'));
+    optionsContainer.appendChild(document.createElement('br'));
     const customLabel = document.createElement('label');
     customLabel.classList.add('options');
     customLabel.style.fontWeight = 'bold';
     customLabel.style.color = '#155a8a';
     customLabel.innerHTML = `<input type='radio' name='quizSelection' value='__CUSTOM_QUIZ__'> My Custom Quiz (${customQuizCount} questions)`;
-    div.appendChild(customLabel);
+    optionsContainer.appendChild(customLabel);
   }
 
   main.appendChild(div);
@@ -147,7 +166,15 @@ function loadQuiz(selectedQuizInfo, selectedBookInfo, isCustomQuiz = false) {
   }
   
   const main = document.getElementById('main');
-  const quizTitle = document.createElement('h2');
+  main.classList.remove('flexCenter');
+  
+  const bookNameDisplay = document.createElement('h2');
+  bookNameDisplay.className = 'book-name-display';
+  bookNameDisplay.innerText = selectedBookInfo.bookName;
+  main.appendChild(bookNameDisplay);
+  
+  const quizTitle = document.createElement('h3');
+  quizTitle.className = 'quiz-title';
   quizTitle.innerText = isCustomQuiz ? `My Custom Quiz (${quizData.length} questions)` : selectedQuizInfo.quizName;
   main.appendChild(quizTitle);
 
