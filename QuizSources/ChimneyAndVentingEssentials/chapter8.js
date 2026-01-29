@@ -133,7 +133,7 @@ const essentialsChapter8QuizData = [
   },
   {
     id: "8_23",
-    question: "Using clearance reductin methods, what is the lowest you can bring the clearance of single-wall pipe to? (Page 122)",
+    question: "Using clearance reduction methods, what is the lowest you can bring the clearance of single-wall pipe to? (Page 122)",
     options: ["18 inches", "12 inches", "9 inches", "6 inches"],
     answer: "6 inches"
   },
