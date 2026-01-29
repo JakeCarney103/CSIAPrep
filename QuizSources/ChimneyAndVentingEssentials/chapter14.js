@@ -24,12 +24,6 @@ const essentialsChapter14QuizData = [
     answer: "3"
   },
   {
-    id: "14_5",
-    question: "NFPA 211 States that if one or more walls of the chimney are exposed to the outside, the cross-sectional area of the flue cannot exceed _________ times the area of the flue collar. (Page 191)",
-    options: ["2", "3", "1", "4"],
-    answer: "2"
-  },
-  {
     id: "14_6",
     question: "If the appliance vents directly through the chimney wall above the smoke chamber, there must be a(n) _________ below the entry point of the chimney connector. (Page 191)",
     options: ["Noncombustible seal", "Elbow", "Catalytic Combustor", "Fan"],
