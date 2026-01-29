@@ -105,7 +105,7 @@ const essentialsChapter11QuizData = [
     id: "11_18",
     question: "As long as you slowly open the damper, you don't have to have your vacuum running. (Page 150)",
     options: ["True", "False"],
-    answer: "True"
+    answer: "False"
   },
   {
     id: "11_19",
@@ -195,7 +195,7 @@ const essentialsChapter11QuizData = [
     id: "11_33",
     question: "In certain conditions it is acceptable to stand on a chimney. (Page 151)",
     options: ["True", "False"],
-    answer: "True"
+    answer: "False"
   },
   {
     id: "11_34",
@@ -363,7 +363,7 @@ const essentialsChapter11QuizData = [
     id: "11_61",
     question: "How should you remove creosote from the smoke shelf? (Page 155)",
     options: ["You should never remove anything from the smoke shelf", "Slowly sweep it into the firebox", "Take a high speed blower and blow it out of the flue", "Turn your vacuum off and begin brushing it so you can hear the amount of buildup moving around"],
-    answer: "You should never remove anything from the smoke shelf"
+    answer: "Slowly sweep it into the firebox"
   },
   {
     id: "11_62",
