@@ -1153,7 +1153,7 @@ const essentialsChapter7QuizData = [
   },
   {
     id: "7_193",
-    question: "Why do some manufactures recommend, while others require, enough vertical rise in the venting system to create enough natural draft. (Page 116)",
+    question: "Why do some manufacturers recommend, while others require, enough vertical rise in a Pellet Appliance's venting system to create enough natural draft. (Page 116)",
     options: ["The pellets burning at the time of a power outage can push smoke into the home", "Pellets don't burn hot", "Because the mechanical draft system of a pellet appliance does not allow venting straight through a wall", "It is required in the IRC"],
 	answer: "The pellets burning at the time of a power outage can push smoke into the home",
   },
