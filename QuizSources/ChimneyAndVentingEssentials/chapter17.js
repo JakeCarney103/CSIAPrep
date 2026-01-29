@@ -51,7 +51,7 @@ const essentialsChapter17QuizData = [
     id: "17_9",
     question: "Because of potential negative air pressurization issues, many jurisdictions require a dedicated outside combustion air supply to be vented near the loading door or to the interior of the heaters. (Page 216)",
     options: ["True", "False"],
-    answer: "False"
+    answer: "True"
   },
   {
     id: "17_10",
