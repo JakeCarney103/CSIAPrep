@@ -19,7 +19,7 @@ const essentialsChapter18QuizData = [
   },
   {
     id: "18_4",
-    question: "The draft in the venting system must be high enough to overcome and POSITIVE air pressure in the home. (Page 225)",
+    question: "The draft in the venting system must be high enough to overcome the POSITIVE air pressure in the home. (Page 225)",
     options: ["True", "False"],
     answer: "False"
   },
@@ -103,7 +103,7 @@ const essentialsChapter18QuizData = [
   },
   {
     id: "18_18",
-    question: "Some chimney caps can help fix win-induced downdraft caused by turbulence. (Page 227)",
+    question: "Some chimney caps can help fix wind-induced downdraft caused by turbulence. (Page 227)",
     options: ["True", "False"],
     answer: "True"
   },
@@ -159,7 +159,7 @@ const essentialsChapter18QuizData = [
     id: "18_27",
     question: "The further the appliance is ABOVE the neutral pressure plane, the bigger the challenge to draft. (Page 228)",
     options: ["True", "False"],
-    answer: "True"
+    answer: "False"
   },
   {
     id: "18_28",
@@ -367,7 +367,7 @@ const essentialsChapter18QuizData = [
   },
   {
     id: "18_62",
-    question: "Unless a wood burner is specifically tested and listed for such sue, you shouldn't vent a solid fuel appliance through a flue that serves any other appliance. (Page 235)",
+    question: "Unless a wood burner is specifically tested and listed for such use, you shouldn't vent a solid fuel appliance through a flue that serves any other appliance. (Page 235)",
     options: ["True", "False"],
     answer: "True"
   },
