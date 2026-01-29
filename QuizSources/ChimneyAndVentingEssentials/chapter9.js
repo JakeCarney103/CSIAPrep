@@ -121,7 +121,7 @@ const essentialsChapter9QuizData = [
   },
   {
     id: "9_21",
-    question: "Checking the damper moves correctly is part of a _________ inspection at its lowest level. (Page 132)",
+    question: "Checking if the damper moves correctly is part of a _________ inspection at its lowest level. (Page 132)",
     options: ["Level I", "Level II", "Level III"],
     answer: "Level I"
   },
@@ -147,13 +147,7 @@ const essentialsChapter9QuizData = [
     id: "9_25",
     question: "If performing a Level 1 inspection due to an annual sweeping and you are sweeping from the top, you shouldn't have to inspect things like the crown, brick condition, cap, etc. (Page 132)",
     options: ["True", "False"],
-    answer: "True"
-  },
-  {
-    id: "9_26",
-    question: "When it comes to appliances and flues, NFPA 211 requires you to inspect _________ when performing strictly a Level I inspection. (Page 133)",
-    options: ["All flues within the chimney and the appliances connected to them", "Only one flue", "Only all flues if there are 3 or more in the same chimney", "All flues, but only one appliance"],
-    answer: "All flues within the chimney and the appliances connected to them"
+    answer: "False"
   },
   {
     id: "9_27",
@@ -314,12 +308,6 @@ const essentialsChapter9QuizData = [
   {
     id: "9_53",
     question: "Checking the Firestopping is part of a _________ inspection at its lowest level. (Page 137)",
-    options: ["Level I", "Level II", "Level III"],
-    answer: "Level III"
-  },
-  {
-    id: "9_54",
-    question: "Checking the REPLACE is part of a _________ inspection at its lowest level. (Page 137)",
     options: ["Level I", "Level II", "Level III"],
     answer: "Level III"
   },
