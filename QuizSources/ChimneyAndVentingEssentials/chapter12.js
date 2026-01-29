@@ -67,7 +67,7 @@ const essentialsChapter12QuizData = [
   },
   {
     id: "12_12",
-    question: "On many factory-uilt units, the log grate is not secured to the back wall. It just freely hangs out in the middle of the appliance. (Page 167)",
+    question: "On many factory-built units, the log grate is not secured to the back wall. It just freely hangs out in the middle of the appliance. (Page 167)",
     options: ["True", "False"],
     answer: "False"
   },
