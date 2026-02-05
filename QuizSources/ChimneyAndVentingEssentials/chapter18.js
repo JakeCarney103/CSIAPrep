@@ -25,7 +25,7 @@ const essentialsChapter18QuizData = [
   },
   {
     id: "18_5",
-    question: "_________ to _________ is withing an acceptable range for a draft reading. (Page 225)",
+    question: "_________ to _________ is within an acceptable range for a draft reading. (Page 225)",
     options: ["-.06 inches w.c. to -.15 inches w.c.", "-.08 inches w.c. to -.17 inches w.c.", "0 inches w.c. to -.04 w.c.", "-.15 inches w.c to .15 inches w.c."],
     answer: "-.06 inches w.c. to -.15 inches w.c."
   },
