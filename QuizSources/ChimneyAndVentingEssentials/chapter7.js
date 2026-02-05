@@ -1051,7 +1051,7 @@ const essentialsChapter7QuizData = [
   },
   {
     id: "7_176",
-    question: "Vent-Free appliances installed at high altitudes will experience nuisance outages are are not recommended. (Page 115)",
+    question: "Vent-Free gas appliances installed at high altitudes will experience nuisance outages and are not recommended. (Page 115)",
     options: ["True", "False"],
 	answer: "True",
   },
