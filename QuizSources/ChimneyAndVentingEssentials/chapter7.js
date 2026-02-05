@@ -854,8 +854,8 @@ const essentialsChapter7QuizData = [
   {
     id: "7_143",
     question: "How can you verify a Catalytic Combustor is working correctly? (Page 109)",
-    options: ["Insert a probe thermometer just above it; the higher the reading the better", "If it is glowing red", "Measure the temperature of the stovepipe", "If it is making a faint whistling sound"],
-	answer: "Insert a probe thermometer just above it; the higher the reading the better",
+    options: ["Insert a probe thermometer just above it; a high reading means it is working", "If it is glowing red", "Measure the temperature of the stovepipe", "If it is making a faint whistling sound"],
+	answer: "Insert a probe thermometer just above it; a high reading means it is working",
   },
   {
     id: "7_144",
