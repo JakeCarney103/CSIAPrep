@@ -211,7 +211,7 @@ const essentialsChapter8QuizData = [
   },
   {
     id: "8_36",
-    question: "UL 1618, Standard for Safet;y Wall Protectors, Floor Protectors, and HEarth extenstions, madates that the thermal requirements of manufactured hearth boards should be specified in _________. (Page 123)",
+    question: "UL 1618, Standard for Safety Wall Protectors, Floor Protectors, and Hearth extenstions, madates that the thermal requirements of manufactured hearth boards should be specified in _________. (Page 123)",
     options: ["BTUs", "R Values", "k Values", "°F"],
     answer: "R Values"
   },
