@@ -798,13 +798,13 @@ const essentialsChapter5QuizData = [
   },
   {
     id: "5_133",
-    question: "NFPA 211's clearance reductions can always be used for connector pipes, however clearances can not be less that _________ inches. (Page 81)",
+    question: "NFPA 211's clearance reductions can always be used for connector pipes, however clearances cannot be less than _________ inches. (Page 81)",
     options: ["9", "12", "6", "4"],
     answer: "6"
   },
   {
     id: "5_134",
-    question: "NFPA 211's clearance reductions can always be used for appliances/stoves, however unless the appliance manufacturer specifically approves it, clearances can not be less that _________ inches. (Page 81)",
+    question: "NFPA 211's clearance reductions can always be used for appliances/stoves, however unless the appliance manufacturer specifically approves it, clearances cannot be less than _________ inches. (Page 81)",
     options: ["9", "12", "18", "6"],
     answer: "12"
   },
