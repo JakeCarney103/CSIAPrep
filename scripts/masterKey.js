@@ -7,8 +7,8 @@ const masterKey = [
       { quizName: "Chapter 1: Administration", fileName: "chapter1.js" },
       { quizName: "Chapter 2: Referenced Publications", fileName: "chapter2.js" },
       { quizName: "Chapter 3: Definitions", fileName: "chapter3.js" },
-      /*
       { quizName: "Chapter 4: General Requirements", fileName: "chapter4.js" },
+      /*
       { quizName: "Chapter 5: Selection of Chimney and Vent Types", fileName: "chapter5.js" },
       { quizName: "Chapter 6: Factory-Built Chimneys and Chimney Units", fileName: "chapter6.js" },
       { quizName: "Chapter 7: Masonry Chimneys", fileName: "chapter7.js" },
