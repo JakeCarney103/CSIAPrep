@@ -10,8 +10,8 @@ const masterKey = [
       { quizName: "Chapter 4: General Requirements", fileName: "chapter4.js" },
       { quizName: "Chapter 5: Selection of Chimney and Vent Types", fileName: "chapter5.js" },
       { quizName: "Chapter 6: Factory-Built Chimneys and Chimney Units", fileName: "chapter6.js" },
-      /*
       { quizName: "Chapter 7: Masonry Chimneys", fileName: "chapter7.js" },
+      /*
       { quizName: "Chapter 8: Unlisted Metal Chimneys (Smokestacks) for Nonresidential Applications", fileName: "chapter8.js" },
       { quizName: "Chapter 9: Chimney Connectors and Vent Connectors", fileName: "chapter9.js" },
       { quizName: "Chapter 10: Vents", fileName: "chapter10.js" },
