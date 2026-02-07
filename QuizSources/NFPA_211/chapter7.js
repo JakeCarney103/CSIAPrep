@@ -189,4 +189,3 @@ const nfpa211Chapter7QuizData = [
 
 if (!window.quizRegistry) window.quizRegistry = {};
 window.quizRegistry['Chapter 7: Masonry Chimneys'] = nfpa211Chapter7QuizData;
-
