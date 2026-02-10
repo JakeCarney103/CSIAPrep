@@ -14,8 +14,8 @@ const masterKey = [
       { quizName: "Chapter 8: Unlisted Metal Chimneys (Smokestacks) for Nonresidential Applications", fileName: "chapter8.js" },
       { quizName: "Chapter 9: Chimney Connectors and Vent Connectors", fileName: "chapter9.js" },
       { quizName: "Chapter 10: Vents", fileName: "chapter10.js" },
-      /*
       { quizName: "Chapter 11: Fireplaces", fileName: "chapter11.js" },
+      /*
       { quizName: "Chapter 12: Masonry Heaters", fileName: "chapter12.js" },
       { quizName: "Chapter 13: Solid Fuel-Burning Appliances", fileName: "chapter13.js" },
       { quizName: "Chapter 14: Maintenance", fileName: "chapter14.js" },
